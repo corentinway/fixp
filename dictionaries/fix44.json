@@ -1257,10 +1257,7 @@
 					{ "enum" : "6",  "description" : "LEVY" },
 					{ "enum" : "7",  "description" : "OTHER" },
 					{ "enum" : "8",  "description" : "MARKUP" },
-					{ "enum" : "9",  "description" : "CONSUMPTION_TAX" },
-					{ "enum" : "10",  "description" : "PER_TRANSACTION" },
-					{ "enum" : "11",  "description" : "CONVERSION" },
-					{ "enum" : "12",  "description" : "AGENT" }
+					{ "enum" : "9",  "description" : "CONSUMPTION_TAX" }
 				 ]
 			},
 			"140" : { 
@@ -2613,8 +2610,7 @@
 					{ "enum" : "6",  "description" : "DUPLICATE_QUOTE" },
 					{ "enum" : "7",  "description" : "INVALID_BID_ASK_SPREAD" },
 					{ "enum" : "8",  "description" : "INVALID_PRICE" },
-					{ "enum" : "9",  "description" : "NOT_AUTHORIZED_TO_QUOTE_SECURITY" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "9",  "description" : "NOT_AUTHORIZED_TO_QUOTE_SECURITY" }
 				 ]
 			},
 			"301" : { 
@@ -3236,9 +3232,7 @@
 					{ "enum" : "6",  "description" : "CANCEL_ON_TRADING_HALT" },
 					{ "enum" : "7",  "description" : "CANCEL_ON_SYSTEM_FAILURE" },
 					{ "enum" : "8",  "description" : "MARKET_OPTION" },
-					{ "enum" : "9",  "description" : "CANCELED_NOT_BEST" },
-					{ "enum" : "10",  "description" : "WAREHOUSE_RECAP" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "9",  "description" : "CANCELED_NOT_BEST" }
 				 ]
 			},
 			"379" : { 
@@ -3613,9 +3607,7 @@
 					{ "enum" : "6",  "description" : "SPREAD" },
 					{ "enum" : "7",  "description" : "TED_PRICE" },
 					{ "enum" : "8",  "description" : "TED_YIELD" },
-					{ "enum" : "9",  "description" : "YIELD" },
-					{ "enum" : "10",  "description" : "FIXED_CABINET_TRADE_PRICE" },
-					{ "enum" : "11",  "description" : "VARIABLE_CABINET_TRADE_PRICE" }
+					{ "enum" : "9",  "description" : "YIELD" }
 				 ]
 			},
 			"424" : { 
@@ -4081,10 +4073,7 @@
 					{ "enum" : "6",  "description" : "TELEGRAPHIC_TRANSFER" },
 					{ "enum" : "7",  "description" : "FEDWIRE" },
 					{ "enum" : "8",  "description" : "DIRECT_CREDIT" },
-					{ "enum" : "9",  "description" : "ACH_CREDIT" },
-					{ "enum" : "10",  "description" : "BPAY" },
-					{ "enum" : "11",  "description" : "HIGH_VALUE_CLEARING_SYSTEM" },
-					{ "enum" : "12",  "description" : "REINVEST_IN_FUND" }
+					{ "enum" : "9",  "description" : "ACH_CREDIT" }
 				 ]
 			},
 			"478" : { 
@@ -4106,7 +4095,6 @@
 				"name" : "CancellationRights", 
 				"type" : "CHAR", 
 				"values" :  [ 
-					{ "enum" : "Y",  "description" : "YES" },
 					{ "enum" : "N",  "description" : "NO_EXECUTION_ONLY" },
 					{ "enum" : "M",  "description" : "NO_WAIVER_AGREEMENT" },
 					{ "enum" : "O",  "description" : "NO_INSTITUTIONAL" }
@@ -4220,13 +4208,7 @@
 					{ "enum" : "6",  "description" : "TELEGRAPHIC_TRANSFER" },
 					{ "enum" : "7",  "description" : "FEDWIRE" },
 					{ "enum" : "8",  "description" : "DEBIT_CARD" },
-					{ "enum" : "9",  "description" : "DIRECT_DEBIT" },
-					{ "enum" : "10",  "description" : "DIRECT_CREDIT" },
-					{ "enum" : "11",  "description" : "CREDIT_CARD" },
-					{ "enum" : "12",  "description" : "ACH_DEBIT" },
-					{ "enum" : "13",  "description" : "ACH_CREDIT" },
-					{ "enum" : "14",  "description" : "BPAY" },
-					{ "enum" : "15",  "description" : "HIGH_VALUE_CLEARING_SYSTEM" }
+					{ "enum" : "9",  "description" : "DIRECT_DEBIT" }
 				 ]
 			},
 			"493" : { 
@@ -4496,11 +4478,7 @@
 					{ "enum" : "6",  "description" : "PENSION_PLAN" },
 					{ "enum" : "7",  "description" : "CUSTODIAN_UNDER_GIFTS_TO_MINORS_ACT" },
 					{ "enum" : "8",  "description" : "TRUSTS" },
-					{ "enum" : "9",  "description" : "FIDUCIARIES" },
-					{ "enum" : "10",  "description" : "NETWORKING_SUB_ACCOUNT" },
-					{ "enum" : "11",  "description" : "NON_PROFIT_ORGANIZATION" },
-					{ "enum" : "12",  "description" : "CORPORATE_BODY" },
-					{ "enum" : "13",  "description" : "NOMINEE" }
+					{ "enum" : "9",  "description" : "FIDUCIARIES" }
 				 ]
 			},
 			"523" : { 
@@ -4608,8 +4586,7 @@
 					{ "enum" : "3",  "description" : "INVALID_OR_UNKNOWN_PRODUCT" },
 					{ "enum" : "4",  "description" : "INVALID_OR_UNKNOWN_CFICODE" },
 					{ "enum" : "5",  "description" : "INVALID_OR_UNKNOWN_SECURITY_TYPE" },
-					{ "enum" : "6",  "description" : "INVALID_OR_UNKNOWN_TRADING_SESSION" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "6",  "description" : "INVALID_OR_UNKNOWN_TRADING_SESSION" }
 				 ]
 			},
 			"533" : { 
@@ -4976,11 +4953,7 @@
 					{ "enum" : "6",  "description" : "CLEAR_AGAINST_CENTRAL_COUNTERPARTY" },
 					{ "enum" : "7",  "description" : "EXCLUDE_FROM_CENTRAL_COUNTERPARTY" },
 					{ "enum" : "8",  "description" : "MANUAL_MODE" },
-					{ "enum" : "9",  "description" : "AUTOMATIC_POSTING_MODE" },
-					{ "enum" : "10",  "description" : "AUTOMATIC_GIVE_UP_MODE" },
-					{ "enum" : "11",  "description" : "QUALIFIED_SERVICE_REPRESENTATIVE" },
-					{ "enum" : "12",  "description" : "CUSTOMER_TRADE" },
-					{ "enum" : "13",  "description" : "SELF_CLEARING" }
+					{ "enum" : "9",  "description" : "AUTOMATIC_POSTING_MODE" }
 				 ]
 			},
 			"578" : { 
@@ -5612,8 +5585,7 @@
 					{ "enum" : "2",  "description" : "SID_CODE" },
 					{ "enum" : "3",  "description" : "TFM" },
 					{ "enum" : "4",  "description" : "OMGEO" },
-					{ "enum" : "5",  "description" : "DTCC_CODE" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "5",  "description" : "DTCC_CODE" }
 				 ]
 			},
 			"661" : { 
@@ -5860,8 +5832,7 @@
 					{ "enum" : "6",  "description" : "BASIS_POINTS_RELATIVE_TO_BENCHMARK" },
 					{ "enum" : "7",  "description" : "TED_PRICE" },
 					{ "enum" : "8",  "description" : "TED_YIELD" },
-					{ "enum" : "9",  "description" : "YIELD_SPREAD" },
-					{ "enum" : "10",  "description" : "YIELD" }
+					{ "enum" : "9",  "description" : "YIELD_SPREAD" }
 				 ]
 			},
 			"693" : { 
@@ -6133,8 +6104,7 @@
 				"type" : "INT", 
 				"values" :  [ 
 					{ "enum" : "0",  "description" : "SUCCESSFUL_COMPLETION_NO_WARNINGS_OR_ERRORS" },
-					{ "enum" : "1",  "description" : "REJECTED" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "1",  "description" : "REJECTED" }
 				 ]
 			},
 			"724" : { 
@@ -6345,8 +6315,7 @@
 					{ "enum" : "4",  "description" : "INVALID_TRANSPORT_TYPE_REQUESTED" },
 					{ "enum" : "5",  "description" : "INVALID_DESTINATION_REQUESTED" },
 					{ "enum" : "8",  "description" : "TRADEREQUESTTYPE_NOT_SUPPORTED" },
-					{ "enum" : "9",  "description" : "UNAUTHORIZED_FOR_TRADE_CAPTURE_REPORT_REQUEST" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "9",  "description" : "UNAUTHORIZED_FOR_TRADE_CAPTURE_REPORT_REQUEST" }
 				 ]
 			},
 			"750" : { 
@@ -6368,8 +6337,7 @@
 					{ "enum" : "1",  "description" : "INVALID_PARTY_INFORMATION" },
 					{ "enum" : "2",  "description" : "UNKNOWN_INSTRUMENT" },
 					{ "enum" : "3",  "description" : "UNAUTHORIZED_TO_REPORT_TRADES" },
-					{ "enum" : "4",  "description" : "INVALID_TRADE_TYPE" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "4",  "description" : "INVALID_TRADE_TYPE" }
 				 ]
 			},
 			"752" : { 
@@ -6562,8 +6530,7 @@
 				"type" : "INT", 
 				"values" :  [ 
 					{ "enum" : "1",  "description" : "MISMATCHED_ACCOUNT" },
-					{ "enum" : "2",  "description" : "MISSING_SETTLEMENT_INSTRUCTIONS" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "2",  "description" : "MISSING_SETTLEMENT_INSTRUCTIONS" }
 				 ]
 			},
 			"775" : { 
@@ -6706,8 +6673,7 @@
 				"values" :  [ 
 					{ "enum" : "0",  "description" : "UNABLE_TO_PROCESS_REQUEST" },
 					{ "enum" : "1",  "description" : "UNKNOWN_ACCOUNT" },
-					{ "enum" : "2",  "description" : "NO_MATCHING_SETTLEMENT_INSTRUCTIONS_FOUND" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "2",  "description" : "NO_MATCHING_SETTLEMENT_INSTRUCTIONS_FOUND" }
 				 ]
 			},
 			"793" : { 
@@ -6997,8 +6963,7 @@
 					{ "enum" : "6",  "description" : "WEIGHTED_AVERAGE_PRICE_TRADE" },
 					{ "enum" : "7",  "description" : "BUNCHED_TRADE" },
 					{ "enum" : "8",  "description" : "LATE_BUNCHED_TRADE" },
-					{ "enum" : "9",  "description" : "PRIOR_REFERENCE_PRICE_TRADE" },
-					{ "enum" : "10",  "description" : "AFTER_HOURS_TRADE" }
+					{ "enum" : "9",  "description" : "PRIOR_REFERENCE_PRICE_TRADE" }
 				 ]
 			},
 			"829" : { 
@@ -7312,8 +7277,7 @@
 					{ "enum" : "1",  "description" : "PUT" },
 					{ "enum" : "2",  "description" : "CALL" },
 					{ "enum" : "3",  "description" : "TENDER" },
-					{ "enum" : "4",  "description" : "SINKING_FUND_CALL" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "4",  "description" : "SINKING_FUND_CALL" }
 				 ]
 			},
 			"866" : { 
@@ -7657,8 +7621,7 @@
 					{ "enum" : "2",  "description" : "UNAUTHORIZED_TRANSACTION" },
 					{ "enum" : "3",  "description" : "INSUFFICIENT_COLLATERAL" },
 					{ "enum" : "4",  "description" : "INVALID_TYPE_OF_COLLATERAL" },
-					{ "enum" : "5",  "description" : "EXCESSIVE_SUBSTITUTION" },
-					{ "enum" : "99",  "description" : "OTHER" }
+					{ "enum" : "5",  "description" : "EXCESSIVE_SUBSTITUTION" }
 				 ]
 			},
 			"907" : { 
@@ -8094,7 +8057,7 @@
 			"MessageEncoding" : { "type" : "field", "name" : "MessageEncoding", "required" : false},
 			"LastMsgSeqNumProcessed" : { "type" : "field", "name" : "LastMsgSeqNumProcessed", "required" : false},
 			"NoHops" : { "type" : "group", "name" : "NoHops", "required" : false,
-				"list" : { 
+				"fields" : { 
  					"HopCompID" : { "type" : "field", "name" : "HopCompID", "required" : false},
 					"HopSendingTime" : { "type" : "field", "name" : "HopSendingTime", "required" : false},
 					"HopRefID" : { "type" : "field", "name" : "HopRefID", "required" : false}
@@ -8130,7 +8093,7 @@
 					"NextExpectedMsgSeqNum" : { "type" : "field", "name" : "NextExpectedMsgSeqNum", "required" : false},
 					"MaxMessageSize" : { "type" : "field", "name" : "MaxMessageSize", "required" : false},
 					"NoMsgTypes" : { "type" : "group", "name" : "NoMsgTypes", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"RefMsgType" : { "type" : "field", "name" : "RefMsgType", "required" : false},
 							"MsgDirection" : { "type" : "field", "name" : "MsgDirection", "required" : false}
 						}
@@ -8239,12 +8202,12 @@
 					"AdvRefID" : { "type" : "field", "name" : "AdvRefID", "required" : false},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : true}
 						}
  					},
@@ -8275,7 +8238,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -8286,7 +8249,7 @@
 					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 					"Stipulations" : { "type" : "component", "name" : "Stipulations", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegIOIQty" : { "type" : "field", "name" : "LegIOIQty", "required" : false},
 							"LegStipulations" : { "type" : "component", "name" : "LegStipulations", "required" : false}
@@ -8298,7 +8261,7 @@
 					"IOIQltyInd" : { "type" : "field", "name" : "IOIQltyInd", "required" : false},
 					"IOINaturalFlag" : { "type" : "field", "name" : "IOINaturalFlag", "required" : false},
 					"NoIOIQualifiers" : { "type" : "group", "name" : "NoIOIQualifiers", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"IOIQualifier" : { "type" : "field", "name" : "IOIQualifier", "required" : false}
 						}
  					},
@@ -8308,7 +8271,7 @@
 					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false},
 					"URLLink" : { "type" : "field", "name" : "URLLink", "required" : false},
 					"NoRoutingIDs" : { "type" : "group", "name" : "NoRoutingIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"RoutingType" : { "type" : "field", "name" : "RoutingType", "required" : false},
 							"RoutingID" : { "type" : "field", "name" : "RoutingID", "required" : false}
 						}
@@ -8328,28 +8291,28 @@
 					"EncodedHeadlineLen" : { "type" : "field", "name" : "EncodedHeadlineLen", "required" : false},
 					"EncodedHeadline" : { "type" : "field", "name" : "EncodedHeadline", "required" : false},
 					"NoRoutingIDs" : { "type" : "group", "name" : "NoRoutingIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"RoutingType" : { "type" : "field", "name" : "RoutingType", "required" : false},
 							"RoutingID" : { "type" : "field", "name" : "RoutingID", "required" : false}
 						}
  					},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"LinesOfText" : { "type" : "group", "name" : "LinesOfText", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Text" : { "type" : "field", "name" : "Text", "required" : true},
 							"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
 							"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false}
@@ -8372,30 +8335,30 @@
 					"EncodedSubjectLen" : { "type" : "field", "name" : "EncodedSubjectLen", "required" : false},
 					"EncodedSubject" : { "type" : "field", "name" : "EncodedSubject", "required" : false},
 					"NoRoutingIDs" : { "type" : "group", "name" : "NoRoutingIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"RoutingType" : { "type" : "field", "name" : "RoutingType", "required" : false},
 							"RoutingID" : { "type" : "field", "name" : "RoutingID", "required" : false}
 						}
  					},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
 					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
 					"LinesOfText" : { "type" : "group", "name" : "LinesOfText", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Text" : { "type" : "field", "name" : "Text", "required" : true},
 							"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
 							"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false}
@@ -8415,11 +8378,11 @@
 					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
 					"OrderCapacity" : { "type" : "field", "name" : "OrderCapacity", "required" : false},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 							"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
@@ -8442,7 +8405,7 @@
 							"AcctIDSource" : { "type" : "field", "name" : "AcctIDSource", "required" : false},
 							"AccountType" : { "type" : "field", "name" : "AccountType", "required" : false},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 									"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 									"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -8454,7 +8417,7 @@
 								}
  							},
 							"NoQuoteQualifiers" : { "type" : "group", "name" : "NoQuoteQualifiers", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"QuoteQualifier" : { "type" : "field", "name" : "QuoteQualifier", "required" : false}
 								}
  							},
@@ -8489,7 +8452,7 @@
 					"IOIid" : { "type" : "field", "name" : "IOIid", "required" : false},
 					"QuoteType" : { "type" : "field", "name" : "QuoteType", "required" : false},
 					"NoQuoteQualifiers" : { "type" : "group", "name" : "NoQuoteQualifiers", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"QuoteQualifier" : { "type" : "field", "name" : "QuoteQualifier", "required" : false}
 						}
  					},
@@ -8499,7 +8462,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -8515,7 +8478,7 @@
 					"AcctIDSource" : { "type" : "field", "name" : "AcctIDSource", "required" : false},
 					"AccountType" : { "type" : "field", "name" : "AccountType", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -8575,11 +8538,11 @@
 					"RFQReqID" : { "type" : "field", "name" : "RFQReqID", "required" : false},
 					"QuoteRequestRejectReason" : { "type" : "field", "name" : "QuoteRequestRejectReason", "required" : true},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 							"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
@@ -8602,7 +8565,7 @@
 							"AcctIDSource" : { "type" : "field", "name" : "AcctIDSource", "required" : false},
 							"AccountType" : { "type" : "field", "name" : "AccountType", "required" : false},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 									"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 									"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -8616,7 +8579,7 @@
 						}
  					},
 					"NoQuoteQualifiers" : { "type" : "group", "name" : "NoQuoteQualifiers", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"QuoteQualifier" : { "type" : "field", "name" : "QuoteQualifier", "required" : false}
 						}
  					},
@@ -8642,15 +8605,15 @@
 				"fields" : { 
 					"RFQReqID" : { "type" : "field", "name" : "RFQReqID", "required" : true},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 								}
  							},
@@ -8674,7 +8637,7 @@
 					"QuoteRespID" : { "type" : "field", "name" : "QuoteRespID", "required" : false},
 					"QuoteType" : { "type" : "field", "name" : "QuoteType", "required" : false},
 					"NoQuoteQualifiers" : { "type" : "group", "name" : "NoQuoteQualifiers", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"QuoteQualifier" : { "type" : "field", "name" : "QuoteQualifier", "required" : false}
 						}
  					},
@@ -8685,7 +8648,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -8701,7 +8664,7 @@
 					"AcctIDSource" : { "type" : "field", "name" : "AcctIDSource", "required" : false},
 					"AccountType" : { "type" : "field", "name" : "AccountType", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -8768,16 +8731,16 @@
 					"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 					"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false},
 					"NoQuoteEntries" : { "type" : "group", "name" : "NoQuoteEntries", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 							"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 								}
  							}
@@ -8795,12 +8758,12 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -8829,7 +8792,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -8845,7 +8808,7 @@
 					"AcctIDSource" : { "type" : "field", "name" : "AcctIDSource", "required" : false},
 					"AccountType" : { "type" : "field", "name" : "AccountType", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -8856,7 +8819,7 @@
 						}
  					},
 					"NoQuoteQualifiers" : { "type" : "group", "name" : "NoQuoteQualifiers", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"QuoteQualifier" : { "type" : "field", "name" : "QuoteQualifier", "required" : false}
 						}
  					},
@@ -8915,18 +8878,18 @@
 					"DefBidSize" : { "type" : "field", "name" : "DefBidSize", "required" : false},
 					"DefOfferSize" : { "type" : "field", "name" : "DefOfferSize", "required" : false},
 					"NoQuoteSets" : { "type" : "group", "name" : "NoQuoteSets", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"QuoteSetID" : { "type" : "field", "name" : "QuoteSetID", "required" : true},
 							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false},
 							"QuoteSetValidUntilTime" : { "type" : "field", "name" : "QuoteSetValidUntilTime", "required" : false},
 							"TotNoQuoteEntries" : { "type" : "field", "name" : "TotNoQuoteEntries", "required" : true},
 							"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 							"NoQuoteEntries" : { "type" : "group", "name" : "NoQuoteEntries", "required" : true,
-								"list" : { 
+								"fields" : { 
  									"QuoteEntryID" : { "type" : "field", "name" : "QuoteEntryID", "required" : true},
 									"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 									"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-										"list" : { 
+										"fields" : { 
  											"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 										}
  									},
@@ -8978,17 +8941,17 @@
 					"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
 					"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false},
 					"NoQuoteSets" : { "type" : "group", "name" : "NoQuoteSets", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"QuoteSetID" : { "type" : "field", "name" : "QuoteSetID", "required" : false},
 							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false},
 							"TotNoQuoteEntries" : { "type" : "field", "name" : "TotNoQuoteEntries", "required" : false},
 							"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 							"NoQuoteEntries" : { "type" : "group", "name" : "NoQuoteEntries", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"QuoteEntryID" : { "type" : "field", "name" : "QuoteEntryID", "required" : false},
 									"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 									"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-										"list" : { 
+										"fields" : { 
  											"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 										}
  									},
@@ -9036,27 +8999,27 @@
 					"Scope" : { "type" : "field", "name" : "Scope", "required" : false},
 					"MDImplicitDelete" : { "type" : "field", "name" : "MDImplicitDelete", "required" : false},
 					"NoMDEntryTypes" : { "type" : "group", "name" : "NoMDEntryTypes", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"MDEntryType" : { "type" : "field", "name" : "MDEntryType", "required" : true}
 						}
  					},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 								}
  							}
 						}
  					},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -9073,12 +9036,12 @@
 					"MDReqID" : { "type" : "field", "name" : "MDReqID", "required" : false},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -9086,7 +9049,7 @@
 					"CorporateAction" : { "type" : "field", "name" : "CorporateAction", "required" : false},
 					"NetChgPrevDay" : { "type" : "field", "name" : "NetChgPrevDay", "required" : false},
 					"NoMDEntries" : { "type" : "group", "name" : "NoMDEntries", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"MDEntryType" : { "type" : "field", "name" : "MDEntryType", "required" : true},
 							"MDEntryPx" : { "type" : "field", "name" : "MDEntryPx", "required" : false},
 							"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
@@ -9133,7 +9096,7 @@
 				"fields" : { 
 					"MDReqID" : { "type" : "field", "name" : "MDReqID", "required" : false},
 					"NoMDEntries" : { "type" : "group", "name" : "NoMDEntries", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"MDUpdateAction" : { "type" : "field", "name" : "MDUpdateAction", "required" : true},
 							"DeleteReason" : { "type" : "field", "name" : "DeleteReason", "required" : false},
 							"MDEntryType" : { "type" : "field", "name" : "MDEntryType", "required" : false},
@@ -9141,12 +9104,12 @@
 							"MDEntryRefID" : { "type" : "field", "name" : "MDEntryRefID", "required" : false},
 							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 								}
  							},
@@ -9199,7 +9162,7 @@
 					"MDReqID" : { "type" : "field", "name" : "MDReqID", "required" : true},
 					"MDReqRejReason" : { "type" : "field", "name" : "MDReqRejReason", "required" : false},
 					"NoAltMDSource" : { "type" : "group", "name" : "NoAltMDSource", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AltMDSourceID" : { "type" : "field", "name" : "AltMDSourceID", "required" : false}
 						}
  					},
@@ -9218,7 +9181,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -9229,7 +9192,7 @@
 					"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 					"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -9248,7 +9211,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -9259,7 +9222,7 @@
 					"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
 					"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -9295,7 +9258,7 @@
 					"TotNoSecurityTypes" : { "type" : "field", "name" : "TotNoSecurityTypes", "required" : false},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoSecurityTypes" : { "type" : "group", "name" : "NoSecurityTypes", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
 							"SecuritySubType" : { "type" : "field", "name" : "SecuritySubType", "required" : false},
 							"Product" : { "type" : "field", "name" : "Product", "required" : false},
@@ -9321,12 +9284,12 @@
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -9350,19 +9313,19 @@
 					"TotNoRelatedSym" : { "type" : "field", "name" : "TotNoRelatedSym", "required" : false},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 							"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 							"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
 							"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 							"Stipulations" : { "type" : "component", "name" : "Stipulations", "required" : false},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 									"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
 									"LegSettlType" : { "type" : "field", "name" : "LegSettlType", "required" : false},
@@ -9414,13 +9377,13 @@
 					"TotNoRelatedSym" : { "type" : "field", "name" : "TotNoRelatedSym", "required" : false},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 							"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 							"ExpirationCycle" : { "type" : "field", "name" : "ExpirationCycle", "required" : false},
 							"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 							"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 								}
  							},
@@ -9442,12 +9405,12 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -9466,12 +9429,12 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -9553,7 +9516,7 @@
 					"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 					"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -9572,7 +9535,7 @@
 					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
 					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -9581,7 +9544,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -9655,7 +9618,7 @@
 					"Parties" : { "type" : "component", "name" : "Parties", "required" : false},
 					"TradeOriginationDate" : { "type" : "field", "name" : "TradeOriginationDate", "required" : false},
 					"NoContraBrokers" : { "type" : "group", "name" : "NoContraBrokers", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ContraBroker" : { "type" : "field", "name" : "ContraBroker", "required" : false},
 							"ContraTrader" : { "type" : "field", "name" : "ContraTrader", "required" : false},
 							"ContraTradeQty" : { "type" : "field", "name" : "ContraTradeQty", "required" : false},
@@ -9687,7 +9650,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -9787,14 +9750,14 @@
 					"PriceImprovement" : { "type" : "field", "name" : "PriceImprovement", "required" : false},
 					"LastLiquidityInd" : { "type" : "field", "name" : "LastLiquidityInd", "required" : false},
 					"NoContAmts" : { "type" : "group", "name" : "NoContAmts", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ContAmtType" : { "type" : "field", "name" : "ContAmtType", "required" : false},
 							"ContAmtValue" : { "type" : "field", "name" : "ContAmtValue", "required" : false},
 							"ContAmtCurr" : { "type" : "field", "name" : "ContAmtCurr", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -9811,7 +9774,7 @@
  					},
 					"CopyMsgIndicator" : { "type" : "field", "name" : "CopyMsgIndicator", "required" : false},
 					"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 							"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 							"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -9831,12 +9794,12 @@
 					"DKReason" : { "type" : "field", "name" : "DKReason", "required" : true},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -9872,7 +9835,7 @@
 					"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 					"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -9891,7 +9854,7 @@
 					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
 					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -9899,7 +9862,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -9968,7 +9931,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -10025,7 +9988,7 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -10065,7 +10028,7 @@
 					"MassCancelRejectReason" : { "type" : "field", "name" : "MassCancelRejectReason", "required" : false},
 					"TotalAffectedOrders" : { "type" : "field", "name" : "TotalAffectedOrders", "required" : false},
 					"NoAffectedOrders" : { "type" : "group", "name" : "NoAffectedOrders", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"OrigClOrdID" : { "type" : "field", "name" : "OrigClOrdID", "required" : false},
 							"AffectedOrderID" : { "type" : "field", "name" : "AffectedOrderID", "required" : false},
 							"AffectedSecondaryOrderID" : { "type" : "field", "name" : "AffectedSecondaryOrderID", "required" : false}
@@ -10108,7 +10071,7 @@
 					"CrossType" : { "type" : "field", "name" : "CrossType", "required" : true},
 					"CrossPrioritization" : { "type" : "field", "name" : "CrossPrioritization", "required" : true},
 					"NoSides" : { "type" : "group", "name" : "NoSides", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Side" : { "type" : "field", "name" : "Side", "required" : true},
 							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
 							"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
@@ -10124,7 +10087,7 @@
 							"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 							"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 							"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 									"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 									"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -10155,12 +10118,12 @@
  					},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -10172,7 +10135,7 @@
 					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
 					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -10220,7 +10183,7 @@
 					"CrossType" : { "type" : "field", "name" : "CrossType", "required" : true},
 					"CrossPrioritization" : { "type" : "field", "name" : "CrossPrioritization", "required" : true},
 					"NoSides" : { "type" : "group", "name" : "NoSides", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Side" : { "type" : "field", "name" : "Side", "required" : true},
 							"OrigClOrdID" : { "type" : "field", "name" : "OrigClOrdID", "required" : true},
 							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
@@ -10238,7 +10201,7 @@
 							"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 							"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 							"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 									"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 									"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -10269,12 +10232,12 @@
  					},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -10286,7 +10249,7 @@
 					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
 					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -10334,7 +10297,7 @@
 					"CrossType" : { "type" : "field", "name" : "CrossType", "required" : true},
 					"CrossPrioritization" : { "type" : "field", "name" : "CrossPrioritization", "required" : true},
 					"NoSides" : { "type" : "group", "name" : "NoSides", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Side" : { "type" : "field", "name" : "Side", "required" : true},
 							"OrigClOrdID" : { "type" : "field", "name" : "OrigClOrdID", "required" : true},
 							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
@@ -10353,12 +10316,12 @@
  					},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -10384,7 +10347,7 @@
 					"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 					"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -10403,7 +10366,7 @@
 					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
 					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -10412,19 +10375,19 @@
 					"Side" : { "type" : "field", "name" : "Side", "required" : true},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"PrevClosePx" : { "type" : "field", "name" : "PrevClosePx", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
 							"LegStipulations" : { "type" : "component", "name" : "LegStipulations", "required" : false},
 							"NoLegAllocs" : { "type" : "group", "name" : "NoLegAllocs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"LegAllocAccount" : { "type" : "field", "name" : "LegAllocAccount", "required" : false},
 									"LegIndividualAllocID" : { "type" : "field", "name" : "LegIndividualAllocID", "required" : false},
 									"NestedParties2" : { "type" : "component", "name" : "NestedParties2", "required" : false},
@@ -10507,7 +10470,7 @@
 					"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 					"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -10526,7 +10489,7 @@
 					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
 					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -10535,19 +10498,19 @@
 					"Side" : { "type" : "field", "name" : "Side", "required" : true},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"PrevClosePx" : { "type" : "field", "name" : "PrevClosePx", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
 							"LegStipulations" : { "type" : "component", "name" : "LegStipulations", "required" : false},
 							"NoLegAllocs" : { "type" : "group", "name" : "NoLegAllocs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"LegAllocAccount" : { "type" : "field", "name" : "LegAllocAccount", "required" : false},
 									"LegIndividualAllocID" : { "type" : "field", "name" : "LegIndividualAllocID", "required" : false},
 									"NestedParties2" : { "type" : "component", "name" : "NestedParties2", "required" : false},
@@ -10624,7 +10587,7 @@
 					"SideValue1" : { "type" : "field", "name" : "SideValue1", "required" : false},
 					"SideValue2" : { "type" : "field", "name" : "SideValue2", "required" : false},
 					"NoBidDescriptors" : { "type" : "group", "name" : "NoBidDescriptors", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"BidDescriptorType" : { "type" : "field", "name" : "BidDescriptorType", "required" : false},
 							"BidDescriptor" : { "type" : "field", "name" : "BidDescriptor", "required" : false},
 							"SideValueInd" : { "type" : "field", "name" : "SideValueInd", "required" : false},
@@ -10639,7 +10602,7 @@
 						}
  					},
 					"NoBidComponents" : { "type" : "group", "name" : "NoBidComponents", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ListID" : { "type" : "field", "name" : "ListID", "required" : false},
 							"Side" : { "type" : "field", "name" : "Side", "required" : false},
 							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
@@ -10678,7 +10641,7 @@
 					"BidID" : { "type" : "field", "name" : "BidID", "required" : false},
 					"ClientBidID" : { "type" : "field", "name" : "ClientBidID", "required" : false},
 					"NoBidComponents" : { "type" : "group", "name" : "NoBidComponents", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"CommissionData" : { "type" : "component", "name" : "CommissionData", "required" : true},
 							"ListID" : { "type" : "field", "name" : "ListID", "required" : false},
 							"Country" : { "type" : "field", "name" : "Country", "required" : false},
@@ -10722,7 +10685,7 @@
 					"TotNoOrders" : { "type" : "field", "name" : "TotNoOrders", "required" : true},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
 							"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 							"ListSeqNo" : { "type" : "field", "name" : "ListSeqNo", "required" : true},
@@ -10739,7 +10702,7 @@
 							"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 							"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 							"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 									"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 									"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -10758,7 +10721,7 @@
 							"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
 							"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
 							"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 									"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 								}
@@ -10766,7 +10729,7 @@
 							"ProcessCode" : { "type" : "field", "name" : "ProcessCode", "required" : false},
 							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 							"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 								}
  							},
@@ -10829,12 +10792,12 @@
 					"TotNoStrikes" : { "type" : "field", "name" : "TotNoStrikes", "required" : true},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoStrikes" : { "type" : "group", "name" : "NoStrikes", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false},
 							"PrevClosePx" : { "type" : "field", "name" : "PrevClosePx", "required" : false},
 							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
@@ -10866,7 +10829,7 @@
 					"TotNoOrders" : { "type" : "field", "name" : "TotNoOrders", "required" : true},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
 							"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 							"CumQty" : { "type" : "field", "name" : "CumQty", "required" : true},
@@ -10939,7 +10902,7 @@
 					"BookingRefID" : { "type" : "field", "name" : "BookingRefID", "required" : false},
 					"AllocNoOrdersType" : { "type" : "field", "name" : "AllocNoOrdersType", "required" : true},
 					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
 							"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
 							"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
@@ -10952,7 +10915,7 @@
 						}
  					},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"LastQty" : { "type" : "field", "name" : "LastQty", "required" : false},
 							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false},
 							"SecondaryExecID" : { "type" : "field", "name" : "SecondaryExecID", "required" : false},
@@ -10969,12 +10932,12 @@
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -11019,7 +10982,7 @@
 					"TotNoAllocs" : { "type" : "field", "name" : "TotNoAllocs", "required" : false},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : true},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"MatchStatus" : { "type" : "field", "name" : "MatchStatus", "required" : false},
@@ -11047,7 +11010,7 @@
 							"AllocInterestAtMaturity" : { "type" : "field", "name" : "AllocInterestAtMaturity", "required" : false},
 							"SettlInstMode" : { "type" : "field", "name" : "SettlInstMode", "required" : false},
 							"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 									"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 									"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -11084,7 +11047,7 @@
 					"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
 					"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"AllocPrice" : { "type" : "field", "name" : "AllocPrice", "required" : false},
@@ -11118,7 +11081,7 @@
 					"BookingRefID" : { "type" : "field", "name" : "BookingRefID", "required" : false},
 					"AllocNoOrdersType" : { "type" : "field", "name" : "AllocNoOrdersType", "required" : true},
 					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
 							"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
 							"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
@@ -11131,7 +11094,7 @@
 						}
  					},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"LastQty" : { "type" : "field", "name" : "LastQty", "required" : false},
 							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false},
 							"SecondaryExecID" : { "type" : "field", "name" : "SecondaryExecID", "required" : false},
@@ -11148,12 +11111,12 @@
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -11198,7 +11161,7 @@
 					"TotNoAllocs" : { "type" : "field", "name" : "TotNoAllocs", "required" : false},
 					"LastFragment" : { "type" : "field", "name" : "LastFragment", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : true},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"MatchStatus" : { "type" : "field", "name" : "MatchStatus", "required" : false},
@@ -11224,7 +11187,7 @@
 							"AllocAccruedInterestAmt" : { "type" : "field", "name" : "AllocAccruedInterestAmt", "required" : false},
 							"AllocInterestAtMaturity" : { "type" : "field", "name" : "AllocInterestAtMaturity", "required" : false},
 							"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 									"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 									"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -11232,7 +11195,7 @@
 								}
  							},
 							"NoClearingInstructions" : { "type" : "group", "name" : "NoClearingInstructions", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"ClearingInstruction" : { "type" : "field", "name" : "ClearingInstruction", "required" : false}
 								}
  							},
@@ -11265,7 +11228,7 @@
 					"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
 					"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"AllocPrice" : { "type" : "field", "name" : "AllocPrice", "required" : false},
@@ -11293,7 +11256,7 @@
 					"ConfirmStatus" : { "type" : "field", "name" : "ConfirmStatus", "required" : true},
 					"Parties" : { "type" : "component", "name" : "Parties", "required" : false},
 					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
 							"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
 							"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
@@ -11315,12 +11278,12 @@
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -11331,7 +11294,7 @@
 					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 					"LastMkt" : { "type" : "field", "name" : "LastMkt", "required" : false},
 					"NoCapacities" : { "type" : "group", "name" : "NoCapacities", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"OrderCapacity" : { "type" : "field", "name" : "OrderCapacity", "required" : true},
 							"OrderRestrictions" : { "type" : "field", "name" : "OrderRestrictions", "required" : false},
 							"OrderCapacityQty" : { "type" : "field", "name" : "OrderCapacityQty", "required" : true}
@@ -11374,7 +11337,7 @@
 					"SharedCommission" : { "type" : "field", "name" : "SharedCommission", "required" : false},
 					"Stipulations" : { "type" : "component", "name" : "Stipulations", "required" : false},
 					"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 							"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 							"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -11407,7 +11370,7 @@
 					"ConfirmReqID" : { "type" : "field", "name" : "ConfirmReqID", "required" : true},
 					"ConfirmType" : { "type" : "field", "name" : "ConfirmType", "required" : true},
 					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
 							"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
 							"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
@@ -11447,7 +11410,7 @@
 					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
 					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : true},
 					"NoSettlInst" : { "type" : "group", "name" : "NoSettlInst", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"SettlInstID" : { "type" : "field", "name" : "SettlInstID", "required" : false},
 							"SettlInstTransType" : { "type" : "field", "name" : "SettlInstTransType", "required" : false},
 							"SettlInstRefID" : { "type" : "field", "name" : "SettlInstRefID", "required" : false},
@@ -11521,17 +11484,17 @@
 					"InstrumentExtension" : { "type" : "component", "name" : "InstrumentExtension", "required" : false},
 					"FinancingDetails" : { "type" : "component", "name" : "FinancingDetails", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoDates" : { "type" : "group", "name" : "NoDates", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradeDate" : { "type" : "field", "name" : "TradeDate", "required" : false},
 							"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false}
 						}
@@ -11564,12 +11527,12 @@
 					"TradeRequestStatus" : { "type" : "field", "name" : "TradeRequestStatus", "required" : true},
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
@@ -11616,7 +11579,7 @@
 					"QtyType" : { "type" : "field", "name" : "QtyType", "required" : false},
 					"YieldData" : { "type" : "component", "name" : "YieldData", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -11637,7 +11600,7 @@
 					"MultiLegReportingType" : { "type" : "field", "name" : "MultiLegReportingType", "required" : false},
 					"TradeLegRefID" : { "type" : "field", "name" : "TradeLegRefID", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -11659,7 +11622,7 @@
 					"MatchStatus" : { "type" : "field", "name" : "MatchStatus", "required" : false},
 					"MatchType" : { "type" : "field", "name" : "MatchType", "required" : false},
 					"NoSides" : { "type" : "group", "name" : "NoSides", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"Side" : { "type" : "field", "name" : "Side", "required" : true},
 							"OrderID" : { "type" : "field", "name" : "OrderID", "required" : true},
 							"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
@@ -11673,7 +11636,7 @@
 							"ProcessCode" : { "type" : "field", "name" : "ProcessCode", "required" : false},
 							"OddLot" : { "type" : "field", "name" : "OddLot", "required" : false},
 							"NoClearingInstructions" : { "type" : "group", "name" : "NoClearingInstructions", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"ClearingInstruction" : { "type" : "field", "name" : "ClearingInstruction", "required" : false}
 								}
  							},
@@ -11716,7 +11679,7 @@
 							"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false},
 							"SideMultiLegReportingType" : { "type" : "field", "name" : "SideMultiLegReportingType", "required" : false},
 							"NoContAmts" : { "type" : "group", "name" : "NoContAmts", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"ContAmtType" : { "type" : "field", "name" : "ContAmtType", "required" : false},
 									"ContAmtValue" : { "type" : "field", "name" : "ContAmtValue", "required" : false},
 									"ContAmtCurr" : { "type" : "field", "name" : "ContAmtCurr", "required" : false}
@@ -11724,7 +11687,7 @@
  							},
 							"Stipulations" : { "type" : "component", "name" : "Stipulations", "required" : false},
 							"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 									"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 									"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -11736,7 +11699,7 @@
 							"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 							"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
 							"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 									"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 									"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -11784,7 +11747,7 @@
 					"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
 					"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 							"LegQty" : { "type" : "field", "name" : "LegQty", "required" : false},
 							"LegSwapType" : { "type" : "field", "name" : "LegSwapType", "required" : false},
@@ -11809,7 +11772,7 @@
 					"PositionEffect" : { "type" : "field", "name" : "PositionEffect", "required" : false},
 					"PreallocMethod" : { "type" : "field", "name" : "PreallocMethod", "required" : false},
 					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : false},
 							"AllocAcctIDSource" : { "type" : "field", "name" : "AllocAcctIDSource", "required" : false},
 							"AllocSettlCurrency" : { "type" : "field", "name" : "AllocSettlCurrency", "required" : false},
@@ -11836,7 +11799,7 @@
 					"TaxAdvantageType" : { "type" : "field", "name" : "TaxAdvantageType", "required" : false},
 					"OwnershipType" : { "type" : "field", "name" : "OwnershipType", "required" : false},
 					"NoRegistDtls" : { "type" : "group", "name" : "NoRegistDtls", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"RegistDtls" : { "type" : "field", "name" : "RegistDtls", "required" : false},
 							"RegistEmail" : { "type" : "field", "name" : "RegistEmail", "required" : false},
 							"MailingDtls" : { "type" : "field", "name" : "MailingDtls", "required" : false},
@@ -11848,7 +11811,7 @@
 						}
  					},
 					"NoDistribInsts" : { "type" : "group", "name" : "NoDistribInsts", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"DistribPaymentMethod" : { "type" : "field", "name" : "DistribPaymentMethod", "required" : false},
 							"DistribPercentage" : { "type" : "field", "name" : "DistribPercentage", "required" : false},
 							"CashDistribCurr" : { "type" : "field", "name" : "CashDistribCurr", "required" : false},
@@ -11898,17 +11861,17 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -11946,17 +11909,17 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : true},
 					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -11987,12 +11950,12 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -12000,7 +11963,7 @@
 					"SettlSessID" : { "type" : "field", "name" : "SettlSessID", "required" : false},
 					"SettlSessSubID" : { "type" : "field", "name" : "SettlSessSubID", "required" : false},
 					"NoTradingSessions" : { "type" : "group", "name" : "NoTradingSessions", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradingSessionID" : { "type" : "field", "name" : "TradingSessionID", "required" : false},
 							"TradingSessionSubID" : { "type" : "field", "name" : "TradingSessionSubID", "required" : false}
 						}
@@ -12031,12 +11994,12 @@
 					"Instrument" : { "type" : "component", "name" : "Instrument", "required" : false},
 					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -12072,12 +12035,12 @@
 					"SettlPriceType" : { "type" : "field", "name" : "SettlPriceType", "required" : true},
 					"PriorSettlPrice" : { "type" : "field", "name" : "PriorSettlPrice", "required" : true},
 					"NoLegs" : { "type" : "group", "name" : "NoLegs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false}
 						}
  					},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false},
 							"UnderlyingSettlPrice" : { "type" : "field", "name" : "UnderlyingSettlPrice", "required" : true},
 							"UnderlyingSettlPriceType" : { "type" : "field", "name" : "UnderlyingSettlPriceType", "required" : true}
@@ -12108,7 +12071,7 @@
 					"NoLegs" : { "type" : "field", "name" : "NoLegs", "required" : false},
 					"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -12148,12 +12111,12 @@
 					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
 					"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false}
 						}
  					},
 					"NoTrades" : { "type" : "group", "name" : "NoTrades", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradeReportID" : { "type" : "field", "name" : "TradeReportID", "required" : false},
 							"SecondaryTradeReportID" : { "type" : "field", "name" : "SecondaryTradeReportID", "required" : false}
 						}
@@ -12167,7 +12130,7 @@
 					"NoLegs" : { "type" : "field", "name" : "NoLegs", "required" : false},
 					"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false},
 							"CollAction" : { "type" : "field", "name" : "CollAction", "required" : false}
 						}
@@ -12178,7 +12141,7 @@
 					"TrdRegTimestamps" : { "type" : "component", "name" : "TrdRegTimestamps", "required" : false},
 					"Side" : { "type" : "field", "name" : "Side", "required" : false},
 					"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 							"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 							"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -12223,12 +12186,12 @@
 					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
 					"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false}
 						}
  					},
 					"NoTrades" : { "type" : "group", "name" : "NoTrades", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradeReportID" : { "type" : "field", "name" : "TradeReportID", "required" : false},
 							"SecondaryTradeReportID" : { "type" : "field", "name" : "SecondaryTradeReportID", "required" : false}
 						}
@@ -12242,7 +12205,7 @@
 					"NoLegs" : { "type" : "field", "name" : "NoLegs", "required" : false},
 					"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false},
 							"CollAction" : { "type" : "field", "name" : "CollAction", "required" : false}
 						}
@@ -12253,7 +12216,7 @@
 					"TrdRegTimestamps" : { "type" : "component", "name" : "TrdRegTimestamps", "required" : false},
 					"Side" : { "type" : "field", "name" : "Side", "required" : false},
 					"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 							"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 							"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -12300,12 +12263,12 @@
 					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
 					"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false}
 						}
  					},
 					"NoTrades" : { "type" : "group", "name" : "NoTrades", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradeReportID" : { "type" : "field", "name" : "TradeReportID", "required" : false},
 							"SecondaryTradeReportID" : { "type" : "field", "name" : "SecondaryTradeReportID", "required" : false}
 						}
@@ -12319,7 +12282,7 @@
 					"NoLegs" : { "type" : "field", "name" : "NoLegs", "required" : false},
 					"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false},
 							"CollAction" : { "type" : "field", "name" : "CollAction", "required" : false}
 						}
@@ -12330,7 +12293,7 @@
 					"TrdRegTimestamps" : { "type" : "component", "name" : "TrdRegTimestamps", "required" : false},
 					"Side" : { "type" : "field", "name" : "Side", "required" : false},
 					"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 							"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 							"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -12368,12 +12331,12 @@
 					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
 					"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false}
 						}
  					},
 					"NoTrades" : { "type" : "group", "name" : "NoTrades", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradeReportID" : { "type" : "field", "name" : "TradeReportID", "required" : false},
 							"SecondaryTradeReportID" : { "type" : "field", "name" : "SecondaryTradeReportID", "required" : false}
 						}
@@ -12387,7 +12350,7 @@
 					"NoLegs" : { "type" : "field", "name" : "NoLegs", "required" : false},
 					"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -12397,7 +12360,7 @@
 					"TrdRegTimestamps" : { "type" : "component", "name" : "TrdRegTimestamps", "required" : false},
 					"Side" : { "type" : "field", "name" : "Side", "required" : false},
 					"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
 							"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
 							"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false},
@@ -12430,7 +12393,7 @@
 				"fields" : { 
 					"CollInquiryID" : { "type" : "field", "name" : "CollInquiryID", "required" : false},
 					"NoCollInquiryQualifier" : { "type" : "group", "name" : "NoCollInquiryQualifier", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"CollInquiryQualifier" : { "type" : "field", "name" : "CollInquiryQualifier", "required" : false}
 						}
  					},
@@ -12445,12 +12408,12 @@
 					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
 					"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false}
 						}
  					},
 					"NoTrades" : { "type" : "group", "name" : "NoTrades", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradeReportID" : { "type" : "field", "name" : "TradeReportID", "required" : false},
 							"SecondaryTradeReportID" : { "type" : "field", "name" : "SecondaryTradeReportID", "required" : false}
 						}
@@ -12464,7 +12427,7 @@
 					"NoLegs" : { "type" : "field", "name" : "NoLegs", "required" : false},
 					"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -12500,7 +12463,7 @@
 					"NetworkRequestType" : { "type" : "field", "name" : "NetworkRequestType", "required" : true},
 					"NetworkRequestID" : { "type" : "field", "name" : "NetworkRequestID", "required" : true},
 					"NoCompIDs" : { "type" : "group", "name" : "NoCompIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"RefCompID" : { "type" : "field", "name" : "RefCompID", "required" : false},
 							"RefSubID" : { "type" : "field", "name" : "RefSubID", "required" : false},
 							"LocationID" : { "type" : "field", "name" : "LocationID", "required" : false},
@@ -12519,7 +12482,7 @@
 					"NetworkResponseID" : { "type" : "field", "name" : "NetworkResponseID", "required" : false},
 					"LastNetworkResponseID" : { "type" : "field", "name" : "LastNetworkResponseID", "required" : false},
 					"NoCompIDs" : { "type" : "group", "name" : "NoCompIDs", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"RefCompID" : { "type" : "field", "name" : "RefCompID", "required" : false},
 							"RefSubID" : { "type" : "field", "name" : "RefSubID", "required" : false},
 							"LocationID" : { "type" : "field", "name" : "LocationID", "required" : false},
@@ -12539,7 +12502,7 @@
 					"CollInquiryStatus" : { "type" : "field", "name" : "CollInquiryStatus", "required" : true},
 					"CollInquiryResult" : { "type" : "field", "name" : "CollInquiryResult", "required" : false},
 					"NoCollInquiryQualifier" : { "type" : "group", "name" : "NoCollInquiryQualifier", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"CollInquiryQualifier" : { "type" : "field", "name" : "CollInquiryQualifier", "required" : false}
 						}
  					},
@@ -12552,12 +12515,12 @@
 					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
 					"SecondaryClOrdID" : { "type" : "field", "name" : "SecondaryClOrdID", "required" : false},
 					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false}
 						}
  					},
 					"NoTrades" : { "type" : "group", "name" : "NoTrades", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"TradeReportID" : { "type" : "field", "name" : "TradeReportID", "required" : false},
 							"SecondaryTradeReportID" : { "type" : "field", "name" : "SecondaryTradeReportID", "required" : false}
 						}
@@ -12571,7 +12534,7 @@
 					"NoLegs" : { "type" : "field", "name" : "NoLegs", "required" : false},
 					"InstrumentLeg" : { "type" : "component", "name" : "InstrumentLeg", "required" : false},
 					"NoUnderlyings" : { "type" : "group", "name" : "NoUnderlyings", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingInstrument" : { "type" : "component", "name" : "UnderlyingInstrument", "required" : false}
 						}
  					},
@@ -12598,7 +12561,7 @@
 					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
 					"SecurityIDSource" : { "type" : "field", "name" : "SecurityIDSource", "required" : false},
 					"NoSecurityAltID" : { "type" : "group", "name" : "NoSecurityAltID", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"SecurityAltID" : { "type" : "field", "name" : "SecurityAltID", "required" : false},
 							"SecurityAltIDSource" : { "type" : "field", "name" : "SecurityAltIDSource", "required" : false}
 						}
@@ -12638,7 +12601,7 @@
 					"CPProgram" : { "type" : "field", "name" : "CPProgram", "required" : false},
 					"CPRegType" : { "type" : "field", "name" : "CPRegType", "required" : false},
 					"NoEvents" : { "type" : "group", "name" : "NoEvents", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"EventType" : { "type" : "field", "name" : "EventType", "required" : false},
 							"EventDate" : { "type" : "field", "name" : "EventDate", "required" : false},
 							"EventPx" : { "type" : "field", "name" : "EventPx", "required" : false},
@@ -12657,7 +12620,7 @@
 					"UnderlyingSecurityID" : { "type" : "field", "name" : "UnderlyingSecurityID", "required" : false},
 					"UnderlyingSecurityIDSource" : { "type" : "field", "name" : "UnderlyingSecurityIDSource", "required" : false},
 					"NoUnderlyingSecurityAltID" : { "type" : "group", "name" : "NoUnderlyingSecurityAltID", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingSecurityAltID" : { "type" : "field", "name" : "UnderlyingSecurityAltID", "required" : false},
 							"UnderlyingSecurityAltIDSource" : { "type" : "field", "name" : "UnderlyingSecurityAltIDSource", "required" : false}
 						}
@@ -12713,7 +12676,7 @@
 					"LegSecurityID" : { "type" : "field", "name" : "LegSecurityID", "required" : false},
 					"LegSecurityIDSource" : { "type" : "field", "name" : "LegSecurityIDSource", "required" : false},
 					"NoLegSecurityAltID" : { "type" : "group", "name" : "NoLegSecurityAltID", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"LegSecurityAltID" : { "type" : "field", "name" : "LegSecurityAltID", "required" : false},
 							"LegSecurityAltIDSource" : { "type" : "field", "name" : "LegSecurityAltIDSource", "required" : false}
 						}
@@ -12763,7 +12726,7 @@
 					"DeliveryForm" : { "type" : "field", "name" : "DeliveryForm", "required" : false},
 					"PctAtRisk" : { "type" : "field", "name" : "PctAtRisk", "required" : false},
 					"NoInstrAttrib" : { "type" : "group", "name" : "NoInstrAttrib", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"InstrAttribType" : { "type" : "field", "name" : "InstrAttribType", "required" : false},
 							"InstrAttribValue" : { "type" : "field", "name" : "InstrAttribValue", "required" : false}
 						}
@@ -12793,12 +12756,12 @@
 				"name" : "Parties", 
 				"fields" : { 
 					"NoPartyIDs" : { "type" : "group", "name" : "NoPartyIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"PartyID" : { "type" : "field", "name" : "PartyID", "required" : false},
 							"PartyIDSource" : { "type" : "field", "name" : "PartyIDSource", "required" : false},
 							"PartyRole" : { "type" : "field", "name" : "PartyRole", "required" : false},
 							"NoPartySubIDs" : { "type" : "group", "name" : "NoPartySubIDs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"PartySubID" : { "type" : "field", "name" : "PartySubID", "required" : false},
 									"PartySubIDType" : { "type" : "field", "name" : "PartySubIDType", "required" : false}
 								}
@@ -12811,12 +12774,12 @@
 				"name" : "NestedParties", 
 				"fields" : { 
 					"NoNestedPartyIDs" : { "type" : "group", "name" : "NoNestedPartyIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"NestedPartyID" : { "type" : "field", "name" : "NestedPartyID", "required" : false},
 							"NestedPartyIDSource" : { "type" : "field", "name" : "NestedPartyIDSource", "required" : false},
 							"NestedPartyRole" : { "type" : "field", "name" : "NestedPartyRole", "required" : false},
 							"NoNestedPartySubIDs" : { "type" : "group", "name" : "NoNestedPartySubIDs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"NestedPartySubID" : { "type" : "field", "name" : "NestedPartySubID", "required" : false},
 									"NestedPartySubIDType" : { "type" : "field", "name" : "NestedPartySubIDType", "required" : false}
 								}
@@ -12829,12 +12792,12 @@
 				"name" : "NestedParties2", 
 				"fields" : { 
 					"NoNested2PartyIDs" : { "type" : "group", "name" : "NoNested2PartyIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"Nested2PartyID" : { "type" : "field", "name" : "Nested2PartyID", "required" : false},
 							"Nested2PartyIDSource" : { "type" : "field", "name" : "Nested2PartyIDSource", "required" : false},
 							"Nested2PartyRole" : { "type" : "field", "name" : "Nested2PartyRole", "required" : false},
 							"NoNested2PartySubIDs" : { "type" : "group", "name" : "NoNested2PartySubIDs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"Nested2PartySubID" : { "type" : "field", "name" : "Nested2PartySubID", "required" : false},
 									"Nested2PartySubIDType" : { "type" : "field", "name" : "Nested2PartySubIDType", "required" : false}
 								}
@@ -12847,12 +12810,12 @@
 				"name" : "NestedParties3", 
 				"fields" : { 
 					"NoNested3PartyIDs" : { "type" : "group", "name" : "NoNested3PartyIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"Nested3PartyID" : { "type" : "field", "name" : "Nested3PartyID", "required" : false},
 							"Nested3PartyIDSource" : { "type" : "field", "name" : "Nested3PartyIDSource", "required" : false},
 							"Nested3PartyRole" : { "type" : "field", "name" : "Nested3PartyRole", "required" : false},
 							"NoNested3PartySubIDs" : { "type" : "group", "name" : "NoNested3PartySubIDs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"Nested3PartySubID" : { "type" : "field", "name" : "Nested3PartySubID", "required" : false},
 									"Nested3PartySubIDType" : { "type" : "field", "name" : "Nested3PartySubIDType", "required" : false}
 								}
@@ -12865,12 +12828,12 @@
 				"name" : "SettlParties", 
 				"fields" : { 
 					"NoSettlPartyIDs" : { "type" : "group", "name" : "NoSettlPartyIDs", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"SettlPartyID" : { "type" : "field", "name" : "SettlPartyID", "required" : false},
 							"SettlPartyIDSource" : { "type" : "field", "name" : "SettlPartyIDSource", "required" : false},
 							"SettlPartyRole" : { "type" : "field", "name" : "SettlPartyRole", "required" : false},
 							"NoSettlPartySubIDs" : { "type" : "group", "name" : "NoSettlPartySubIDs", "required" : false,
-								"list" : { 
+								"fields" : { 
  									"SettlPartySubID" : { "type" : "field", "name" : "SettlPartySubID", "required" : false},
 									"SettlPartySubIDType" : { "type" : "field", "name" : "SettlPartySubIDType", "required" : false}
 								}
@@ -12906,7 +12869,7 @@
 				"name" : "Stipulations", 
 				"fields" : { 
 					"NoStipulations" : { "type" : "group", "name" : "NoStipulations", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"StipulationType" : { "type" : "field", "name" : "StipulationType", "required" : false},
 							"StipulationValue" : { "type" : "field", "name" : "StipulationValue", "required" : false}
 						}
@@ -12917,7 +12880,7 @@
 				"name" : "UnderlyingStipulations", 
 				"fields" : { 
 					"NoUnderlyingStips" : { "type" : "group", "name" : "NoUnderlyingStips", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"UnderlyingStipType" : { "type" : "field", "name" : "UnderlyingStipType", "required" : false},
 							"UnderlyingStipValue" : { "type" : "field", "name" : "UnderlyingStipValue", "required" : false}
 						}
@@ -12928,7 +12891,7 @@
 				"name" : "LegStipulations", 
 				"fields" : { 
 					"NoLegStipulations" : { "type" : "group", "name" : "NoLegStipulations", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"LegStipulationType" : { "type" : "field", "name" : "LegStipulationType", "required" : false},
 							"LegStipulationValue" : { "type" : "field", "name" : "LegStipulationValue", "required" : false}
 						}
@@ -12950,7 +12913,7 @@
 				"name" : "PositionQty", 
 				"fields" : { 
 					"NoPositions" : { "type" : "group", "name" : "NoPositions", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"PosType" : { "type" : "field", "name" : "PosType", "required" : false},
 							"LongQty" : { "type" : "field", "name" : "LongQty", "required" : false},
 							"ShortQty" : { "type" : "field", "name" : "ShortQty", "required" : false},
@@ -12964,7 +12927,7 @@
 				"name" : "PositionAmountData", 
 				"fields" : { 
 					"NoPosAmt" : { "type" : "group", "name" : "NoPosAmt", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"PosAmtType" : { "type" : "field", "name" : "PosAmtType", "required" : true},
 							"PosAmt" : { "type" : "field", "name" : "PosAmt", "required" : true}
 						}
@@ -12975,7 +12938,7 @@
 				"name" : "TrdRegTimestamps", 
 				"fields" : { 
 					"NoTrdRegTimestamps" : { "type" : "group", "name" : "NoTrdRegTimestamps", "required" : true,
-						"list" : { 
+						"fields" : { 
  							"TrdRegTimestamp" : { "type" : "field", "name" : "TrdRegTimestamp", "required" : false},
 							"TrdRegTimestampType" : { "type" : "field", "name" : "TrdRegTimestampType", "required" : false},
 							"TrdRegTimestampOrigin" : { "type" : "field", "name" : "TrdRegTimestampOrigin", "required" : false}
@@ -12991,7 +12954,7 @@
 					"StandInstDbName" : { "type" : "field", "name" : "StandInstDbName", "required" : false},
 					"StandInstDbID" : { "type" : "field", "name" : "StandInstDbID", "required" : false},
 					"NoDlvyInst" : { "type" : "group", "name" : "NoDlvyInst", "required" : false,
-						"list" : { 
+						"fields" : { 
  							"SettlInstSource" : { "type" : "field", "name" : "SettlInstSource", "required" : false},
 							"DlvyInstType" : { "type" : "field", "name" : "DlvyInstType", "required" : false},
 							"SettlParties" : { "type" : "component", "name" : "SettlParties", "required" : false}
@@ -13039,4 +13002,3 @@
 		}
 	}
 }
-

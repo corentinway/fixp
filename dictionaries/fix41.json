@@ -1,0 +1,2636 @@
+{	"fix" : { 
+		"major" : "4", 
+		"minor" : "1", 
+		"fields" : { 
+			"1" : { 
+				"number" : "1", 
+				"name" : "Account", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"2" : { 
+				"number" : "2", 
+				"name" : "AdvId", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"3" : { 
+				"number" : "3", 
+				"name" : "AdvRefID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"4" : { 
+				"number" : "4", 
+				"name" : "AdvSide", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "B",  "description" : "BUY" },
+					{ "enum" : "S",  "description" : "SELL" },
+					{ "enum" : "X",  "description" : "CROSS" },
+					{ "enum" : "T",  "description" : "TRADE" }
+				 ]
+			},
+			"5" : { 
+				"number" : "5", 
+				"name" : "AdvTransType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "N",  "description" : "NEW" },
+					{ "enum" : "C",  "description" : "CANCEL" },
+					{ "enum" : "R",  "description" : "REPLACE" }
+				 ]
+			},
+			"6" : { 
+				"number" : "6", 
+				"name" : "AvgPx", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"7" : { 
+				"number" : "7", 
+				"name" : "BeginSeqNo", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"8" : { 
+				"number" : "8", 
+				"name" : "BeginString", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"9" : { 
+				"number" : "9", 
+				"name" : "BodyLength", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"10" : { 
+				"number" : "10", 
+				"name" : "CheckSum", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"11" : { 
+				"number" : "11", 
+				"name" : "ClOrdID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"12" : { 
+				"number" : "12", 
+				"name" : "Commission", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"13" : { 
+				"number" : "13", 
+				"name" : "CommType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "PER_SHARE" },
+					{ "enum" : "2",  "description" : "PERCENTAGE" },
+					{ "enum" : "3",  "description" : "ABSOLUTE" }
+				 ]
+			},
+			"14" : { 
+				"number" : "14", 
+				"name" : "CumQty", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"15" : { 
+				"number" : "15", 
+				"name" : "Currency", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"16" : { 
+				"number" : "16", 
+				"name" : "EndSeqNo", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"17" : { 
+				"number" : "17", 
+				"name" : "ExecID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"18" : { 
+				"number" : "18", 
+				"name" : "ExecInst", 
+				"type" : "MULTIPLEVALUESTRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "NOT_HELD" },
+					{ "enum" : "2",  "description" : "WORK" },
+					{ "enum" : "3",  "description" : "GO_ALONG" },
+					{ "enum" : "4",  "description" : "OVER_THE_DAY" },
+					{ "enum" : "5",  "description" : "HELD" },
+					{ "enum" : "6",  "description" : "PARTICIPATE_DONT_INITIATE" },
+					{ "enum" : "7",  "description" : "STRICT_SCALE" },
+					{ "enum" : "8",  "description" : "TRY_TO_SCALE" },
+					{ "enum" : "9",  "description" : "STAY_ON_BIDSIDE" },
+					{ "enum" : "0",  "description" : "STAY_ON_OFFERSIDE" },
+					{ "enum" : "A",  "description" : "NO_CROSS" },
+					{ "enum" : "B",  "description" : "OK_TO_CROSS" },
+					{ "enum" : "C",  "description" : "CALL_FIRST" },
+					{ "enum" : "D",  "description" : "PERCENT_OF_VOLUME" },
+					{ "enum" : "E",  "description" : "DO_NOT_INCREASE_DNI" },
+					{ "enum" : "F",  "description" : "DO_NOT_REDUCE_DNR" },
+					{ "enum" : "G",  "description" : "ALL_OR_NONE_AON" },
+					{ "enum" : "I",  "description" : "INSTITUTIONS_ONLY" },
+					{ "enum" : "L",  "description" : "LAST_PEG" },
+					{ "enum" : "M",  "description" : "MIDPRICE_PEG" },
+					{ "enum" : "N",  "description" : "NONNEGOTIABLE" },
+					{ "enum" : "O",  "description" : "OPENING_PEG" },
+					{ "enum" : "P",  "description" : "MARKET_PEG" },
+					{ "enum" : "R",  "description" : "PRIMARY_PEG" },
+					{ "enum" : "S",  "description" : "SUSPEND" },
+					{ "enum" : "U",  "description" : "CUSTOMER_DISPLAY_INSTRUCTION" },
+					{ "enum" : "V",  "description" : "NETTING" }
+				 ]
+			},
+			"19" : { 
+				"number" : "19", 
+				"name" : "ExecRefID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"20" : { 
+				"number" : "20", 
+				"name" : "ExecTransType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NEW" },
+					{ "enum" : "1",  "description" : "CANCEL" },
+					{ "enum" : "2",  "description" : "CORRECT" },
+					{ "enum" : "3",  "description" : "STATUS" }
+				 ]
+			},
+			"21" : { 
+				"number" : "21", 
+				"name" : "HandlInst", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "AUTOMATED_EXECUTION_ORDER_PRIVATE_NO_BROKER_INTERVENTION" },
+					{ "enum" : "2",  "description" : "AUTOMATED_EXECUTION_ORDER_PUBLIC_BROKER_INTERVENTION_OK" },
+					{ "enum" : "3",  "description" : "MANUAL_ORDER_BEST_EXECUTION" }
+				 ]
+			},
+			"22" : { 
+				"number" : "22", 
+				"name" : "IDSource", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "CUSIP" },
+					{ "enum" : "2",  "description" : "SEDOL" },
+					{ "enum" : "3",  "description" : "QUIK" },
+					{ "enum" : "4",  "description" : "ISIN_NUMBER" },
+					{ "enum" : "5",  "description" : "RIC_CODE" },
+					{ "enum" : "6",  "description" : "ISO_CURRENCY_CODE" },
+					{ "enum" : "7",  "description" : "ISO_COUNTRY_CODE" }
+				 ]
+			},
+			"23" : { 
+				"number" : "23", 
+				"name" : "IOIid", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"24" : { 
+				"number" : "24", 
+				"name" : "IOIOthSvc", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"25" : { 
+				"number" : "25", 
+				"name" : "IOIQltyInd", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "L",  "description" : "LOW" },
+					{ "enum" : "M",  "description" : "MEDIUM" },
+					{ "enum" : "H",  "description" : "HIGH" }
+				 ]
+			},
+			"26" : { 
+				"number" : "26", 
+				"name" : "IOIRefID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"27" : { 
+				"number" : "27", 
+				"name" : "IOIShares", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"28" : { 
+				"number" : "28", 
+				"name" : "IOITransType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "N",  "description" : "NEW" },
+					{ "enum" : "C",  "description" : "CANCEL" },
+					{ "enum" : "R",  "description" : "REPLACE" }
+				 ]
+			},
+			"29" : { 
+				"number" : "29", 
+				"name" : "LastCapacity", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "AGENT" },
+					{ "enum" : "2",  "description" : "CROSS_AS_AGENT" },
+					{ "enum" : "3",  "description" : "CROSS_AS_PRINCIPAL" },
+					{ "enum" : "4",  "description" : "PRINCIPAL" }
+				 ]
+			},
+			"30" : { 
+				"number" : "30", 
+				"name" : "LastMkt", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"31" : { 
+				"number" : "31", 
+				"name" : "LastPx", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"32" : { 
+				"number" : "32", 
+				"name" : "LastShares", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"33" : { 
+				"number" : "33", 
+				"name" : "LinesOfText", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"34" : { 
+				"number" : "34", 
+				"name" : "MsgSeqNum", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"35" : { 
+				"number" : "35", 
+				"name" : "MsgType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "HEARTBEAT" },
+					{ "enum" : "1",  "description" : "TEST_REQUEST" },
+					{ "enum" : "2",  "description" : "RESEND_REQUEST" },
+					{ "enum" : "3",  "description" : "REJECT" },
+					{ "enum" : "4",  "description" : "SEQUENCE_RESET" },
+					{ "enum" : "5",  "description" : "LOGOUT" },
+					{ "enum" : "6",  "description" : "INDICATION_OF_INTEREST" },
+					{ "enum" : "7",  "description" : "ADVERTISEMENT" },
+					{ "enum" : "8",  "description" : "EXECUTION_REPORT" },
+					{ "enum" : "9",  "description" : "ORDER_CANCEL_REJECT" },
+					{ "enum" : "A",  "description" : "LOGON" },
+					{ "enum" : "B",  "description" : "NEWS" },
+					{ "enum" : "C",  "description" : "EMAIL" },
+					{ "enum" : "D",  "description" : "ORDER_SINGLE" },
+					{ "enum" : "E",  "description" : "ORDER_LIST" },
+					{ "enum" : "F",  "description" : "ORDER_CANCEL_REQUEST" },
+					{ "enum" : "G",  "description" : "ORDER_CANCEL" },
+					{ "enum" : "H",  "description" : "ORDER_STATUS_REQUEST" },
+					{ "enum" : "J",  "description" : "ALLOCATION" },
+					{ "enum" : "K",  "description" : "LIST_CANCEL_REQUEST" },
+					{ "enum" : "L",  "description" : "LIST_EXECUTE" },
+					{ "enum" : "M",  "description" : "LIST_STATUS_REQUEST" },
+					{ "enum" : "N",  "description" : "LIST_STATUS" },
+					{ "enum" : "P",  "description" : "ALLOCATION_ACK" },
+					{ "enum" : "Q",  "description" : "DONT_KNOW_TRADE" },
+					{ "enum" : "R",  "description" : "QUOTE_REQUEST" },
+					{ "enum" : "S",  "description" : "QUOTE" },
+					{ "enum" : "T",  "description" : "SETTLEMENT_INSTRUCTIONS" }
+				 ]
+			},
+			"36" : { 
+				"number" : "36", 
+				"name" : "NewSeqNo", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"37" : { 
+				"number" : "37", 
+				"name" : "OrderID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"38" : { 
+				"number" : "38", 
+				"name" : "OrderQty", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"39" : { 
+				"number" : "39", 
+				"name" : "OrdStatus", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NEW" },
+					{ "enum" : "1",  "description" : "PARTIALLY_FILLED" },
+					{ "enum" : "2",  "description" : "FILLED" },
+					{ "enum" : "3",  "description" : "DONE_FOR_DAY" },
+					{ "enum" : "4",  "description" : "CANCELED" },
+					{ "enum" : "5",  "description" : "REPLACED" },
+					{ "enum" : "6",  "description" : "PENDING_CANCELREPLACE" },
+					{ "enum" : "7",  "description" : "STOPPED" },
+					{ "enum" : "8",  "description" : "REJECTED" },
+					{ "enum" : "9",  "description" : "SUSPENDED" },
+					{ "enum" : "A",  "description" : "PENDING_NEW" },
+					{ "enum" : "B",  "description" : "CALCULATED" },
+					{ "enum" : "C",  "description" : "EXPIRED" }
+				 ]
+			},
+			"40" : { 
+				"number" : "40", 
+				"name" : "OrdType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "MARKET" },
+					{ "enum" : "2",  "description" : "LIMIT" },
+					{ "enum" : "3",  "description" : "STOP" },
+					{ "enum" : "4",  "description" : "STOP_LIMIT" },
+					{ "enum" : "5",  "description" : "MARKET_ON_CLOSE" },
+					{ "enum" : "6",  "description" : "WITH_OR_WITHOUT" },
+					{ "enum" : "7",  "description" : "LIMIT_OR_BETTER" },
+					{ "enum" : "8",  "description" : "LIMIT_WITH_OR_WITHOUT" },
+					{ "enum" : "9",  "description" : "ON_BASIS" },
+					{ "enum" : "A",  "description" : "ON_CLOSE" },
+					{ "enum" : "B",  "description" : "LIMIT_ON_CLOSE" },
+					{ "enum" : "C",  "description" : "FOREX_MARKET" },
+					{ "enum" : "D",  "description" : "PREVIOUSLY_QUOTED" },
+					{ "enum" : "E",  "description" : "PREVIOUSLY_INDICATED" },
+					{ "enum" : "F",  "description" : "FOREX_LIMIT" },
+					{ "enum" : "G",  "description" : "FOREX_SWAP" },
+					{ "enum" : "H",  "description" : "FOREX_PREVIOUSLY_QUOTED" },
+					{ "enum" : "P",  "description" : "PEGGED" }
+				 ]
+			},
+			"41" : { 
+				"number" : "41", 
+				"name" : "OrigClOrdID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"42" : { 
+				"number" : "42", 
+				"name" : "OrigTime", 
+				"type" : "TIME", 
+				"values" :  [
+				 ]
+			},
+			"43" : { 
+				"number" : "43", 
+				"name" : "PossDupFlag", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "POSSIBLE_DUPLICATE" },
+					{ "enum" : "N",  "description" : "ORIGINAL_TRANSMISSION" }
+				 ]
+			},
+			"44" : { 
+				"number" : "44", 
+				"name" : "Price", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"45" : { 
+				"number" : "45", 
+				"name" : "RefSeqNum", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"46" : { 
+				"number" : "46", 
+				"name" : "RelatdSym", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"47" : { 
+				"number" : "47", 
+				"name" : "Rule80A", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "A",  "description" : "AGENCY_SINGLE_ORDER" },
+					{ "enum" : "B",  "description" : "SHORT_EXEMPT_TRANSACTION_B" },
+					{ "enum" : "C",  "description" : "PROGRAM_ORDER_NONINDEX_ARB_FOR_MEMBER_FIRMORG" },
+					{ "enum" : "D",  "description" : "PROGRAM_ORDER_INDEX_ARB_FOR_MEMBER_FIRMORG" },
+					{ "enum" : "E",  "description" : "REGISTERED_EQUITY_MARKET_MAKER_TRADES" },
+					{ "enum" : "F",  "description" : "SHORT_EXEMPT_TRANSACTION_F" },
+					{ "enum" : "H",  "description" : "SHORT_EXEMPT_TRANSACTION_H" },
+					{ "enum" : "I",  "description" : "INDIVIDUAL_INVESTOR" },
+					{ "enum" : "J",  "description" : "PROGRAM_ORDER_INDEX_ARB_FOR_INDIVIDUAL_CUSTOMER" },
+					{ "enum" : "K",  "description" : "PROGRAM_ORDER_NONINDEX_ARB_FOR_INDIVIDUAL_CUSTOMER" },
+					{ "enum" : "L",  "description" : "SHORT_EXEMPT_AFFILIATED" },
+					{ "enum" : "M",  "description" : "PROGRAM_ORDER_INDEX_ARB_FOR_OTHER_MEMBER" },
+					{ "enum" : "N",  "description" : "PROGRAM_ORDER_NONINDEX_ARB_FOR_OTHER_MEMBER" },
+					{ "enum" : "O",  "description" : "COMPETING_DEALER_TRADES_O" },
+					{ "enum" : "P",  "description" : "PRINCIPAL" },
+					{ "enum" : "R",  "description" : "COMPETING_DEALER_TRADES_R" },
+					{ "enum" : "S",  "description" : "SPECIALIST_TRADES" },
+					{ "enum" : "T",  "description" : "COMPETING_DEALER_TRADES_T" },
+					{ "enum" : "U",  "description" : "PROGRAM_ORDER_INDEX_ARB_FOR_OTHER_AGENCY" },
+					{ "enum" : "W",  "description" : "ALL_OTHER_ORDERS_AS_AGENT_FOR_OTHER_MEMBER" },
+					{ "enum" : "X",  "description" : "SHORT_EXEMPT_NOT_AFFILIATED" },
+					{ "enum" : "Y",  "description" : "PROGRAM_ORDER_NONINDEX_ARB_FOR_OTHER_AGENCY" },
+					{ "enum" : "Z",  "description" : "SHORT_EXEMPT_NONMEMBER" }
+				 ]
+			},
+			"48" : { 
+				"number" : "48", 
+				"name" : "SecurityID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"49" : { 
+				"number" : "49", 
+				"name" : "SenderCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"50" : { 
+				"number" : "50", 
+				"name" : "SenderSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"52" : { 
+				"number" : "52", 
+				"name" : "SendingTime", 
+				"type" : "TIME", 
+				"values" :  [
+				 ]
+			},
+			"53" : { 
+				"number" : "53", 
+				"name" : "Shares", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"54" : { 
+				"number" : "54", 
+				"name" : "Side", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "BUY" },
+					{ "enum" : "2",  "description" : "SELL" },
+					{ "enum" : "3",  "description" : "BUY_MINUS" },
+					{ "enum" : "4",  "description" : "SELL_PLUS" },
+					{ "enum" : "5",  "description" : "SELL_SHORT" },
+					{ "enum" : "6",  "description" : "SELL_SHORT_EXEMPT" },
+					{ "enum" : "7",  "description" : "D" },
+					{ "enum" : "8",  "description" : "CROSS" }
+				 ]
+			},
+			"55" : { 
+				"number" : "55", 
+				"name" : "Symbol", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"56" : { 
+				"number" : "56", 
+				"name" : "TargetCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"57" : { 
+				"number" : "57", 
+				"name" : "TargetSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"58" : { 
+				"number" : "58", 
+				"name" : "Text", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"59" : { 
+				"number" : "59", 
+				"name" : "TimeInForce", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "DAY" },
+					{ "enum" : "1",  "description" : "GOOD_TILL_CANCEL" },
+					{ "enum" : "2",  "description" : "AT_THE_OPENING" },
+					{ "enum" : "3",  "description" : "IMMEDIATE_OR_CANCEL" },
+					{ "enum" : "4",  "description" : "FILL_OR_KILL" },
+					{ "enum" : "5",  "description" : "GOOD_TILL_CROSSING" },
+					{ "enum" : "6",  "description" : "GOOD_TILL_DATE" }
+				 ]
+			},
+			"60" : { 
+				"number" : "60", 
+				"name" : "TransactTime", 
+				"type" : "TIME", 
+				"values" :  [
+				 ]
+			},
+			"61" : { 
+				"number" : "61", 
+				"name" : "Urgency", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NORMAL" },
+					{ "enum" : "1",  "description" : "FLASH" },
+					{ "enum" : "2",  "description" : "BACKGROUND" }
+				 ]
+			},
+			"62" : { 
+				"number" : "62", 
+				"name" : "ValidUntilTime", 
+				"type" : "TIME", 
+				"values" :  [
+				 ]
+			},
+			"63" : { 
+				"number" : "63", 
+				"name" : "SettlmntTyp", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "REGULAR" },
+					{ "enum" : "1",  "description" : "CASH" },
+					{ "enum" : "2",  "description" : "NEXT_DAY" },
+					{ "enum" : "3",  "description" : "TPLUS2" },
+					{ "enum" : "4",  "description" : "TPLUS3" },
+					{ "enum" : "5",  "description" : "TPLUS4" },
+					{ "enum" : "6",  "description" : "FUTURE" },
+					{ "enum" : "7",  "description" : "WHEN_ISSUED" },
+					{ "enum" : "8",  "description" : "SELLERS_OPTION" },
+					{ "enum" : "9",  "description" : "TPLUS5" }
+				 ]
+			},
+			"64" : { 
+				"number" : "64", 
+				"name" : "FutSettDate", 
+				"type" : "DATE", 
+				"values" :  [
+				 ]
+			},
+			"65" : { 
+				"number" : "65", 
+				"name" : "SymbolSfx", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"66" : { 
+				"number" : "66", 
+				"name" : "ListID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"67" : { 
+				"number" : "67", 
+				"name" : "ListSeqNo", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"68" : { 
+				"number" : "68", 
+				"name" : "ListNoOrds", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"69" : { 
+				"number" : "69", 
+				"name" : "ListExecInst", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"70" : { 
+				"number" : "70", 
+				"name" : "AllocID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"71" : { 
+				"number" : "71", 
+				"name" : "AllocTransType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NEW" },
+					{ "enum" : "1",  "description" : "REPLACE" },
+					{ "enum" : "2",  "description" : "CANCEL" },
+					{ "enum" : "3",  "description" : "PRELIMINARY" },
+					{ "enum" : "4",  "description" : "CALCULATED" }
+				 ]
+			},
+			"72" : { 
+				"number" : "72", 
+				"name" : "RefAllocID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"73" : { 
+				"number" : "73", 
+				"name" : "NoOrders", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"74" : { 
+				"number" : "74", 
+				"name" : "AvgPrxPrecision", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"75" : { 
+				"number" : "75", 
+				"name" : "TradeDate", 
+				"type" : "DATE", 
+				"values" :  [
+				 ]
+			},
+			"76" : { 
+				"number" : "76", 
+				"name" : "ExecBroker", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"77" : { 
+				"number" : "77", 
+				"name" : "OpenClose", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"78" : { 
+				"number" : "78", 
+				"name" : "NoAllocs", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"79" : { 
+				"number" : "79", 
+				"name" : "AllocAccount", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"80" : { 
+				"number" : "80", 
+				"name" : "AllocShares", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"81" : { 
+				"number" : "81", 
+				"name" : "ProcessCode", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "REGULAR" },
+					{ "enum" : "1",  "description" : "SOFT_DOLLAR" },
+					{ "enum" : "2",  "description" : "STEPIN" },
+					{ "enum" : "3",  "description" : "STEPOUT" },
+					{ "enum" : "4",  "description" : "SOFTDOLLAR_STEPIN" },
+					{ "enum" : "5",  "description" : "SOFTDOLLAR_STEPOUT" },
+					{ "enum" : "6",  "description" : "PLAN_SPONSOR" }
+				 ]
+			},
+			"82" : { 
+				"number" : "82", 
+				"name" : "NoRpts", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"83" : { 
+				"number" : "83", 
+				"name" : "RptSeq", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"84" : { 
+				"number" : "84", 
+				"name" : "CxlQty", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"85" : { 
+				"number" : "85", 
+				"name" : "NoDlvyInst", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"86" : { 
+				"number" : "86", 
+				"name" : "DlvyInst", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"87" : { 
+				"number" : "87", 
+				"name" : "AllocStatus", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "ACCEPTED" },
+					{ "enum" : "1",  "description" : "REJECTED" },
+					{ "enum" : "2",  "description" : "PARTIAL_ACCEPT" },
+					{ "enum" : "3",  "description" : "RECEIVED" }
+				 ]
+			},
+			"88" : { 
+				"number" : "88", 
+				"name" : "AllocRejCode", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "UNKNOWN_ACCOUNT" },
+					{ "enum" : "1",  "description" : "INCORRECT_QUANTITY" },
+					{ "enum" : "2",  "description" : "INCORRECT_AVERAGE_PRICE" },
+					{ "enum" : "3",  "description" : "UNKNOWN_EXECUTING_BROKER_MNEMONIC" },
+					{ "enum" : "4",  "description" : "COMMISSION_DIFFERENCE" },
+					{ "enum" : "5",  "description" : "UNKNOWN_ORDERID" },
+					{ "enum" : "6",  "description" : "UNKNOWN_LISTID" },
+					{ "enum" : "7",  "description" : "OTHER" }
+				 ]
+			},
+			"89" : { 
+				"number" : "89", 
+				"name" : "Signature", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"90" : { 
+				"number" : "90", 
+				"name" : "SecureDataLen", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"91" : { 
+				"number" : "91", 
+				"name" : "SecureData", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"92" : { 
+				"number" : "92", 
+				"name" : "BrokerOfCredit", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"93" : { 
+				"number" : "93", 
+				"name" : "SignatureLength", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"94" : { 
+				"number" : "94", 
+				"name" : "EmailType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NEW" },
+					{ "enum" : "1",  "description" : "REPLY" },
+					{ "enum" : "2",  "description" : "ADMIN_REPLY" }
+				 ]
+			},
+			"95" : { 
+				"number" : "95", 
+				"name" : "RawDataLength", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"96" : { 
+				"number" : "96", 
+				"name" : "RawData", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"97" : { 
+				"number" : "97", 
+				"name" : "PossResend", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"98" : { 
+				"number" : "98", 
+				"name" : "EncryptMethod", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NONE_OTHER" },
+					{ "enum" : "1",  "description" : "PKCS" },
+					{ "enum" : "2",  "description" : "DES" },
+					{ "enum" : "3",  "description" : "PKCSDES" },
+					{ "enum" : "4",  "description" : "PGPDES" },
+					{ "enum" : "5",  "description" : "PGPDESMD5" },
+					{ "enum" : "6",  "description" : "PEMDESMD5" }
+				 ]
+			},
+			"99" : { 
+				"number" : "99", 
+				"name" : "StopPx", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"100" : { 
+				"number" : "100", 
+				"name" : "ExDestination", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"102" : { 
+				"number" : "102", 
+				"name" : "CxlRejReason", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "TOO_LATE_TO_CANCEL" },
+					{ "enum" : "1",  "description" : "UNKNOWN_ORDER" }
+				 ]
+			},
+			"103" : { 
+				"number" : "103", 
+				"name" : "OrdRejReason", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "BROKER_OPTION" },
+					{ "enum" : "1",  "description" : "UNKNOWN_SYMBOL" },
+					{ "enum" : "2",  "description" : "EXCHANGE_CLOSED" },
+					{ "enum" : "3",  "description" : "ORDER_EXCEEDS_LIMIT" },
+					{ "enum" : "4",  "description" : "TOO_LATE_TO_ENTER" },
+					{ "enum" : "5",  "description" : "UNKNOWN_ORDER" },
+					{ "enum" : "6",  "description" : "DUPLICATE_ORDER" }
+				 ]
+			},
+			"104" : { 
+				"number" : "104", 
+				"name" : "IOIQualifier", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "X",  "description" : "CROSSING_OPPORTUNITY" },
+					{ "enum" : "O",  "description" : "AT_THE_OPEN" },
+					{ "enum" : "M",  "description" : "MORE_BEHIND" },
+					{ "enum" : "P",  "description" : "TAKING_A_POSITION" },
+					{ "enum" : "V",  "description" : "VERSUS" },
+					{ "enum" : "Q",  "description" : "AT_THE_MARKET" },
+					{ "enum" : "C",  "description" : "AT_THE_CLOSE" },
+					{ "enum" : "S",  "description" : "PORTFOLIO_SHOWN" },
+					{ "enum" : "I",  "description" : "IN_TOUCH_WITH" },
+					{ "enum" : "W",  "description" : "INDICATION_WORKING_AWAY" },
+					{ "enum" : "A",  "description" : "ALL_OR_NONE" },
+					{ "enum" : "L",  "description" : "LIMIT" },
+					{ "enum" : "T",  "description" : "THROUGH_THE_DAY" },
+					{ "enum" : "Y",  "description" : "AT_THE_MIDPOINT" },
+					{ "enum" : "Z",  "description" : "PREOPEN" }
+				 ]
+			},
+			"105" : { 
+				"number" : "105", 
+				"name" : "WaveNo", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"106" : { 
+				"number" : "106", 
+				"name" : "Issuer", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"107" : { 
+				"number" : "107", 
+				"name" : "SecurityDesc", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"108" : { 
+				"number" : "108", 
+				"name" : "HeartBtInt", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"109" : { 
+				"number" : "109", 
+				"name" : "ClientID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"110" : { 
+				"number" : "110", 
+				"name" : "MinQty", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"111" : { 
+				"number" : "111", 
+				"name" : "MaxFloor", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"112" : { 
+				"number" : "112", 
+				"name" : "TestReqID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"113" : { 
+				"number" : "113", 
+				"name" : "ReportToExch", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "YES" },
+					{ "enum" : "N",  "description" : "NO" }
+				 ]
+			},
+			"114" : { 
+				"number" : "114", 
+				"name" : "LocateReqd", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "YES" },
+					{ "enum" : "N",  "description" : "NO" }
+				 ]
+			},
+			"115" : { 
+				"number" : "115", 
+				"name" : "OnBehalfOfCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"116" : { 
+				"number" : "116", 
+				"name" : "OnBehalfOfSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"117" : { 
+				"number" : "117", 
+				"name" : "QuoteID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"118" : { 
+				"number" : "118", 
+				"name" : "NetMoney", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"119" : { 
+				"number" : "119", 
+				"name" : "SettlCurrAmt", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"120" : { 
+				"number" : "120", 
+				"name" : "SettlCurrency", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"121" : { 
+				"number" : "121", 
+				"name" : "ForexReq", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "YES" },
+					{ "enum" : "N",  "description" : "NO" }
+				 ]
+			},
+			"122" : { 
+				"number" : "122", 
+				"name" : "OrigSendingTime", 
+				"type" : "TIME", 
+				"values" :  [
+				 ]
+			},
+			"123" : { 
+				"number" : "123", 
+				"name" : "GapFillFlag", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "GAP_FILL_MESSAGE_MSGSEQNUM_FIELD_VALID" },
+					{ "enum" : "N",  "description" : "SEQUENCE_RESET_IGNORE_MSGSEQNUM" }
+				 ]
+			},
+			"124" : { 
+				"number" : "124", 
+				"name" : "NoExecs", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"126" : { 
+				"number" : "126", 
+				"name" : "ExpireTime", 
+				"type" : "TIME", 
+				"values" :  [
+				 ]
+			},
+			"127" : { 
+				"number" : "127", 
+				"name" : "DKReason", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "A",  "description" : "UNKNOWN_SYMBOL" },
+					{ "enum" : "B",  "description" : "WRONG_SIDE" },
+					{ "enum" : "C",  "description" : "QUANTITY_EXCEEDS_ORDER" },
+					{ "enum" : "D",  "description" : "NO_MATCHING_ORDER" },
+					{ "enum" : "E",  "description" : "PRICE_EXCEEDS_LIMIT" },
+					{ "enum" : "Z",  "description" : "OTHER" }
+				 ]
+			},
+			"128" : { 
+				"number" : "128", 
+				"name" : "DeliverToCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"129" : { 
+				"number" : "129", 
+				"name" : "DeliverToSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"130" : { 
+				"number" : "130", 
+				"name" : "IOINaturalFlag", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "NATURAL" },
+					{ "enum" : "N",  "description" : "NOT_NATURAL" }
+				 ]
+			},
+			"131" : { 
+				"number" : "131", 
+				"name" : "QuoteReqID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"132" : { 
+				"number" : "132", 
+				"name" : "BidPx", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"133" : { 
+				"number" : "133", 
+				"name" : "OfferPx", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"134" : { 
+				"number" : "134", 
+				"name" : "BidSize", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"135" : { 
+				"number" : "135", 
+				"name" : "OfferSize", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"136" : { 
+				"number" : "136", 
+				"name" : "NoMiscFees", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"137" : { 
+				"number" : "137", 
+				"name" : "MiscFeeAmt", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"138" : { 
+				"number" : "138", 
+				"name" : "MiscFeeCurr", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"139" : { 
+				"number" : "139", 
+				"name" : "MiscFeeType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "REGULATORY" },
+					{ "enum" : "2",  "description" : "TAX" },
+					{ "enum" : "3",  "description" : "LOCAL_COMMISSION" },
+					{ "enum" : "4",  "description" : "EXCHANGE_FEES" },
+					{ "enum" : "5",  "description" : "STAMP" },
+					{ "enum" : "6",  "description" : "LEVY" },
+					{ "enum" : "7",  "description" : "OTHER" },
+					{ "enum" : "8",  "description" : "MARKUP" }
+				 ]
+			},
+			"140" : { 
+				"number" : "140", 
+				"name" : "PrevClosePx", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"141" : { 
+				"number" : "141", 
+				"name" : "ResetSeqNumFlag", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "YES_RESET_SEQUENCE_NUMBERS" },
+					{ "enum" : "N",  "description" : "NO" }
+				 ]
+			},
+			"142" : { 
+				"number" : "142", 
+				"name" : "SenderLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"143" : { 
+				"number" : "143", 
+				"name" : "TargetLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"144" : { 
+				"number" : "144", 
+				"name" : "OnBehalfOfLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"145" : { 
+				"number" : "145", 
+				"name" : "DeliverToLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"146" : { 
+				"number" : "146", 
+				"name" : "NoRelatedSym", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"147" : { 
+				"number" : "147", 
+				"name" : "Subject", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"148" : { 
+				"number" : "148", 
+				"name" : "Headline", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"149" : { 
+				"number" : "149", 
+				"name" : "URLLink", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"150" : { 
+				"number" : "150", 
+				"name" : "ExecType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NEW" },
+					{ "enum" : "1",  "description" : "PARTIAL_FILL" },
+					{ "enum" : "2",  "description" : "FILL" },
+					{ "enum" : "3",  "description" : "DONE_FOR_DAY" },
+					{ "enum" : "4",  "description" : "CANCELLED" },
+					{ "enum" : "5",  "description" : "REPLACE" },
+					{ "enum" : "6",  "description" : "PENDING_CANCELREPLACE" },
+					{ "enum" : "7",  "description" : "STOPPED" },
+					{ "enum" : "8",  "description" : "REJECTED" },
+					{ "enum" : "9",  "description" : "SUSPENDED" },
+					{ "enum" : "A",  "description" : "PENDING_NEW" },
+					{ "enum" : "B",  "description" : "CALCULATED" },
+					{ "enum" : "C",  "description" : "EXPIRED" }
+				 ]
+			},
+			"151" : { 
+				"number" : "151", 
+				"name" : "LeavesQty", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"152" : { 
+				"number" : "152", 
+				"name" : "CashOrderQty", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"153" : { 
+				"number" : "153", 
+				"name" : "AllocAvgPx", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"154" : { 
+				"number" : "154", 
+				"name" : "AllocNetMoney", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"155" : { 
+				"number" : "155", 
+				"name" : "SettlCurrFxRate", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"156" : { 
+				"number" : "156", 
+				"name" : "SettlCurrFxRateCalc", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"157" : { 
+				"number" : "157", 
+				"name" : "NumDaysInterest", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"158" : { 
+				"number" : "158", 
+				"name" : "AccruedInterestRate", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"159" : { 
+				"number" : "159", 
+				"name" : "AccruedInterestAmt", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"160" : { 
+				"number" : "160", 
+				"name" : "SettlInstMode", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "DEFAULT" },
+					{ "enum" : "1",  "description" : "STANDING_INSTRUCTIONS_PROVIDED" },
+					{ "enum" : "2",  "description" : "SPECIFIC_ALLOCATION_ACCOUNT_OVERRIDING" },
+					{ "enum" : "3",  "description" : "SPECIFIC_ALLOCATION_ACCOUNT_STANDING" }
+				 ]
+			},
+			"161" : { 
+				"number" : "161", 
+				"name" : "AllocText", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"162" : { 
+				"number" : "162", 
+				"name" : "SettlInstID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"163" : { 
+				"number" : "163", 
+				"name" : "SettlInstTransType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "N",  "description" : "NEW" },
+					{ "enum" : "C",  "description" : "CANCEL" },
+					{ "enum" : "R",  "description" : "REPLACE" }
+				 ]
+			},
+			"164" : { 
+				"number" : "164", 
+				"name" : "EmailThreadID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"165" : { 
+				"number" : "165", 
+				"name" : "SettlInstSource", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "BROKER" },
+					{ "enum" : "2",  "description" : "INSTITUTION" }
+				 ]
+			},
+			"166" : { 
+				"number" : "166", 
+				"name" : "SettlLocation", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "CED",  "description" : "CEDEL" },
+					{ "enum" : "DTC",  "description" : "DEPOSITORY_TRUST_COMPANY" },
+					{ "enum" : "EUR",  "description" : "EUROCLEAR" },
+					{ "enum" : "FED",  "description" : "FEDERAL_BOOK_ENTRY" },
+					{ "enum" : "PNY",  "description" : "PHYSICAL" },
+					{ "enum" : "PTC",  "description" : "PARTICIPANT_TRUST_COMPANY" },
+					{ "enum" : "ISO",  "description" : "LOCAL_MARKET_SETTLE_LOCATION" }
+				 ]
+			},
+			"167" : { 
+				"number" : "167", 
+				"name" : "SecurityType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "BA",  "description" : "BANKERS_ACCEPTANCE" },
+					{ "enum" : "CD",  "description" : "CERTIFICATE_OF_DEPOSIT" },
+					{ "enum" : "CMO",  "description" : "COLLATERALIZE_MORTGAGE_OBLIGATION" },
+					{ "enum" : "CORP",  "description" : "CORPORATE_BOND" },
+					{ "enum" : "CP",  "description" : "COMMERCIAL_PAPER" },
+					{ "enum" : "CPP",  "description" : "CORPORATE_PRIVATE_PLACEMENT" },
+					{ "enum" : "CS",  "description" : "COMMON_STOCK" },
+					{ "enum" : "FHA",  "description" : "FEDERAL_HOUSING_AUTHORITY" },
+					{ "enum" : "FHL",  "description" : "FEDERAL_HOME_LOAN" },
+					{ "enum" : "FN",  "description" : "FEDERAL_NATIONAL_MORTGAGE_ASSOCIATION" },
+					{ "enum" : "FOR",  "description" : "FOREIGN_EXCHANGE_CONTRACT" },
+					{ "enum" : "FUT",  "description" : "FUTURE" },
+					{ "enum" : "GN",  "description" : "GOVERNMENT_NATIONAL_MORTGAGE_ASSOCIATION" },
+					{ "enum" : "GOVT",  "description" : "TREASURIES_PLUS_AGENCY_DEBENTURE" },
+					{ "enum" : "MF",  "description" : "MUTUAL_FUND" },
+					{ "enum" : "MIO",  "description" : "MORTGAGE_INTEREST_ONLY" },
+					{ "enum" : "MPO",  "description" : "MORTGAGE_PRINCIPLE_ONLY" },
+					{ "enum" : "MPP",  "description" : "MORTGAGE_PRIVATE_PLACEMENT" },
+					{ "enum" : "MPT",  "description" : "MISCELLANEOUS_PASSTHRU" },
+					{ "enum" : "MUNI",  "description" : "MUNICIPAL_BOND" },
+					{ "enum" : "NONE",  "description" : "NO_ISITC_SECURITY_TYPE" },
+					{ "enum" : "OPT",  "description" : "OPTION" },
+					{ "enum" : "PS",  "description" : "PREFERRED_STOCK" },
+					{ "enum" : "RP",  "description" : "REPURCHASE_AGREEMENT" },
+					{ "enum" : "RVRP",  "description" : "REVERSE_REPURCHASE_AGREEMENT" },
+					{ "enum" : "SL",  "description" : "STUDENT_LOAN_MARKETING_ASSOCIATION" },
+					{ "enum" : "TD",  "description" : "TIME_DEPOSIT" },
+					{ "enum" : "USTB",  "description" : "US_TREASURY_BILL" },
+					{ "enum" : "WAR",  "description" : "WARRANT" },
+					{ "enum" : "ZOO",  "description" : "CATS_TIGERS" }
+				 ]
+			},
+			"168" : { 
+				"number" : "168", 
+				"name" : "EffectiveTime", 
+				"type" : "TIME", 
+				"values" :  [
+				 ]
+			},
+			"169" : { 
+				"number" : "169", 
+				"name" : "StandInstDbType", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "OTHER" },
+					{ "enum" : "1",  "description" : "DTC_SID" },
+					{ "enum" : "2",  "description" : "THOMSON_ALERT" },
+					{ "enum" : "3",  "description" : "A_GLOBAL_CUSTODIAN" }
+				 ]
+			},
+			"170" : { 
+				"number" : "170", 
+				"name" : "StandInstDbName", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"171" : { 
+				"number" : "171", 
+				"name" : "StandInstDbID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"172" : { 
+				"number" : "172", 
+				"name" : "SettlDeliveryType", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"173" : { 
+				"number" : "173", 
+				"name" : "SettlDepositoryCode", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"174" : { 
+				"number" : "174", 
+				"name" : "SettlBrkrCode", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"175" : { 
+				"number" : "175", 
+				"name" : "SettlInstCode", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"176" : { 
+				"number" : "176", 
+				"name" : "SecuritySettlAgentName", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"177" : { 
+				"number" : "177", 
+				"name" : "SecuritySettlAgentCode", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"178" : { 
+				"number" : "178", 
+				"name" : "SecuritySettlAgentAcctNum", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"179" : { 
+				"number" : "179", 
+				"name" : "SecuritySettlAgentAcctName", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"180" : { 
+				"number" : "180", 
+				"name" : "SecuritySettlAgentContactName", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"181" : { 
+				"number" : "181", 
+				"name" : "SecuritySettlAgentContactPhone", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"182" : { 
+				"number" : "182", 
+				"name" : "CashSettlAgentName", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"183" : { 
+				"number" : "183", 
+				"name" : "CashSettlAgentCode", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"184" : { 
+				"number" : "184", 
+				"name" : "CashSettlAgentAcctNum", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"185" : { 
+				"number" : "185", 
+				"name" : "CashSettlAgentAcctName", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"186" : { 
+				"number" : "186", 
+				"name" : "CashSettlAgentContactName", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"187" : { 
+				"number" : "187", 
+				"name" : "CashSettlAgentContactPhone", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"188" : { 
+				"number" : "188", 
+				"name" : "BidSpotRate", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"189" : { 
+				"number" : "189", 
+				"name" : "BidForwardPoints", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"190" : { 
+				"number" : "190", 
+				"name" : "OfferSpotRate", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"191" : { 
+				"number" : "191", 
+				"name" : "OfferForwardPoints", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"192" : { 
+				"number" : "192", 
+				"name" : "OrderQty2", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"193" : { 
+				"number" : "193", 
+				"name" : "FutSettDate2", 
+				"type" : "DATE", 
+				"values" :  [
+				 ]
+			},
+			"194" : { 
+				"number" : "194", 
+				"name" : "LastSpotRate", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"195" : { 
+				"number" : "195", 
+				"name" : "LastForwardPoints", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"196" : { 
+				"number" : "196", 
+				"name" : "AllocLinkID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"197" : { 
+				"number" : "197", 
+				"name" : "AllocLinkType", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "FX_NETTING" },
+					{ "enum" : "1",  "description" : "FX_SWAP" }
+				 ]
+			},
+			"198" : { 
+				"number" : "198", 
+				"name" : "SecondaryOrderID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"199" : { 
+				"number" : "199", 
+				"name" : "NoIOIQualifiers", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"200" : { 
+				"number" : "200", 
+				"name" : "MaturityMonthYear", 
+				"type" : "MONTHYEAR", 
+				"values" :  [
+				 ]
+			},
+			"201" : { 
+				"number" : "201", 
+				"name" : "PutOrCall", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "PUT" },
+					{ "enum" : "1",  "description" : "CALL" }
+				 ]
+			},
+			"202" : { 
+				"number" : "202", 
+				"name" : "StrikePrice", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			},
+			"203" : { 
+				"number" : "203", 
+				"name" : "CoveredOrUncovered", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "COVERED" },
+					{ "enum" : "1",  "description" : "UNCOVERED" }
+				 ]
+			},
+			"204" : { 
+				"number" : "204", 
+				"name" : "CustomerOrFirm", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "CUSTOMER" },
+					{ "enum" : "1",  "description" : "FIRM" }
+				 ]
+			},
+			"205" : { 
+				"number" : "205", 
+				"name" : "MaturityDay", 
+				"type" : "DAYOFMONTH", 
+				"values" :  [
+				 ]
+			},
+			"206" : { 
+				"number" : "206", 
+				"name" : "OptAttribute", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"207" : { 
+				"number" : "207", 
+				"name" : "SecurityExchange", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"208" : { 
+				"number" : "208", 
+				"name" : "NotifyBrokerOfCredit", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "Y",  "description" : "DETAILS_SHOULD_BE_COMMUNICATED" },
+					{ "enum" : "N",  "description" : "DETAILS_SHOULD_NOT_BE_COMMUNICATED" }
+				 ]
+			},
+			"209" : { 
+				"number" : "209", 
+				"name" : "AllocHandlInst", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "1",  "description" : "MATCH" },
+					{ "enum" : "2",  "description" : "FORWARD" },
+					{ "enum" : "3",  "description" : "FORWARD_AND_MATCH" }
+				 ]
+			},
+			"210" : { 
+				"number" : "210", 
+				"name" : "MaxShow", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"211" : { 
+				"number" : "211", 
+				"name" : "PegDifference", 
+				"type" : "FLOAT", 
+				"values" :  [
+				 ]
+			}
+		}
+		,
+		"header" : { 
+			"BeginString" : { "type" : "field", "name" : "BeginString", "required" : true},
+			"BodyLength" : { "type" : "field", "name" : "BodyLength", "required" : true},
+			"MsgType" : { "type" : "field", "name" : "MsgType", "required" : true},
+			"SenderCompID" : { "type" : "field", "name" : "SenderCompID", "required" : true},
+			"TargetCompID" : { "type" : "field", "name" : "TargetCompID", "required" : true},
+			"OnBehalfOfCompID" : { "type" : "field", "name" : "OnBehalfOfCompID", "required" : false},
+			"DeliverToCompID" : { "type" : "field", "name" : "DeliverToCompID", "required" : false},
+			"SecureDataLen" : { "type" : "field", "name" : "SecureDataLen", "required" : false},
+			"SecureData" : { "type" : "field", "name" : "SecureData", "required" : false},
+			"MsgSeqNum" : { "type" : "field", "name" : "MsgSeqNum", "required" : true},
+			"SenderSubID" : { "type" : "field", "name" : "SenderSubID", "required" : false},
+			"SenderLocationID" : { "type" : "field", "name" : "SenderLocationID", "required" : false},
+			"TargetSubID" : { "type" : "field", "name" : "TargetSubID", "required" : false},
+			"TargetLocationID" : { "type" : "field", "name" : "TargetLocationID", "required" : false},
+			"OnBehalfOfSubID" : { "type" : "field", "name" : "OnBehalfOfSubID", "required" : false},
+			"OnBehalfOfLocationID" : { "type" : "field", "name" : "OnBehalfOfLocationID", "required" : false},
+			"DeliverToSubID" : { "type" : "field", "name" : "DeliverToSubID", "required" : false},
+			"DeliverToLocationID" : { "type" : "field", "name" : "DeliverToLocationID", "required" : false},
+			"PossDupFlag" : { "type" : "field", "name" : "PossDupFlag", "required" : false},
+			"PossResend" : { "type" : "field", "name" : "PossResend", "required" : false},
+			"SendingTime" : { "type" : "field", "name" : "SendingTime", "required" : true},
+			"OrigSendingTime" : { "type" : "field", "name" : "OrigSendingTime", "required" : false}
+		}
+		,
+		"trailer" : { 
+			"SignatureLength" : { "type" : "field", "name" : "SignatureLength", "required" : false},
+			"Signature" : { "type" : "field", "name" : "Signature", "required" : false},
+			"CheckSum" : { "type" : "field", "name" : "CheckSum", "required" : true}
+		}
+		,
+		"messages" : { 
+			"Heartbeat" : { 
+				"type" : "0", 
+				"category" : "admin", 
+				"name" : "Heartbeat", 
+				"fields" : { 
+					"TestReqID" : { "type" : "field", "name" : "TestReqID", "required" : false}
+				} 
+			},
+			"Logon" : { 
+				"type" : "A", 
+				"category" : "admin", 
+				"name" : "Logon", 
+				"fields" : { 
+					"EncryptMethod" : { "type" : "field", "name" : "EncryptMethod", "required" : true},
+					"HeartBtInt" : { "type" : "field", "name" : "HeartBtInt", "required" : true},
+					"RawDataLength" : { "type" : "field", "name" : "RawDataLength", "required" : false},
+					"RawData" : { "type" : "field", "name" : "RawData", "required" : false},
+					"ResetSeqNumFlag" : { "type" : "field", "name" : "ResetSeqNumFlag", "required" : false}
+				} 
+			},
+			"TestRequest" : { 
+				"type" : "1", 
+				"category" : "admin", 
+				"name" : "TestRequest", 
+				"fields" : { 
+					"TestReqID" : { "type" : "field", "name" : "TestReqID", "required" : true}
+				} 
+			},
+			"ResendRequest" : { 
+				"type" : "2", 
+				"category" : "admin", 
+				"name" : "ResendRequest", 
+				"fields" : { 
+					"BeginSeqNo" : { "type" : "field", "name" : "BeginSeqNo", "required" : true},
+					"EndSeqNo" : { "type" : "field", "name" : "EndSeqNo", "required" : true}
+				} 
+			},
+			"Reject" : { 
+				"type" : "3", 
+				"category" : "admin", 
+				"name" : "Reject", 
+				"fields" : { 
+					"RefSeqNum" : { "type" : "field", "name" : "RefSeqNum", "required" : true},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"SequenceReset" : { 
+				"type" : "4", 
+				"category" : "admin", 
+				"name" : "SequenceReset", 
+				"fields" : { 
+					"GapFillFlag" : { "type" : "field", "name" : "GapFillFlag", "required" : false},
+					"NewSeqNo" : { "type" : "field", "name" : "NewSeqNo", "required" : true}
+				} 
+			},
+			"Logout" : { 
+				"type" : "5", 
+				"category" : "admin", 
+				"name" : "Logout", 
+				"fields" : { 
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"Advertisement" : { 
+				"type" : "7", 
+				"category" : "app", 
+				"name" : "Advertisement", 
+				"fields" : { 
+					"AdvId" : { "type" : "field", "name" : "AdvId", "required" : true},
+					"AdvTransType" : { "type" : "field", "name" : "AdvTransType", "required" : true},
+					"AdvRefID" : { "type" : "field", "name" : "AdvRefID", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"AdvSide" : { "type" : "field", "name" : "AdvSide", "required" : true},
+					"Shares" : { "type" : "field", "name" : "Shares", "required" : true},
+					"Price" : { "type" : "field", "name" : "Price", "required" : false},
+					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
+					"TradeDate" : { "type" : "field", "name" : "TradeDate", "required" : false},
+					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"URLLink" : { "type" : "field", "name" : "URLLink", "required" : false},
+					"LastMkt" : { "type" : "field", "name" : "LastMkt", "required" : false}
+				} 
+			},
+			"IndicationofInterest" : { 
+				"type" : "6", 
+				"category" : "app", 
+				"name" : "IndicationofInterest", 
+				"fields" : { 
+					"IOIid" : { "type" : "field", "name" : "IOIid", "required" : true},
+					"IOITransType" : { "type" : "field", "name" : "IOITransType", "required" : true},
+					"IOIRefID" : { "type" : "field", "name" : "IOIRefID", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"IOIShares" : { "type" : "field", "name" : "IOIShares", "required" : true},
+					"Price" : { "type" : "field", "name" : "Price", "required" : false},
+					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
+					"ValidUntilTime" : { "type" : "field", "name" : "ValidUntilTime", "required" : false},
+					"IOIQltyInd" : { "type" : "field", "name" : "IOIQltyInd", "required" : false},
+					"IOIOthSvc" : { "type" : "field", "name" : "IOIOthSvc", "required" : false},
+					"IOINaturalFlag" : { "type" : "field", "name" : "IOINaturalFlag", "required" : false},
+					"NoIOIQualifiers" : { "type" : "group", "name" : "NoIOIQualifiers", "required" : false,
+						"fields" : { 
+ 							"IOIQualifier" : { "type" : "field", "name" : "IOIQualifier", "required" : false}
+						}
+ 					},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false},
+					"URLLink" : { "type" : "field", "name" : "URLLink", "required" : false}
+				} 
+			},
+			"News" : { 
+				"type" : "B", 
+				"category" : "app", 
+				"name" : "News", 
+				"fields" : { 
+					"OrigTime" : { "type" : "field", "name" : "OrigTime", "required" : false},
+					"Urgency" : { "type" : "field", "name" : "Urgency", "required" : false},
+					"Headline" : { "type" : "field", "name" : "Headline", "required" : true},
+					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : false,
+						"fields" : { 
+ 							"RelatdSym" : { "type" : "field", "name" : "RelatdSym", "required" : false},
+							"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+							"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+							"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+							"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+							"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+							"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+							"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+							"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+							"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+							"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+							"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+							"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false}
+						}
+ 					},
+					"LinesOfText" : { "type" : "group", "name" : "LinesOfText", "required" : true,
+						"fields" : { 
+ 							"Text" : { "type" : "field", "name" : "Text", "required" : true}
+						}
+ 					},
+					"URLLink" : { "type" : "field", "name" : "URLLink", "required" : false},
+					"RawDataLength" : { "type" : "field", "name" : "RawDataLength", "required" : false},
+					"RawData" : { "type" : "field", "name" : "RawData", "required" : false}
+				} 
+			},
+			"Email" : { 
+				"type" : "C", 
+				"category" : "app", 
+				"name" : "Email", 
+				"fields" : { 
+					"EmailThreadID" : { "type" : "field", "name" : "EmailThreadID", "required" : true},
+					"EmailType" : { "type" : "field", "name" : "EmailType", "required" : true},
+					"OrigTime" : { "type" : "field", "name" : "OrigTime", "required" : false},
+					"Subject" : { "type" : "field", "name" : "Subject", "required" : true},
+					"NoRelatedSym" : { "type" : "group", "name" : "NoRelatedSym", "required" : false,
+						"fields" : { 
+ 							"RelatdSym" : { "type" : "field", "name" : "RelatdSym", "required" : false},
+							"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+							"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+							"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+							"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+							"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+							"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+							"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+							"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+							"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+							"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+							"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+							"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false}
+						}
+ 					},
+					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
+					"LinesOfText" : { "type" : "group", "name" : "LinesOfText", "required" : true,
+						"fields" : { 
+ 							"Text" : { "type" : "field", "name" : "Text", "required" : true}
+						}
+ 					},
+					"RawDataLength" : { "type" : "field", "name" : "RawDataLength", "required" : false},
+					"RawData" : { "type" : "field", "name" : "RawData", "required" : false}
+				} 
+			},
+			"QuoteRequest" : { 
+				"type" : "R", 
+				"category" : "app", 
+				"name" : "QuoteRequest", 
+				"fields" : { 
+					"QuoteReqID" : { "type" : "field", "name" : "QuoteReqID", "required" : true},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"PrevClosePx" : { "type" : "field", "name" : "PrevClosePx", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : false},
+					"OrderQty" : { "type" : "field", "name" : "OrderQty", "required" : false},
+					"FutSettDate" : { "type" : "field", "name" : "FutSettDate", "required" : false},
+					"OrdType" : { "type" : "field", "name" : "OrdType", "required" : false},
+					"FutSettDate2" : { "type" : "field", "name" : "FutSettDate2", "required" : false},
+					"OrderQty2" : { "type" : "field", "name" : "OrderQty2", "required" : false}
+				} 
+			},
+			"Quote" : { 
+				"type" : "S", 
+				"category" : "app", 
+				"name" : "Quote", 
+				"fields" : { 
+					"QuoteReqID" : { "type" : "field", "name" : "QuoteReqID", "required" : false},
+					"QuoteID" : { "type" : "field", "name" : "QuoteID", "required" : true},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"BidPx" : { "type" : "field", "name" : "BidPx", "required" : false},
+					"OfferPx" : { "type" : "field", "name" : "OfferPx", "required" : false},
+					"BidSize" : { "type" : "field", "name" : "BidSize", "required" : false},
+					"OfferSize" : { "type" : "field", "name" : "OfferSize", "required" : false},
+					"ValidUntilTime" : { "type" : "field", "name" : "ValidUntilTime", "required" : false},
+					"BidSpotRate" : { "type" : "field", "name" : "BidSpotRate", "required" : false},
+					"OfferSpotRate" : { "type" : "field", "name" : "OfferSpotRate", "required" : false},
+					"BidForwardPoints" : { "type" : "field", "name" : "BidForwardPoints", "required" : false},
+					"OfferForwardPoints" : { "type" : "field", "name" : "OfferForwardPoints", "required" : false},
+					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false},
+					"FutSettDate" : { "type" : "field", "name" : "FutSettDate", "required" : false},
+					"OrdType" : { "type" : "field", "name" : "OrdType", "required" : false},
+					"FutSettDate2" : { "type" : "field", "name" : "FutSettDate2", "required" : false},
+					"OrderQty2" : { "type" : "field", "name" : "OrderQty2", "required" : false}
+				} 
+			},
+			"NewOrderSingle" : { 
+				"type" : "D", 
+				"category" : "app", 
+				"name" : "NewOrderSingle", 
+				"fields" : { 
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"Account" : { "type" : "field", "name" : "Account", "required" : false},
+					"SettlmntTyp" : { "type" : "field", "name" : "SettlmntTyp", "required" : false},
+					"FutSettDate" : { "type" : "field", "name" : "FutSettDate", "required" : false},
+					"HandlInst" : { "type" : "field", "name" : "HandlInst", "required" : true},
+					"ExecInst" : { "type" : "field", "name" : "ExecInst", "required" : false},
+					"MinQty" : { "type" : "field", "name" : "MinQty", "required" : false},
+					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
+					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
+					"ProcessCode" : { "type" : "field", "name" : "ProcessCode", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"PrevClosePx" : { "type" : "field", "name" : "PrevClosePx", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"LocateReqd" : { "type" : "field", "name" : "LocateReqd", "required" : false},
+					"OrderQty" : { "type" : "field", "name" : "OrderQty", "required" : false},
+					"CashOrderQty" : { "type" : "field", "name" : "CashOrderQty", "required" : false},
+					"OrdType" : { "type" : "field", "name" : "OrdType", "required" : true},
+					"Price" : { "type" : "field", "name" : "Price", "required" : false},
+					"StopPx" : { "type" : "field", "name" : "StopPx", "required" : false},
+					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
+					"IOIid" : { "type" : "field", "name" : "IOIid", "required" : false},
+					"QuoteID" : { "type" : "field", "name" : "QuoteID", "required" : false},
+					"TimeInForce" : { "type" : "field", "name" : "TimeInForce", "required" : false},
+					"ExpireTime" : { "type" : "field", "name" : "ExpireTime", "required" : false},
+					"Commission" : { "type" : "field", "name" : "Commission", "required" : false},
+					"CommType" : { "type" : "field", "name" : "CommType", "required" : false},
+					"Rule80A" : { "type" : "field", "name" : "Rule80A", "required" : false},
+					"ForexReq" : { "type" : "field", "name" : "ForexReq", "required" : false},
+					"SettlCurrency" : { "type" : "field", "name" : "SettlCurrency", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"FutSettDate2" : { "type" : "field", "name" : "FutSettDate2", "required" : false},
+					"OrderQty2" : { "type" : "field", "name" : "OrderQty2", "required" : false},
+					"OpenClose" : { "type" : "field", "name" : "OpenClose", "required" : false},
+					"CoveredOrUncovered" : { "type" : "field", "name" : "CoveredOrUncovered", "required" : false},
+					"CustomerOrFirm" : { "type" : "field", "name" : "CustomerOrFirm", "required" : false},
+					"MaxShow" : { "type" : "field", "name" : "MaxShow", "required" : false},
+					"PegDifference" : { "type" : "field", "name" : "PegDifference", "required" : false}
+				} 
+			},
+			"ExecutionReport" : { 
+				"type" : "8", 
+				"category" : "app", 
+				"name" : "ExecutionReport", 
+				"fields" : { 
+					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : true},
+					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : false},
+					"OrigClOrdID" : { "type" : "field", "name" : "OrigClOrdID", "required" : false},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : false},
+					"ExecID" : { "type" : "field", "name" : "ExecID", "required" : true},
+					"ExecTransType" : { "type" : "field", "name" : "ExecTransType", "required" : true},
+					"ExecRefID" : { "type" : "field", "name" : "ExecRefID", "required" : false},
+					"ExecType" : { "type" : "field", "name" : "ExecType", "required" : true},
+					"OrdStatus" : { "type" : "field", "name" : "OrdStatus", "required" : true},
+					"OrdRejReason" : { "type" : "field", "name" : "OrdRejReason", "required" : false},
+					"Account" : { "type" : "field", "name" : "Account", "required" : false},
+					"SettlmntTyp" : { "type" : "field", "name" : "SettlmntTyp", "required" : false},
+					"FutSettDate" : { "type" : "field", "name" : "FutSettDate", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"OrderQty" : { "type" : "field", "name" : "OrderQty", "required" : true},
+					"OrdType" : { "type" : "field", "name" : "OrdType", "required" : false},
+					"Price" : { "type" : "field", "name" : "Price", "required" : false},
+					"StopPx" : { "type" : "field", "name" : "StopPx", "required" : false},
+					"PegDifference" : { "type" : "field", "name" : "PegDifference", "required" : false},
+					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
+					"TimeInForce" : { "type" : "field", "name" : "TimeInForce", "required" : false},
+					"ExpireTime" : { "type" : "field", "name" : "ExpireTime", "required" : false},
+					"ExecInst" : { "type" : "field", "name" : "ExecInst", "required" : false},
+					"Rule80A" : { "type" : "field", "name" : "Rule80A", "required" : false},
+					"LastShares" : { "type" : "field", "name" : "LastShares", "required" : true},
+					"LastPx" : { "type" : "field", "name" : "LastPx", "required" : true},
+					"LastSpotRate" : { "type" : "field", "name" : "LastSpotRate", "required" : false},
+					"LastForwardPoints" : { "type" : "field", "name" : "LastForwardPoints", "required" : false},
+					"LastMkt" : { "type" : "field", "name" : "LastMkt", "required" : false},
+					"LastCapacity" : { "type" : "field", "name" : "LastCapacity", "required" : false},
+					"LeavesQty" : { "type" : "field", "name" : "LeavesQty", "required" : true},
+					"CumQty" : { "type" : "field", "name" : "CumQty", "required" : true},
+					"AvgPx" : { "type" : "field", "name" : "AvgPx", "required" : true},
+					"TradeDate" : { "type" : "field", "name" : "TradeDate", "required" : false},
+					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false},
+					"ReportToExch" : { "type" : "field", "name" : "ReportToExch", "required" : false},
+					"Commission" : { "type" : "field", "name" : "Commission", "required" : false},
+					"CommType" : { "type" : "field", "name" : "CommType", "required" : false},
+					"SettlCurrAmt" : { "type" : "field", "name" : "SettlCurrAmt", "required" : false},
+					"SettlCurrency" : { "type" : "field", "name" : "SettlCurrency", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"DontKnowTrade" : { 
+				"type" : "Q", 
+				"category" : "app", 
+				"name" : "DontKnowTrade", 
+				"fields" : { 
+					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
+					"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false},
+					"DKReason" : { "type" : "field", "name" : "DKReason", "required" : true},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"OrderQty" : { "type" : "field", "name" : "OrderQty", "required" : false},
+					"CashOrderQty" : { "type" : "field", "name" : "CashOrderQty", "required" : false},
+					"LastShares" : { "type" : "field", "name" : "LastShares", "required" : false},
+					"LastPx" : { "type" : "field", "name" : "LastPx", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"OrderCancelReplaceRequest" : { 
+				"type" : "G", 
+				"category" : "app", 
+				"name" : "OrderCancelReplaceRequest", 
+				"fields" : { 
+					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"OrigClOrdID" : { "type" : "field", "name" : "OrigClOrdID", "required" : true},
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : false},
+					"Account" : { "type" : "field", "name" : "Account", "required" : false},
+					"SettlmntTyp" : { "type" : "field", "name" : "SettlmntTyp", "required" : false},
+					"FutSettDate" : { "type" : "field", "name" : "FutSettDate", "required" : false},
+					"HandlInst" : { "type" : "field", "name" : "HandlInst", "required" : true},
+					"ExecInst" : { "type" : "field", "name" : "ExecInst", "required" : false},
+					"MinQty" : { "type" : "field", "name" : "MinQty", "required" : false},
+					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
+					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"OrderQty" : { "type" : "field", "name" : "OrderQty", "required" : false},
+					"CashOrderQty" : { "type" : "field", "name" : "CashOrderQty", "required" : false},
+					"OrdType" : { "type" : "field", "name" : "OrdType", "required" : true},
+					"Price" : { "type" : "field", "name" : "Price", "required" : false},
+					"StopPx" : { "type" : "field", "name" : "StopPx", "required" : false},
+					"PegDifference" : { "type" : "field", "name" : "PegDifference", "required" : false},
+					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
+					"TimeInForce" : { "type" : "field", "name" : "TimeInForce", "required" : false},
+					"ExpireTime" : { "type" : "field", "name" : "ExpireTime", "required" : false},
+					"Commission" : { "type" : "field", "name" : "Commission", "required" : false},
+					"CommType" : { "type" : "field", "name" : "CommType", "required" : false},
+					"Rule80A" : { "type" : "field", "name" : "Rule80A", "required" : false},
+					"ForexReq" : { "type" : "field", "name" : "ForexReq", "required" : false},
+					"SettlCurrency" : { "type" : "field", "name" : "SettlCurrency", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"FutSettDate2" : { "type" : "field", "name" : "FutSettDate2", "required" : false},
+					"OrderQty2" : { "type" : "field", "name" : "OrderQty2", "required" : false},
+					"OpenClose" : { "type" : "field", "name" : "OpenClose", "required" : false},
+					"CoveredOrUncovered" : { "type" : "field", "name" : "CoveredOrUncovered", "required" : false},
+					"CustomerOrFirm" : { "type" : "field", "name" : "CustomerOrFirm", "required" : false},
+					"MaxShow" : { "type" : "field", "name" : "MaxShow", "required" : false},
+					"LocateReqd" : { "type" : "field", "name" : "LocateReqd", "required" : false}
+				} 
+			},
+			"OrderCancelRequest" : { 
+				"type" : "F", 
+				"category" : "app", 
+				"name" : "OrderCancelRequest", 
+				"fields" : { 
+					"OrigClOrdID" : { "type" : "field", "name" : "OrigClOrdID", "required" : true},
+					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : false},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"OrderQty" : { "type" : "field", "name" : "OrderQty", "required" : false},
+					"CashOrderQty" : { "type" : "field", "name" : "CashOrderQty", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"OrderCancelReject" : { 
+				"type" : "9", 
+				"category" : "app", 
+				"name" : "OrderCancelReject", 
+				"fields" : { 
+					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : true},
+					"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+					"OrigClOrdID" : { "type" : "field", "name" : "OrigClOrdID", "required" : true},
+					"OrdStatus" : { "type" : "field", "name" : "OrdStatus", "required" : true},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : false},
+					"CxlRejReason" : { "type" : "field", "name" : "CxlRejReason", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"OrderStatusRequest" : { 
+				"type" : "H", 
+				"category" : "app", 
+				"name" : "OrderStatusRequest", 
+				"fields" : { 
+					"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true}
+				} 
+			},
+			"Allocation" : { 
+				"type" : "J", 
+				"category" : "app", 
+				"name" : "Allocation", 
+				"fields" : { 
+					"AllocID" : { "type" : "field", "name" : "AllocID", "required" : true},
+					"AllocTransType" : { "type" : "field", "name" : "AllocTransType", "required" : true},
+					"RefAllocID" : { "type" : "field", "name" : "RefAllocID", "required" : false},
+					"AllocLinkID" : { "type" : "field", "name" : "AllocLinkID", "required" : false},
+					"AllocLinkType" : { "type" : "field", "name" : "AllocLinkType", "required" : false},
+					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : true,
+						"fields" : { 
+ 							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+							"OrderID" : { "type" : "field", "name" : "OrderID", "required" : false},
+							"SecondaryOrderID" : { "type" : "field", "name" : "SecondaryOrderID", "required" : false},
+							"ListID" : { "type" : "field", "name" : "ListID", "required" : false},
+							"WaveNo" : { "type" : "field", "name" : "WaveNo", "required" : false}
+						}
+ 					},
+					"NoExecs" : { "type" : "group", "name" : "NoExecs", "required" : false,
+						"fields" : { 
+ 							"LastShares" : { "type" : "field", "name" : "LastShares", "required" : false},
+							"ExecID" : { "type" : "field", "name" : "ExecID", "required" : false},
+							"LastPx" : { "type" : "field", "name" : "LastPx", "required" : false},
+							"LastCapacity" : { "type" : "field", "name" : "LastCapacity", "required" : false}
+						}
+ 					},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"Shares" : { "type" : "field", "name" : "Shares", "required" : true},
+					"LastMkt" : { "type" : "field", "name" : "LastMkt", "required" : false},
+					"AvgPx" : { "type" : "field", "name" : "AvgPx", "required" : true},
+					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
+					"AvgPrxPrecision" : { "type" : "field", "name" : "AvgPrxPrecision", "required" : false},
+					"TradeDate" : { "type" : "field", "name" : "TradeDate", "required" : true},
+					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false},
+					"SettlmntTyp" : { "type" : "field", "name" : "SettlmntTyp", "required" : false},
+					"FutSettDate" : { "type" : "field", "name" : "FutSettDate", "required" : false},
+					"NetMoney" : { "type" : "field", "name" : "NetMoney", "required" : false},
+					"OpenClose" : { "type" : "field", "name" : "OpenClose", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"NumDaysInterest" : { "type" : "field", "name" : "NumDaysInterest", "required" : false},
+					"AccruedInterestRate" : { "type" : "field", "name" : "AccruedInterestRate", "required" : false},
+					"NoAllocs" : { "type" : "group", "name" : "NoAllocs", "required" : true,
+						"fields" : { 
+ 							"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : true},
+							"AllocShares" : { "type" : "field", "name" : "AllocShares", "required" : true},
+							"ProcessCode" : { "type" : "field", "name" : "ProcessCode", "required" : false},
+							"BrokerOfCredit" : { "type" : "field", "name" : "BrokerOfCredit", "required" : false},
+							"NotifyBrokerOfCredit" : { "type" : "field", "name" : "NotifyBrokerOfCredit", "required" : false},
+							"AllocHandlInst" : { "type" : "field", "name" : "AllocHandlInst", "required" : false},
+							"AllocText" : { "type" : "field", "name" : "AllocText", "required" : false},
+							"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+							"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+							"Commission" : { "type" : "field", "name" : "Commission", "required" : false},
+							"CommType" : { "type" : "field", "name" : "CommType", "required" : false},
+							"AllocAvgPx" : { "type" : "field", "name" : "AllocAvgPx", "required" : false},
+							"AllocNetMoney" : { "type" : "field", "name" : "AllocNetMoney", "required" : false},
+							"SettlCurrAmt" : { "type" : "field", "name" : "SettlCurrAmt", "required" : false},
+							"SettlCurrency" : { "type" : "field", "name" : "SettlCurrency", "required" : false},
+							"SettlCurrFxRate" : { "type" : "field", "name" : "SettlCurrFxRate", "required" : false},
+							"SettlCurrFxRateCalc" : { "type" : "field", "name" : "SettlCurrFxRateCalc", "required" : false},
+							"AccruedInterestAmt" : { "type" : "field", "name" : "AccruedInterestAmt", "required" : false},
+							"SettlInstMode" : { "type" : "field", "name" : "SettlInstMode", "required" : false},
+							"NoMiscFees" : { "type" : "group", "name" : "NoMiscFees", "required" : false,
+								"fields" : { 
+ 									"MiscFeeAmt" : { "type" : "field", "name" : "MiscFeeAmt", "required" : false},
+									"MiscFeeCurr" : { "type" : "field", "name" : "MiscFeeCurr", "required" : false},
+									"MiscFeeType" : { "type" : "field", "name" : "MiscFeeType", "required" : false}
+								}
+ 							}
+						}
+ 					}
+				} 
+			},
+			"AllocationACK" : { 
+				"type" : "P", 
+				"category" : "app", 
+				"name" : "AllocationACK", 
+				"fields" : { 
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"AllocID" : { "type" : "field", "name" : "AllocID", "required" : true},
+					"TradeDate" : { "type" : "field", "name" : "TradeDate", "required" : true},
+					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : false},
+					"AllocStatus" : { "type" : "field", "name" : "AllocStatus", "required" : true},
+					"AllocRejCode" : { "type" : "field", "name" : "AllocRejCode", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"SettlementInstructions" : { 
+				"type" : "T", 
+				"category" : "app", 
+				"name" : "SettlementInstructions", 
+				"fields" : { 
+					"SettlInstID" : { "type" : "field", "name" : "SettlInstID", "required" : true},
+					"SettlInstTransType" : { "type" : "field", "name" : "SettlInstTransType", "required" : true},
+					"SettlInstMode" : { "type" : "field", "name" : "SettlInstMode", "required" : true},
+					"SettlInstSource" : { "type" : "field", "name" : "SettlInstSource", "required" : true},
+					"AllocAccount" : { "type" : "field", "name" : "AllocAccount", "required" : true},
+					"SettlLocation" : { "type" : "field", "name" : "SettlLocation", "required" : false},
+					"TradeDate" : { "type" : "field", "name" : "TradeDate", "required" : false},
+					"AllocID" : { "type" : "field", "name" : "AllocID", "required" : false},
+					"LastMkt" : { "type" : "field", "name" : "LastMkt", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"EffectiveTime" : { "type" : "field", "name" : "EffectiveTime", "required" : false},
+					"TransactTime" : { "type" : "field", "name" : "TransactTime", "required" : true},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"StandInstDbType" : { "type" : "field", "name" : "StandInstDbType", "required" : false},
+					"StandInstDbName" : { "type" : "field", "name" : "StandInstDbName", "required" : false},
+					"StandInstDbID" : { "type" : "field", "name" : "StandInstDbID", "required" : false},
+					"SettlDeliveryType" : { "type" : "field", "name" : "SettlDeliveryType", "required" : false},
+					"SettlDepositoryCode" : { "type" : "field", "name" : "SettlDepositoryCode", "required" : false},
+					"SettlBrkrCode" : { "type" : "field", "name" : "SettlBrkrCode", "required" : false},
+					"SettlInstCode" : { "type" : "field", "name" : "SettlInstCode", "required" : false},
+					"SecuritySettlAgentName" : { "type" : "field", "name" : "SecuritySettlAgentName", "required" : false},
+					"SecuritySettlAgentCode" : { "type" : "field", "name" : "SecuritySettlAgentCode", "required" : false},
+					"SecuritySettlAgentAcctNum" : { "type" : "field", "name" : "SecuritySettlAgentAcctNum", "required" : false},
+					"SecuritySettlAgentAcctName" : { "type" : "field", "name" : "SecuritySettlAgentAcctName", "required" : false},
+					"SecuritySettlAgentContactName" : { "type" : "field", "name" : "SecuritySettlAgentContactName", "required" : false},
+					"SecuritySettlAgentContactPhone" : { "type" : "field", "name" : "SecuritySettlAgentContactPhone", "required" : false},
+					"CashSettlAgentName" : { "type" : "field", "name" : "CashSettlAgentName", "required" : false},
+					"CashSettlAgentCode" : { "type" : "field", "name" : "CashSettlAgentCode", "required" : false},
+					"CashSettlAgentAcctNum" : { "type" : "field", "name" : "CashSettlAgentAcctNum", "required" : false},
+					"CashSettlAgentAcctName" : { "type" : "field", "name" : "CashSettlAgentAcctName", "required" : false},
+					"CashSettlAgentContactName" : { "type" : "field", "name" : "CashSettlAgentContactName", "required" : false},
+					"CashSettlAgentContactPhone" : { "type" : "field", "name" : "CashSettlAgentContactPhone", "required" : false}
+				} 
+			},
+			"NewOrderList" : { 
+				"type" : "E", 
+				"category" : "app", 
+				"name" : "NewOrderList", 
+				"fields" : { 
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : true},
+					"WaveNo" : { "type" : "field", "name" : "WaveNo", "required" : false},
+					"ListSeqNo" : { "type" : "field", "name" : "ListSeqNo", "required" : true},
+					"ListNoOrds" : { "type" : "field", "name" : "ListNoOrds", "required" : true},
+					"ListExecInst" : { "type" : "field", "name" : "ListExecInst", "required" : false},
+					"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+					"ClientID" : { "type" : "field", "name" : "ClientID", "required" : false},
+					"ExecBroker" : { "type" : "field", "name" : "ExecBroker", "required" : false},
+					"Account" : { "type" : "field", "name" : "Account", "required" : false},
+					"SettlmntTyp" : { "type" : "field", "name" : "SettlmntTyp", "required" : false},
+					"FutSettDate" : { "type" : "field", "name" : "FutSettDate", "required" : false},
+					"HandlInst" : { "type" : "field", "name" : "HandlInst", "required" : true},
+					"ExecInst" : { "type" : "field", "name" : "ExecInst", "required" : false},
+					"MinQty" : { "type" : "field", "name" : "MinQty", "required" : false},
+					"MaxFloor" : { "type" : "field", "name" : "MaxFloor", "required" : false},
+					"ExDestination" : { "type" : "field", "name" : "ExDestination", "required" : false},
+					"ProcessCode" : { "type" : "field", "name" : "ProcessCode", "required" : false},
+					"Symbol" : { "type" : "field", "name" : "Symbol", "required" : true},
+					"SymbolSfx" : { "type" : "field", "name" : "SymbolSfx", "required" : false},
+					"SecurityID" : { "type" : "field", "name" : "SecurityID", "required" : false},
+					"IDSource" : { "type" : "field", "name" : "IDSource", "required" : false},
+					"SecurityType" : { "type" : "field", "name" : "SecurityType", "required" : false},
+					"MaturityMonthYear" : { "type" : "field", "name" : "MaturityMonthYear", "required" : false},
+					"MaturityDay" : { "type" : "field", "name" : "MaturityDay", "required" : false},
+					"PutOrCall" : { "type" : "field", "name" : "PutOrCall", "required" : false},
+					"StrikePrice" : { "type" : "field", "name" : "StrikePrice", "required" : false},
+					"OptAttribute" : { "type" : "field", "name" : "OptAttribute", "required" : false},
+					"SecurityExchange" : { "type" : "field", "name" : "SecurityExchange", "required" : false},
+					"Issuer" : { "type" : "field", "name" : "Issuer", "required" : false},
+					"SecurityDesc" : { "type" : "field", "name" : "SecurityDesc", "required" : false},
+					"PrevClosePx" : { "type" : "field", "name" : "PrevClosePx", "required" : false},
+					"Side" : { "type" : "field", "name" : "Side", "required" : true},
+					"LocateReqd" : { "type" : "field", "name" : "LocateReqd", "required" : false},
+					"OrderQty" : { "type" : "field", "name" : "OrderQty", "required" : true},
+					"OrdType" : { "type" : "field", "name" : "OrdType", "required" : true},
+					"Price" : { "type" : "field", "name" : "Price", "required" : false},
+					"StopPx" : { "type" : "field", "name" : "StopPx", "required" : false},
+					"PegDifference" : { "type" : "field", "name" : "PegDifference", "required" : false},
+					"Currency" : { "type" : "field", "name" : "Currency", "required" : false},
+					"TimeInForce" : { "type" : "field", "name" : "TimeInForce", "required" : false},
+					"ExpireTime" : { "type" : "field", "name" : "ExpireTime", "required" : false},
+					"Commission" : { "type" : "field", "name" : "Commission", "required" : false},
+					"CommType" : { "type" : "field", "name" : "CommType", "required" : false},
+					"Rule80A" : { "type" : "field", "name" : "Rule80A", "required" : false},
+					"ForexReq" : { "type" : "field", "name" : "ForexReq", "required" : false},
+					"SettlCurrency" : { "type" : "field", "name" : "SettlCurrency", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"FutSettDate2" : { "type" : "field", "name" : "FutSettDate2", "required" : false},
+					"OrderQty2" : { "type" : "field", "name" : "OrderQty2", "required" : false},
+					"OpenClose" : { "type" : "field", "name" : "OpenClose", "required" : false},
+					"CoveredOrUncovered" : { "type" : "field", "name" : "CoveredOrUncovered", "required" : false},
+					"CustomerOrFirm" : { "type" : "field", "name" : "CustomerOrFirm", "required" : false},
+					"MaxShow" : { "type" : "field", "name" : "MaxShow", "required" : false}
+				} 
+			},
+			"ListStatus" : { 
+				"type" : "N", 
+				"category" : "app", 
+				"name" : "ListStatus", 
+				"fields" : { 
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : true},
+					"WaveNo" : { "type" : "field", "name" : "WaveNo", "required" : false},
+					"NoRpts" : { "type" : "field", "name" : "NoRpts", "required" : true},
+					"RptSeq" : { "type" : "field", "name" : "RptSeq", "required" : true},
+					"NoOrders" : { "type" : "group", "name" : "NoOrders", "required" : true,
+						"fields" : { 
+ 							"ClOrdID" : { "type" : "field", "name" : "ClOrdID", "required" : true},
+							"CumQty" : { "type" : "field", "name" : "CumQty", "required" : true},
+							"LeavesQty" : { "type" : "field", "name" : "LeavesQty", "required" : true},
+							"CxlQty" : { "type" : "field", "name" : "CxlQty", "required" : true},
+							"AvgPx" : { "type" : "field", "name" : "AvgPx", "required" : true}
+						}
+ 					}
+				} 
+			},
+			"ListExecute" : { 
+				"type" : "L", 
+				"category" : "app", 
+				"name" : "ListExecute", 
+				"fields" : { 
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : true},
+					"WaveNo" : { "type" : "field", "name" : "WaveNo", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"ListCancelRequest" : { 
+				"type" : "K", 
+				"category" : "app", 
+				"name" : "ListCancelRequest", 
+				"fields" : { 
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : true},
+					"WaveNo" : { "type" : "field", "name" : "WaveNo", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			},
+			"ListStatusRequest" : { 
+				"type" : "M", 
+				"category" : "app", 
+				"name" : "ListStatusRequest", 
+				"fields" : { 
+					"ListID" : { "type" : "field", "name" : "ListID", "required" : true},
+					"WaveNo" : { "type" : "field", "name" : "WaveNo", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false}
+				} 
+			}
+		}
+		,
+		"components" : {
+		}
+	}
+}

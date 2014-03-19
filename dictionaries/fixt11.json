@@ -1,0 +1,727 @@
+{	"fix" : { 
+		"major" : "1", 
+		"minor" : "1", 
+		"fields" : { 
+			"7" : { 
+				"number" : "7", 
+				"name" : "BeginSeqNo", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"8" : { 
+				"number" : "8", 
+				"name" : "BeginString", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"9" : { 
+				"number" : "9", 
+				"name" : "BodyLength", 
+				"type" : "LENGTH", 
+				"values" :  [
+				 ]
+			},
+			"10" : { 
+				"number" : "10", 
+				"name" : "CheckSum", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"16" : { 
+				"number" : "16", 
+				"name" : "EndSeqNo", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"34" : { 
+				"number" : "34", 
+				"name" : "MsgSeqNum", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"35" : { 
+				"number" : "35", 
+				"name" : "MsgType", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "HEARTBEAT" },
+					{ "enum" : "1",  "description" : "TEST_REQUEST" },
+					{ "enum" : "2",  "description" : "RESEND_REQUEST" },
+					{ "enum" : "3",  "description" : "REJECT" },
+					{ "enum" : "4",  "description" : "SEQUENCE_RESET" },
+					{ "enum" : "5",  "description" : "LOGOUT" },
+					{ "enum" : "6",  "description" : "INDICATION_OF_INTEREST" },
+					{ "enum" : "7",  "description" : "ADVERTISEMENT" },
+					{ "enum" : "8",  "description" : "EXECUTION_REPORT" },
+					{ "enum" : "9",  "description" : "ORDER_CANCEL_REJECT" },
+					{ "enum" : "A",  "description" : "LOGON" },
+					{ "enum" : "B",  "description" : "NEWS" },
+					{ "enum" : "C",  "description" : "EMAIL" },
+					{ "enum" : "D",  "description" : "ORDER_SINGLE" },
+					{ "enum" : "E",  "description" : "ORDER_LIST" },
+					{ "enum" : "F",  "description" : "ORDER_CANCEL_REQUEST" },
+					{ "enum" : "G",  "description" : "ORDER_CANCEL_REPLACE_REQUEST" },
+					{ "enum" : "H",  "description" : "ORDER_STATUS_REQUEST" },
+					{ "enum" : "J",  "description" : "ALLOCATION_INSTRUCTION" },
+					{ "enum" : "K",  "description" : "LIST_CANCEL_REQUEST" },
+					{ "enum" : "L",  "description" : "LIST_EXECUTE" },
+					{ "enum" : "M",  "description" : "LIST_STATUS_REQUEST" },
+					{ "enum" : "N",  "description" : "LIST_STATUS" },
+					{ "enum" : "P",  "description" : "ALLOCATION_INSTRUCTION_ACK" },
+					{ "enum" : "Q",  "description" : "DONT_KNOW_TRADE" },
+					{ "enum" : "R",  "description" : "QUOTE_REQUEST" },
+					{ "enum" : "S",  "description" : "QUOTE" },
+					{ "enum" : "T",  "description" : "SETTLEMENT_INSTRUCTIONS" },
+					{ "enum" : "V",  "description" : "MARKET_DATA_REQUEST" },
+					{ "enum" : "W",  "description" : "MARKET_DATA_SNAPSHOT_FULL_REFRESH" },
+					{ "enum" : "X",  "description" : "MARKET_DATA_INCREMENTAL_REFRESH" },
+					{ "enum" : "Y",  "description" : "MARKET_DATA_REQUEST_REJECT" },
+					{ "enum" : "Z",  "description" : "QUOTE_CANCEL" },
+					{ "enum" : "a",  "description" : "QUOTE_STATUS_REQUEST" },
+					{ "enum" : "b",  "description" : "MASS_QUOTE_ACKNOWLEDGEMENT" },
+					{ "enum" : "c",  "description" : "SECURITY_DEFINITION_REQUEST" },
+					{ "enum" : "d",  "description" : "SECURITY_DEFINITION" },
+					{ "enum" : "e",  "description" : "SECURITY_STATUS_REQUEST" },
+					{ "enum" : "f",  "description" : "SECURITY_STATUS" },
+					{ "enum" : "g",  "description" : "TRADING_SESSION_STATUS_REQUEST" },
+					{ "enum" : "h",  "description" : "TRADING_SESSION_STATUS" },
+					{ "enum" : "i",  "description" : "MASS_QUOTE" },
+					{ "enum" : "j",  "description" : "BUSINESS_MESSAGE_REJECT" },
+					{ "enum" : "k",  "description" : "BID_REQUEST" },
+					{ "enum" : "l",  "description" : "BID_RESPONSE" },
+					{ "enum" : "m",  "description" : "LIST_STRIKE_PRICE" },
+					{ "enum" : "n",  "description" : "XML_MESSAGE" },
+					{ "enum" : "o",  "description" : "REGISTRATION_INSTRUCTIONS" },
+					{ "enum" : "p",  "description" : "REGISTRATION_INSTRUCTIONS_RESPONSE" },
+					{ "enum" : "q",  "description" : "ORDER_MASS_CANCEL_REQUEST" },
+					{ "enum" : "r",  "description" : "ORDER_MASS_CANCEL_REPORT" },
+					{ "enum" : "s",  "description" : "NEW_ORDER_CROSS" },
+					{ "enum" : "t",  "description" : "CROSS_ORDER_CANCEL_REPLACE_REQUEST" },
+					{ "enum" : "u",  "description" : "CROSS_ORDER_CANCEL_REQUEST" },
+					{ "enum" : "v",  "description" : "SECURITY_TYPE_REQUEST" },
+					{ "enum" : "w",  "description" : "SECURITY_TYPES" },
+					{ "enum" : "x",  "description" : "SECURITY_LIST_REQUEST" },
+					{ "enum" : "y",  "description" : "SECURITY_LIST" },
+					{ "enum" : "z",  "description" : "DERIVATIVE_SECURITY_LIST_REQUEST" },
+					{ "enum" : "AA",  "description" : "DERIVATIVE_SECURITY_LIST" },
+					{ "enum" : "AB",  "description" : "NEW_ORDER_MULTILEG" },
+					{ "enum" : "AC",  "description" : "MULTILEG_ORDER_CANCEL_REPLACE" },
+					{ "enum" : "AD",  "description" : "TRADE_CAPTURE_REPORT_REQUEST" },
+					{ "enum" : "AE",  "description" : "TRADE_CAPTURE_REPORT" },
+					{ "enum" : "AF",  "description" : "ORDER_MASS_STATUS_REQUEST" },
+					{ "enum" : "AG",  "description" : "QUOTE_REQUEST_REJECT" },
+					{ "enum" : "AH",  "description" : "RFQ_REQUEST" },
+					{ "enum" : "AI",  "description" : "QUOTE_STATUS_REPORT" },
+					{ "enum" : "AJ",  "description" : "QUOTE_RESPONSE" },
+					{ "enum" : "AK",  "description" : "CONFIRMATION" },
+					{ "enum" : "AL",  "description" : "POSITION_MAINTENANCE_REQUEST" },
+					{ "enum" : "AM",  "description" : "POSITION_MAINTENANCE_REPORT" },
+					{ "enum" : "AN",  "description" : "REQUEST_FOR_POSITIONS" },
+					{ "enum" : "AO",  "description" : "REQUEST_FOR_POSITIONS_ACK" },
+					{ "enum" : "AP",  "description" : "POSITION_REPORT" },
+					{ "enum" : "AQ",  "description" : "TRADE_CAPTURE_REPORT_REQUEST_ACK" },
+					{ "enum" : "AR",  "description" : "TRADE_CAPTURE_REPORT_ACK" },
+					{ "enum" : "AS",  "description" : "ALLOCATION_REPORT" },
+					{ "enum" : "AT",  "description" : "ALLOCATION_REPORT_ACK" },
+					{ "enum" : "AU",  "description" : "CONFIRMATION_ACK" },
+					{ "enum" : "AV",  "description" : "SETTLEMENT_INSTRUCTION_REQUEST" },
+					{ "enum" : "AW",  "description" : "ASSIGNMENT_REPORT" },
+					{ "enum" : "AX",  "description" : "COLLATERAL_REQUEST" },
+					{ "enum" : "AY",  "description" : "COLLATERAL_ASSIGNMENT" },
+					{ "enum" : "AZ",  "description" : "COLLATERAL_RESPONSE" },
+					{ "enum" : "BA",  "description" : "COLLATERAL_REPORT" },
+					{ "enum" : "BB",  "description" : "COLLATERAL_INQUIRY" },
+					{ "enum" : "BC",  "description" : "NETWORK_STATUS_REQUEST" },
+					{ "enum" : "BD",  "description" : "NETWORK_STATUS_RESPONSE" },
+					{ "enum" : "BE",  "description" : "USER_REQUEST" },
+					{ "enum" : "BF",  "description" : "USER_RESPONSE" },
+					{ "enum" : "BG",  "description" : "COLLATERAL_INQUIRY_ACK" },
+					{ "enum" : "BH",  "description" : "CONFIRMATION_REQUEST" },
+					{ "enum" : "BI",  "description" : "TRADING_SESSION_LIST_REQUEST" },
+					{ "enum" : "BJ",  "description" : "TRADING_SESSION_LIST" },
+					{ "enum" : "BK",  "description" : "SECURITY_LIST_UPDATE_REPORT" },
+					{ "enum" : "BL",  "description" : "ADJUSTED_POSITION_REPORT" },
+					{ "enum" : "BM",  "description" : "ALLOCATION_INSTRUCTION_ALERT" },
+					{ "enum" : "BN",  "description" : "EXECUTION_ACKNOWLEDGEMENT" },
+					{ "enum" : "BO",  "description" : "CONTRARY_INTENTION_REPORT" },
+					{ "enum" : "BP",  "description" : "SECURITY_DEFINITION_UPDATE_REPORT" }
+				 ]
+			},
+			"36" : { 
+				"number" : "36", 
+				"name" : "NewSeqNo", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"43" : { 
+				"number" : "43", 
+				"name" : "PossDupFlag", 
+				"type" : "BOOLEAN", 
+				"values" :  [
+				 ]
+			},
+			"45" : { 
+				"number" : "45", 
+				"name" : "RefSeqNum", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"49" : { 
+				"number" : "49", 
+				"name" : "SenderCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"50" : { 
+				"number" : "50", 
+				"name" : "SenderSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"52" : { 
+				"number" : "52", 
+				"name" : "SendingTime", 
+				"type" : "UTCTIMESTAMP", 
+				"values" :  [
+				 ]
+			},
+			"56" : { 
+				"number" : "56", 
+				"name" : "TargetCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"57" : { 
+				"number" : "57", 
+				"name" : "TargetSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"58" : { 
+				"number" : "58", 
+				"name" : "Text", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"89" : { 
+				"number" : "89", 
+				"name" : "Signature", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"90" : { 
+				"number" : "90", 
+				"name" : "SecureDataLen", 
+				"type" : "LENGTH", 
+				"values" :  [
+				 ]
+			},
+			"91" : { 
+				"number" : "91", 
+				"name" : "SecureData", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"93" : { 
+				"number" : "93", 
+				"name" : "SignatureLength", 
+				"type" : "LENGTH", 
+				"values" :  [
+				 ]
+			},
+			"95" : { 
+				"number" : "95", 
+				"name" : "RawDataLength", 
+				"type" : "LENGTH", 
+				"values" :  [
+				 ]
+			},
+			"96" : { 
+				"number" : "96", 
+				"name" : "RawData", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"97" : { 
+				"number" : "97", 
+				"name" : "PossResend", 
+				"type" : "BOOLEAN", 
+				"values" :  [
+				 ]
+			},
+			"98" : { 
+				"number" : "98", 
+				"name" : "EncryptMethod", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "NONE_OTHER" },
+					{ "enum" : "1",  "description" : "PKCS" },
+					{ "enum" : "2",  "description" : "DES" },
+					{ "enum" : "3",  "description" : "PKCS_DES" },
+					{ "enum" : "4",  "description" : "PGP_DES" },
+					{ "enum" : "5",  "description" : "PGP_DES_MD5" },
+					{ "enum" : "6",  "description" : "PEM_DES_MD5" }
+				 ]
+			},
+			"108" : { 
+				"number" : "108", 
+				"name" : "HeartBtInt", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"112" : { 
+				"number" : "112", 
+				"name" : "TestReqID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"115" : { 
+				"number" : "115", 
+				"name" : "OnBehalfOfCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"116" : { 
+				"number" : "116", 
+				"name" : "OnBehalfOfSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"122" : { 
+				"number" : "122", 
+				"name" : "OrigSendingTime", 
+				"type" : "UTCTIMESTAMP", 
+				"values" :  [
+				 ]
+			},
+			"123" : { 
+				"number" : "123", 
+				"name" : "GapFillFlag", 
+				"type" : "BOOLEAN", 
+				"values" :  [
+				 ]
+			},
+			"128" : { 
+				"number" : "128", 
+				"name" : "DeliverToCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"129" : { 
+				"number" : "129", 
+				"name" : "DeliverToSubID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"141" : { 
+				"number" : "141", 
+				"name" : "ResetSeqNumFlag", 
+				"type" : "BOOLEAN", 
+				"values" :  [
+				 ]
+			},
+			"142" : { 
+				"number" : "142", 
+				"name" : "SenderLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"143" : { 
+				"number" : "143", 
+				"name" : "TargetLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"144" : { 
+				"number" : "144", 
+				"name" : "OnBehalfOfLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"145" : { 
+				"number" : "145", 
+				"name" : "DeliverToLocationID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"212" : { 
+				"number" : "212", 
+				"name" : "XmlDataLen", 
+				"type" : "LENGTH", 
+				"values" :  [
+				 ]
+			},
+			"213" : { 
+				"number" : "213", 
+				"name" : "XmlData", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"347" : { 
+				"number" : "347", 
+				"name" : "MessageEncoding", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "ISO-2022-JP",  "description" : "ISO_2022_JP" },
+					{ "enum" : "EUC-JP",  "description" : "EUC_JP" },
+					{ "enum" : "SHIFT_JIS",  "description" : "SHIFT_JIS" },
+					{ "enum" : "UTF-8",  "description" : "UTF_8" }
+				 ]
+			},
+			"354" : { 
+				"number" : "354", 
+				"name" : "EncodedTextLen", 
+				"type" : "LENGTH", 
+				"values" :  [
+				 ]
+			},
+			"355" : { 
+				"number" : "355", 
+				"name" : "EncodedText", 
+				"type" : "DATA", 
+				"values" :  [
+				 ]
+			},
+			"369" : { 
+				"number" : "369", 
+				"name" : "LastMsgSeqNumProcessed", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"371" : { 
+				"number" : "371", 
+				"name" : "RefTagID", 
+				"type" : "INT", 
+				"values" :  [
+				 ]
+			},
+			"372" : { 
+				"number" : "372", 
+				"name" : "RefMsgType", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"373" : { 
+				"number" : "373", 
+				"name" : "SessionRejectReason", 
+				"type" : "INT", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "INVALID_TAG_NUMBER" },
+					{ "enum" : "1",  "description" : "REQUIRED_TAG_MISSING" },
+					{ "enum" : "10",  "description" : "SENDINGTIME_ACCURACY_PROBLEM" },
+					{ "enum" : "11",  "description" : "INVALID_MSGTYPE" },
+					{ "enum" : "12",  "description" : "XML_VALIDATION_ERROR" },
+					{ "enum" : "13",  "description" : "TAG_APPEARS_MORE_THAN_ONCE" },
+					{ "enum" : "14",  "description" : "TAG_SPECIFIED_OUT_OF_REQUIRED_ORDER" },
+					{ "enum" : "15",  "description" : "REPEATING_GROUP_FIELDS_OUT_OF_ORDER" },
+					{ "enum" : "16",  "description" : "INCORRECT_NUMINGROUP_COUNT_FOR_REPEATING_GROUP" },
+					{ "enum" : "17",  "description" : "NON_DATA_VALUE_INCLUDES_FIELD_DELIMITER" },
+					{ "enum" : "2",  "description" : "TAG_NOT_DEFINED_FOR_THIS_MESSAGE_TYPE" },
+					{ "enum" : "3",  "description" : "UNDEFINED_TAG" },
+					{ "enum" : "4",  "description" : "TAG_SPECIFIED_WITHOUT_A_VALUE" },
+					{ "enum" : "5",  "description" : "VALUE_IS_INCORRECT" },
+					{ "enum" : "6",  "description" : "INCORRECT_DATA_FORMAT_FOR_VALUE" },
+					{ "enum" : "7",  "description" : "DECRYPTION_PROBLEM" },
+					{ "enum" : "8",  "description" : "SIGNATURE_PROBLEM" },
+					{ "enum" : "9",  "description" : "COMPID_PROBLEM" },
+					{ "enum" : "99",  "description" : "OTHER" }
+				 ]
+			},
+			"383" : { 
+				"number" : "383", 
+				"name" : "MaxMessageSize", 
+				"type" : "LENGTH", 
+				"values" :  [
+				 ]
+			},
+			"384" : { 
+				"number" : "384", 
+				"name" : "NoMsgTypes", 
+				"type" : "NUMINGROUP", 
+				"values" :  [
+				 ]
+			},
+			"385" : { 
+				"number" : "385", 
+				"name" : "MsgDirection", 
+				"type" : "CHAR", 
+				"values" :  [ 
+					{ "enum" : "R",  "description" : "RECEIVE" },
+					{ "enum" : "S",  "description" : "SEND" }
+				 ]
+			},
+			"464" : { 
+				"number" : "464", 
+				"name" : "TestMessageIndicator", 
+				"type" : "BOOLEAN", 
+				"values" :  [
+				 ]
+			},
+			"553" : { 
+				"number" : "553", 
+				"name" : "Username", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"554" : { 
+				"number" : "554", 
+				"name" : "Password", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"627" : { 
+				"number" : "627", 
+				"name" : "NoHops", 
+				"type" : "NUMINGROUP", 
+				"values" :  [
+				 ]
+			},
+			"628" : { 
+				"number" : "628", 
+				"name" : "HopCompID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"629" : { 
+				"number" : "629", 
+				"name" : "HopSendingTime", 
+				"type" : "UTCTIMESTAMP", 
+				"values" :  [
+				 ]
+			},
+			"630" : { 
+				"number" : "630", 
+				"name" : "HopRefID", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"789" : { 
+				"number" : "789", 
+				"name" : "NextExpectedMsgSeqNum", 
+				"type" : "SEQNUM", 
+				"values" :  [
+				 ]
+			},
+			"1128" : { 
+				"number" : "1128", 
+				"name" : "ApplVerID", 
+				"type" : "STRING", 
+				"values" :  [ 
+					{ "enum" : "0",  "description" : "FIX27" },
+					{ "enum" : "1",  "description" : "FIX30" },
+					{ "enum" : "2",  "description" : "FIX40" },
+					{ "enum" : "3",  "description" : "FIX41" },
+					{ "enum" : "4",  "description" : "FIX42" },
+					{ "enum" : "5",  "description" : "FIX43" },
+					{ "enum" : "6",  "description" : "FIX44" },
+					{ "enum" : "7",  "description" : "FIX50" },
+					{ "enum" : "8",  "description" : "FIX50SP1" },
+					{ "enum" : "9",  "description" : "FIX50SP2" }
+				 ]
+			},
+			"1129" : { 
+				"number" : "1129", 
+				"name" : "CstmApplVerID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"1130" : { 
+				"number" : "1130", 
+				"name" : "RefApplVerID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"1131" : { 
+				"number" : "1131", 
+				"name" : "RefCstmApplVerID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			},
+			"1137" : { 
+				"number" : "1137", 
+				"name" : "DefaultApplVerID", 
+				"type" : "STRING", 
+				"values" :  [
+				 ]
+			}
+		}
+		,
+		"header" : { 
+			"BeginString" : { "type" : "field", "name" : "BeginString", "required" : true},
+			"BodyLength" : { "type" : "field", "name" : "BodyLength", "required" : true},
+			"MsgType" : { "type" : "field", "name" : "MsgType", "required" : true},
+			"SenderCompID" : { "type" : "field", "name" : "SenderCompID", "required" : true},
+			"TargetCompID" : { "type" : "field", "name" : "TargetCompID", "required" : true},
+			"OnBehalfOfCompID" : { "type" : "field", "name" : "OnBehalfOfCompID", "required" : false},
+			"DeliverToCompID" : { "type" : "field", "name" : "DeliverToCompID", "required" : false},
+			"SecureDataLen" : { "type" : "field", "name" : "SecureDataLen", "required" : false},
+			"SecureData" : { "type" : "field", "name" : "SecureData", "required" : false},
+			"MsgSeqNum" : { "type" : "field", "name" : "MsgSeqNum", "required" : true},
+			"SenderSubID" : { "type" : "field", "name" : "SenderSubID", "required" : false},
+			"SenderLocationID" : { "type" : "field", "name" : "SenderLocationID", "required" : false},
+			"TargetSubID" : { "type" : "field", "name" : "TargetSubID", "required" : false},
+			"TargetLocationID" : { "type" : "field", "name" : "TargetLocationID", "required" : false},
+			"OnBehalfOfSubID" : { "type" : "field", "name" : "OnBehalfOfSubID", "required" : false},
+			"OnBehalfOfLocationID" : { "type" : "field", "name" : "OnBehalfOfLocationID", "required" : false},
+			"DeliverToSubID" : { "type" : "field", "name" : "DeliverToSubID", "required" : false},
+			"DeliverToLocationID" : { "type" : "field", "name" : "DeliverToLocationID", "required" : false},
+			"PossDupFlag" : { "type" : "field", "name" : "PossDupFlag", "required" : false},
+			"PossResend" : { "type" : "field", "name" : "PossResend", "required" : false},
+			"SendingTime" : { "type" : "field", "name" : "SendingTime", "required" : true},
+			"OrigSendingTime" : { "type" : "field", "name" : "OrigSendingTime", "required" : false},
+			"XmlDataLen" : { "type" : "field", "name" : "XmlDataLen", "required" : false},
+			"XmlData" : { "type" : "field", "name" : "XmlData", "required" : false},
+			"MessageEncoding" : { "type" : "field", "name" : "MessageEncoding", "required" : false},
+			"LastMsgSeqNumProcessed" : { "type" : "field", "name" : "LastMsgSeqNumProcessed", "required" : false}
+		}
+		,
+		"trailer" : { 
+			"SignatureLength" : { "type" : "field", "name" : "SignatureLength", "required" : false},
+			"Signature" : { "type" : "field", "name" : "Signature", "required" : false},
+			"CheckSum" : { "type" : "field", "name" : "CheckSum", "required" : true}
+		}
+		,
+		"messages" : { 
+			"Heartbeat" : { 
+				"type" : "0", 
+				"category" : "admin", 
+				"name" : "Heartbeat", 
+				"fields" : { 
+					"TestReqID" : { "type" : "field", "name" : "TestReqID", "required" : false}
+				} 
+			},
+			"TestRequest" : { 
+				"type" : "1", 
+				"category" : "admin", 
+				"name" : "TestRequest", 
+				"fields" : { 
+					"TestReqID" : { "type" : "field", "name" : "TestReqID", "required" : true}
+				} 
+			},
+			"ResendRequest" : { 
+				"type" : "2", 
+				"category" : "admin", 
+				"name" : "ResendRequest", 
+				"fields" : { 
+					"BeginSeqNo" : { "type" : "field", "name" : "BeginSeqNo", "required" : true},
+					"EndSeqNo" : { "type" : "field", "name" : "EndSeqNo", "required" : true}
+				} 
+			},
+			"Reject" : { 
+				"type" : "3", 
+				"category" : "admin", 
+				"name" : "Reject", 
+				"fields" : { 
+					"RefSeqNum" : { "type" : "field", "name" : "RefSeqNum", "required" : true},
+					"RefTagID" : { "type" : "field", "name" : "RefTagID", "required" : false},
+					"RefMsgType" : { "type" : "field", "name" : "RefMsgType", "required" : false},
+					"SessionRejectReason" : { "type" : "field", "name" : "SessionRejectReason", "required" : false},
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
+					"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false}
+				} 
+			},
+			"SequenceReset" : { 
+				"type" : "4", 
+				"category" : "admin", 
+				"name" : "SequenceReset", 
+				"fields" : { 
+					"GapFillFlag" : { "type" : "field", "name" : "GapFillFlag", "required" : false},
+					"NewSeqNo" : { "type" : "field", "name" : "NewSeqNo", "required" : true}
+				} 
+			},
+			"Logout" : { 
+				"type" : "5", 
+				"category" : "admin", 
+				"name" : "Logout", 
+				"fields" : { 
+					"Text" : { "type" : "field", "name" : "Text", "required" : false},
+					"EncodedTextLen" : { "type" : "field", "name" : "EncodedTextLen", "required" : false},
+					"EncodedText" : { "type" : "field", "name" : "EncodedText", "required" : false}
+				} 
+			},
+			"Logon" : { 
+				"type" : "A", 
+				"category" : "admin", 
+				"name" : "Logon", 
+				"fields" : { 
+					"EncryptMethod" : { "type" : "field", "name" : "EncryptMethod", "required" : true},
+					"HeartBtInt" : { "type" : "field", "name" : "HeartBtInt", "required" : true},
+					"RawDataLength" : { "type" : "field", "name" : "RawDataLength", "required" : false},
+					"RawData" : { "type" : "field", "name" : "RawData", "required" : false},
+					"ResetSeqNumFlag" : { "type" : "field", "name" : "ResetSeqNumFlag", "required" : false},
+					"NextExpectedMsgSeqNum" : { "type" : "field", "name" : "NextExpectedMsgSeqNum", "required" : false},
+					"MaxMessageSize" : { "type" : "field", "name" : "MaxMessageSize", "required" : false},
+					"TestMessageIndicator" : { "type" : "field", "name" : "TestMessageIndicator", "required" : false},
+					"Username" : { "type" : "field", "name" : "Username", "required" : false},
+					"Password" : { "type" : "field", "name" : "Password", "required" : false},
+					"DefaultApplVerID" : { "type" : "field", "name" : "DefaultApplVerID", "required" : true},
+					"MsgTypeGrp" : { "type" : "component", "name" : "MsgTypeGrp", "required" : false}
+				} 
+			}
+		}
+		,
+		"components" : { 
+			"HopGrp" : { 
+				"name" : "HopGrp", 
+				"fields" : { 
+					"NoHops" : { "type" : "group", "name" : "NoHops", "required" : false,
+						"fields" : { 
+ 							"HopCompID" : { "type" : "field", "name" : "HopCompID", "required" : false},
+							"HopSendingTime" : { "type" : "field", "name" : "HopSendingTime", "required" : false},
+							"HopRefID" : { "type" : "field", "name" : "HopRefID", "required" : false}
+						}
+ 					}
+				} 
+			},
+			"MsgTypeGrp" : { 
+				"name" : "MsgTypeGrp", 
+				"fields" : { 
+					"NoMsgTypes" : { "type" : "group", "name" : "NoMsgTypes", "required" : false,
+						"fields" : { 
+ 							"RefMsgType" : { "type" : "field", "name" : "RefMsgType", "required" : false},
+							"MsgDirection" : { "type" : "field", "name" : "MsgDirection", "required" : false},
+							"RefApplVerID" : { "type" : "field", "name" : "RefApplVerID", "required" : false},
+							"RefCstmApplVerID" : { "type" : "field", "name" : "RefCstmApplVerID", "required" : false}
+						}
+ 					}
+				} 
+			}
+		}
+	}
+}
