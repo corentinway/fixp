@@ -20,9 +20,16 @@
     "load",
     "balancer"
   ],
+  
   "dependencies":{
     "underscore": "1.6.0"
   },
+  
+  "devDependencies" : {
+      "mocha": "*",
+      "chai": "*"
+  },
+  
   "author": "Corentin Jechoux",
   "license": "BSD-2-Clause",
   "bugs": {
