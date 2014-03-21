@@ -1,6 +1,6 @@
 {
   "name": "fixp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "FIX protocol reader, writer, client, server, load balancer",
   "main": "index.js",
   "scripts": {

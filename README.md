@@ -10,3 +10,9 @@ FIX Protocol
 Requirements
 
 For both operation, a dictionary is mandatory
+
+TODO
+====
+
+add file lib/MessageBuilder.js as a listener of Reader.js
+    see lib/Validator.js
