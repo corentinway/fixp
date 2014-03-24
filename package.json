@@ -1,38 +1,38 @@
 {
-  "name": "fixp",
-  "version": "0.0.2",
-  "description": "FIX protocol reader, writer, client, server, load balancer",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+    "name": "fixp",
+    "version": "0.0.2",
+    "description": "FIX protocol reader, writer, client, server, load balancer",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test"
+    },
+    "repository": {
     "type": "git",
     "url": "git://github.com/corentinway/fixp.git"
-  },
-  "keywords": [
-    "node",
-    "FIX",
-    "Protocol",
-    "client",
-    "server",
-    "cluster",
-    "load",
-    "balancer"
-  ],
-  
-  "dependencies":{
-    "underscore": "1.6.0"
-  },
-  
-  "devDependencies" : {
-      "mocha": "*",
-      "chai": "*"
-  },
-  
-  "author": "Corentin Jechoux",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/corentinway/fixp/issues"
-  }
+    },
+    "keywords": [
+        "node",
+        "FIX",
+        "Protocol",
+        "client",
+        "server",
+        "cluster",
+        "load",
+        "balancer"
+    ],
+    
+    "dependencies":{
+        "underscore": "1.6.0"
+    },
+    
+    "devDependencies" : {
+        "mocha": "*",
+        "chai": "*"
+    },
+    
+    "author": "Corentin Jechoux",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/corentinway/fixp/issues"
+    }
 }

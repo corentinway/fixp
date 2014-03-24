@@ -44,7 +44,7 @@ exports.readFix = function ( readable, dictionary, options ) {
     if ( options.validate ) {
         var validator = new Validator( options.dictionary );
         validator.on( 'end', function ( errors ) { 
-            emitter.emit( 'validation-end', errors && errors.length === 0 ,   errors );
+            emitter.emit( 'validation-end', errors === null || errors === undefined || errors.length === 0 ,   errors );
         } );
         reader.addListener( validator );
     }
