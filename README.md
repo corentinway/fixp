@@ -14,10 +14,11 @@ Dictionaries are JSON formatted. You can have load the dictionaries as follow
 var dictionary = require( 'path_to_my_dictionaries_version44' );
 ```
 
-To adapt the dictionay to your client need, copy and past one dictionaries and change it to adapt it to you clients need:
+To adapt the dictionay to your client need, copy and paste one dictionary and change it to adapt it to your clients needs:
 
 * add fields
 * add components
+* change 'require' flag on a field
 
 ## Reader
 
@@ -59,4 +60,14 @@ fixp.readFix( readable, dictionary, options )
 ;
 ```
 
+
+# TODO
+
+Here a list of todos
+
+* change the reader to inherit from the Node.js Stream interface
+* add test (Node.js and test with QuickFixJ)
+* create the writer
+* create a client and a server
+* add condition on fileds in the message: a field is required if another field has the value 'foo'.
 
