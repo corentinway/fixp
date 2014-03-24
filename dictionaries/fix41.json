@@ -3,28 +3,28 @@
 		"minor" : "1", 
 		"fields" : { 
 			"1" : { 
-				"number" : "1", 
+				"number" : 1, 
 				"name" : "Account", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"2" : { 
-				"number" : "2", 
+				"number" : 2, 
 				"name" : "AdvId", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"3" : { 
-				"number" : "3", 
+				"number" : 3, 
 				"name" : "AdvRefID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"4" : { 
-				"number" : "4", 
+				"number" : 4, 
 				"name" : "AdvSide", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -35,7 +35,7 @@
 				 ]
 			},
 			"5" : { 
-				"number" : "5", 
+				"number" : 5, 
 				"name" : "AdvTransType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -45,56 +45,56 @@
 				 ]
 			},
 			"6" : { 
-				"number" : "6", 
+				"number" : 6, 
 				"name" : "AvgPx", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"7" : { 
-				"number" : "7", 
+				"number" : 7, 
 				"name" : "BeginSeqNo", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"8" : { 
-				"number" : "8", 
+				"number" : 8, 
 				"name" : "BeginString", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"9" : { 
-				"number" : "9", 
+				"number" : 9, 
 				"name" : "BodyLength", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"10" : { 
-				"number" : "10", 
+				"number" : 10, 
 				"name" : "CheckSum", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"11" : { 
-				"number" : "11", 
+				"number" : 11, 
 				"name" : "ClOrdID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"12" : { 
-				"number" : "12", 
+				"number" : 12, 
 				"name" : "Commission", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"13" : { 
-				"number" : "13", 
+				"number" : 13, 
 				"name" : "CommType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -104,35 +104,35 @@
 				 ]
 			},
 			"14" : { 
-				"number" : "14", 
+				"number" : 14, 
 				"name" : "CumQty", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"15" : { 
-				"number" : "15", 
+				"number" : 15, 
 				"name" : "Currency", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"16" : { 
-				"number" : "16", 
+				"number" : 16, 
 				"name" : "EndSeqNo", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"17" : { 
-				"number" : "17", 
+				"number" : 17, 
 				"name" : "ExecID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"18" : { 
-				"number" : "18", 
+				"number" : 18, 
 				"name" : "ExecInst", 
 				"type" : "MULTIPLEVALUESTRING", 
 				"values" :  [ 
@@ -166,14 +166,14 @@
 				 ]
 			},
 			"19" : { 
-				"number" : "19", 
+				"number" : 19, 
 				"name" : "ExecRefID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"20" : { 
-				"number" : "20", 
+				"number" : 20, 
 				"name" : "ExecTransType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -184,7 +184,7 @@
 				 ]
 			},
 			"21" : { 
-				"number" : "21", 
+				"number" : 21, 
 				"name" : "HandlInst", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -194,7 +194,7 @@
 				 ]
 			},
 			"22" : { 
-				"number" : "22", 
+				"number" : 22, 
 				"name" : "IDSource", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -208,21 +208,21 @@
 				 ]
 			},
 			"23" : { 
-				"number" : "23", 
+				"number" : 23, 
 				"name" : "IOIid", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"24" : { 
-				"number" : "24", 
+				"number" : 24, 
 				"name" : "IOIOthSvc", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"25" : { 
-				"number" : "25", 
+				"number" : 25, 
 				"name" : "IOIQltyInd", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -232,21 +232,21 @@
 				 ]
 			},
 			"26" : { 
-				"number" : "26", 
+				"number" : 26, 
 				"name" : "IOIRefID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"27" : { 
-				"number" : "27", 
+				"number" : 27, 
 				"name" : "IOIShares", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"28" : { 
-				"number" : "28", 
+				"number" : 28, 
 				"name" : "IOITransType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -256,7 +256,7 @@
 				 ]
 			},
 			"29" : { 
-				"number" : "29", 
+				"number" : 29, 
 				"name" : "LastCapacity", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -267,42 +267,42 @@
 				 ]
 			},
 			"30" : { 
-				"number" : "30", 
+				"number" : 30, 
 				"name" : "LastMkt", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"31" : { 
-				"number" : "31", 
+				"number" : 31, 
 				"name" : "LastPx", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"32" : { 
-				"number" : "32", 
+				"number" : 32, 
 				"name" : "LastShares", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"33" : { 
-				"number" : "33", 
+				"number" : 33, 
 				"name" : "LinesOfText", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"34" : { 
-				"number" : "34", 
+				"number" : 34, 
 				"name" : "MsgSeqNum", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"35" : { 
-				"number" : "35", 
+				"number" : 35, 
 				"name" : "MsgType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -337,28 +337,28 @@
 				 ]
 			},
 			"36" : { 
-				"number" : "36", 
+				"number" : 36, 
 				"name" : "NewSeqNo", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"37" : { 
-				"number" : "37", 
+				"number" : 37, 
 				"name" : "OrderID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"38" : { 
-				"number" : "38", 
+				"number" : 38, 
 				"name" : "OrderQty", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"39" : { 
-				"number" : "39", 
+				"number" : 39, 
 				"name" : "OrdStatus", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -378,7 +378,7 @@
 				 ]
 			},
 			"40" : { 
-				"number" : "40", 
+				"number" : 40, 
 				"name" : "OrdType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -403,21 +403,21 @@
 				 ]
 			},
 			"41" : { 
-				"number" : "41", 
+				"number" : 41, 
 				"name" : "OrigClOrdID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"42" : { 
-				"number" : "42", 
+				"number" : 42, 
 				"name" : "OrigTime", 
 				"type" : "TIME", 
 				"values" :  [
 				 ]
 			},
 			"43" : { 
-				"number" : "43", 
+				"number" : 43, 
 				"name" : "PossDupFlag", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -426,28 +426,28 @@
 				 ]
 			},
 			"44" : { 
-				"number" : "44", 
+				"number" : 44, 
 				"name" : "Price", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"45" : { 
-				"number" : "45", 
+				"number" : 45, 
 				"name" : "RefSeqNum", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"46" : { 
-				"number" : "46", 
+				"number" : 46, 
 				"name" : "RelatdSym", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"47" : { 
-				"number" : "47", 
+				"number" : 47, 
 				"name" : "Rule80A", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -477,42 +477,42 @@
 				 ]
 			},
 			"48" : { 
-				"number" : "48", 
+				"number" : 48, 
 				"name" : "SecurityID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"49" : { 
-				"number" : "49", 
+				"number" : 49, 
 				"name" : "SenderCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"50" : { 
-				"number" : "50", 
+				"number" : 50, 
 				"name" : "SenderSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"52" : { 
-				"number" : "52", 
+				"number" : 52, 
 				"name" : "SendingTime", 
 				"type" : "TIME", 
 				"values" :  [
 				 ]
 			},
 			"53" : { 
-				"number" : "53", 
+				"number" : 53, 
 				"name" : "Shares", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"54" : { 
-				"number" : "54", 
+				"number" : 54, 
 				"name" : "Side", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -527,35 +527,35 @@
 				 ]
 			},
 			"55" : { 
-				"number" : "55", 
+				"number" : 55, 
 				"name" : "Symbol", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"56" : { 
-				"number" : "56", 
+				"number" : 56, 
 				"name" : "TargetCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"57" : { 
-				"number" : "57", 
+				"number" : 57, 
 				"name" : "TargetSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"58" : { 
-				"number" : "58", 
+				"number" : 58, 
 				"name" : "Text", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"59" : { 
-				"number" : "59", 
+				"number" : 59, 
 				"name" : "TimeInForce", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -569,14 +569,14 @@
 				 ]
 			},
 			"60" : { 
-				"number" : "60", 
+				"number" : 60, 
 				"name" : "TransactTime", 
 				"type" : "TIME", 
 				"values" :  [
 				 ]
 			},
 			"61" : { 
-				"number" : "61", 
+				"number" : 61, 
 				"name" : "Urgency", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -586,14 +586,14 @@
 				 ]
 			},
 			"62" : { 
-				"number" : "62", 
+				"number" : 62, 
 				"name" : "ValidUntilTime", 
 				"type" : "TIME", 
 				"values" :  [
 				 ]
 			},
 			"63" : { 
-				"number" : "63", 
+				"number" : 63, 
 				"name" : "SettlmntTyp", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -610,56 +610,56 @@
 				 ]
 			},
 			"64" : { 
-				"number" : "64", 
+				"number" : 64, 
 				"name" : "FutSettDate", 
 				"type" : "DATE", 
 				"values" :  [
 				 ]
 			},
 			"65" : { 
-				"number" : "65", 
+				"number" : 65, 
 				"name" : "SymbolSfx", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"66" : { 
-				"number" : "66", 
+				"number" : 66, 
 				"name" : "ListID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"67" : { 
-				"number" : "67", 
+				"number" : 67, 
 				"name" : "ListSeqNo", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"68" : { 
-				"number" : "68", 
+				"number" : 68, 
 				"name" : "ListNoOrds", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"69" : { 
-				"number" : "69", 
+				"number" : 69, 
 				"name" : "ListExecInst", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"70" : { 
-				"number" : "70", 
+				"number" : 70, 
 				"name" : "AllocID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"71" : { 
-				"number" : "71", 
+				"number" : 71, 
 				"name" : "AllocTransType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -671,70 +671,70 @@
 				 ]
 			},
 			"72" : { 
-				"number" : "72", 
+				"number" : 72, 
 				"name" : "RefAllocID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"73" : { 
-				"number" : "73", 
+				"number" : 73, 
 				"name" : "NoOrders", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"74" : { 
-				"number" : "74", 
+				"number" : 74, 
 				"name" : "AvgPrxPrecision", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"75" : { 
-				"number" : "75", 
+				"number" : 75, 
 				"name" : "TradeDate", 
 				"type" : "DATE", 
 				"values" :  [
 				 ]
 			},
 			"76" : { 
-				"number" : "76", 
+				"number" : 76, 
 				"name" : "ExecBroker", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"77" : { 
-				"number" : "77", 
+				"number" : 77, 
 				"name" : "OpenClose", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"78" : { 
-				"number" : "78", 
+				"number" : 78, 
 				"name" : "NoAllocs", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"79" : { 
-				"number" : "79", 
+				"number" : 79, 
 				"name" : "AllocAccount", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"80" : { 
-				"number" : "80", 
+				"number" : 80, 
 				"name" : "AllocShares", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"81" : { 
-				"number" : "81", 
+				"number" : 81, 
 				"name" : "ProcessCode", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -748,42 +748,42 @@
 				 ]
 			},
 			"82" : { 
-				"number" : "82", 
+				"number" : 82, 
 				"name" : "NoRpts", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"83" : { 
-				"number" : "83", 
+				"number" : 83, 
 				"name" : "RptSeq", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"84" : { 
-				"number" : "84", 
+				"number" : 84, 
 				"name" : "CxlQty", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"85" : { 
-				"number" : "85", 
+				"number" : 85, 
 				"name" : "NoDlvyInst", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"86" : { 
-				"number" : "86", 
+				"number" : 86, 
 				"name" : "DlvyInst", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"87" : { 
-				"number" : "87", 
+				"number" : 87, 
 				"name" : "AllocStatus", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -794,7 +794,7 @@
 				 ]
 			},
 			"88" : { 
-				"number" : "88", 
+				"number" : 88, 
 				"name" : "AllocRejCode", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -809,42 +809,42 @@
 				 ]
 			},
 			"89" : { 
-				"number" : "89", 
+				"number" : 89, 
 				"name" : "Signature", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"90" : { 
-				"number" : "90", 
+				"number" : 90, 
 				"name" : "SecureDataLen", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"91" : { 
-				"number" : "91", 
+				"number" : 91, 
 				"name" : "SecureData", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"92" : { 
-				"number" : "92", 
+				"number" : 92, 
 				"name" : "BrokerOfCredit", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"93" : { 
-				"number" : "93", 
+				"number" : 93, 
 				"name" : "SignatureLength", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"94" : { 
-				"number" : "94", 
+				"number" : 94, 
 				"name" : "EmailType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -854,28 +854,28 @@
 				 ]
 			},
 			"95" : { 
-				"number" : "95", 
+				"number" : 95, 
 				"name" : "RawDataLength", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"96" : { 
-				"number" : "96", 
+				"number" : 96, 
 				"name" : "RawData", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"97" : { 
-				"number" : "97", 
+				"number" : 97, 
 				"name" : "PossResend", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"98" : { 
-				"number" : "98", 
+				"number" : 98, 
 				"name" : "EncryptMethod", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -889,21 +889,21 @@
 				 ]
 			},
 			"99" : { 
-				"number" : "99", 
+				"number" : 99, 
 				"name" : "StopPx", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"100" : { 
-				"number" : "100", 
+				"number" : 100, 
 				"name" : "ExDestination", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"102" : { 
-				"number" : "102", 
+				"number" : 102, 
 				"name" : "CxlRejReason", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -912,7 +912,7 @@
 				 ]
 			},
 			"103" : { 
-				"number" : "103", 
+				"number" : 103, 
 				"name" : "OrdRejReason", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -926,7 +926,7 @@
 				 ]
 			},
 			"104" : { 
-				"number" : "104", 
+				"number" : 104, 
 				"name" : "IOIQualifier", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -948,63 +948,63 @@
 				 ]
 			},
 			"105" : { 
-				"number" : "105", 
+				"number" : 105, 
 				"name" : "WaveNo", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"106" : { 
-				"number" : "106", 
+				"number" : 106, 
 				"name" : "Issuer", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"107" : { 
-				"number" : "107", 
+				"number" : 107, 
 				"name" : "SecurityDesc", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"108" : { 
-				"number" : "108", 
+				"number" : 108, 
 				"name" : "HeartBtInt", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"109" : { 
-				"number" : "109", 
+				"number" : 109, 
 				"name" : "ClientID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"110" : { 
-				"number" : "110", 
+				"number" : 110, 
 				"name" : "MinQty", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"111" : { 
-				"number" : "111", 
+				"number" : 111, 
 				"name" : "MaxFloor", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"112" : { 
-				"number" : "112", 
+				"number" : 112, 
 				"name" : "TestReqID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"113" : { 
-				"number" : "113", 
+				"number" : 113, 
 				"name" : "ReportToExch", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1013,7 +1013,7 @@
 				 ]
 			},
 			"114" : { 
-				"number" : "114", 
+				"number" : 114, 
 				"name" : "LocateReqd", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1022,49 +1022,49 @@
 				 ]
 			},
 			"115" : { 
-				"number" : "115", 
+				"number" : 115, 
 				"name" : "OnBehalfOfCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"116" : { 
-				"number" : "116", 
+				"number" : 116, 
 				"name" : "OnBehalfOfSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"117" : { 
-				"number" : "117", 
+				"number" : 117, 
 				"name" : "QuoteID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"118" : { 
-				"number" : "118", 
+				"number" : 118, 
 				"name" : "NetMoney", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"119" : { 
-				"number" : "119", 
+				"number" : 119, 
 				"name" : "SettlCurrAmt", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"120" : { 
-				"number" : "120", 
+				"number" : 120, 
 				"name" : "SettlCurrency", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"121" : { 
-				"number" : "121", 
+				"number" : 121, 
 				"name" : "ForexReq", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1073,14 +1073,14 @@
 				 ]
 			},
 			"122" : { 
-				"number" : "122", 
+				"number" : 122, 
 				"name" : "OrigSendingTime", 
 				"type" : "TIME", 
 				"values" :  [
 				 ]
 			},
 			"123" : { 
-				"number" : "123", 
+				"number" : 123, 
 				"name" : "GapFillFlag", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1089,21 +1089,21 @@
 				 ]
 			},
 			"124" : { 
-				"number" : "124", 
+				"number" : 124, 
 				"name" : "NoExecs", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"126" : { 
-				"number" : "126", 
+				"number" : 126, 
 				"name" : "ExpireTime", 
 				"type" : "TIME", 
 				"values" :  [
 				 ]
 			},
 			"127" : { 
-				"number" : "127", 
+				"number" : 127, 
 				"name" : "DKReason", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1116,21 +1116,21 @@
 				 ]
 			},
 			"128" : { 
-				"number" : "128", 
+				"number" : 128, 
 				"name" : "DeliverToCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"129" : { 
-				"number" : "129", 
+				"number" : 129, 
 				"name" : "DeliverToSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"130" : { 
-				"number" : "130", 
+				"number" : 130, 
 				"name" : "IOINaturalFlag", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1139,63 +1139,63 @@
 				 ]
 			},
 			"131" : { 
-				"number" : "131", 
+				"number" : 131, 
 				"name" : "QuoteReqID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"132" : { 
-				"number" : "132", 
+				"number" : 132, 
 				"name" : "BidPx", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"133" : { 
-				"number" : "133", 
+				"number" : 133, 
 				"name" : "OfferPx", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"134" : { 
-				"number" : "134", 
+				"number" : 134, 
 				"name" : "BidSize", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"135" : { 
-				"number" : "135", 
+				"number" : 135, 
 				"name" : "OfferSize", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"136" : { 
-				"number" : "136", 
+				"number" : 136, 
 				"name" : "NoMiscFees", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"137" : { 
-				"number" : "137", 
+				"number" : 137, 
 				"name" : "MiscFeeAmt", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"138" : { 
-				"number" : "138", 
+				"number" : 138, 
 				"name" : "MiscFeeCurr", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"139" : { 
-				"number" : "139", 
+				"number" : 139, 
 				"name" : "MiscFeeType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1210,14 +1210,14 @@
 				 ]
 			},
 			"140" : { 
-				"number" : "140", 
+				"number" : 140, 
 				"name" : "PrevClosePx", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"141" : { 
-				"number" : "141", 
+				"number" : 141, 
 				"name" : "ResetSeqNumFlag", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1226,63 +1226,63 @@
 				 ]
 			},
 			"142" : { 
-				"number" : "142", 
+				"number" : 142, 
 				"name" : "SenderLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"143" : { 
-				"number" : "143", 
+				"number" : 143, 
 				"name" : "TargetLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"144" : { 
-				"number" : "144", 
+				"number" : 144, 
 				"name" : "OnBehalfOfLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"145" : { 
-				"number" : "145", 
+				"number" : 145, 
 				"name" : "DeliverToLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"146" : { 
-				"number" : "146", 
+				"number" : 146, 
 				"name" : "NoRelatedSym", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"147" : { 
-				"number" : "147", 
+				"number" : 147, 
 				"name" : "Subject", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"148" : { 
-				"number" : "148", 
+				"number" : 148, 
 				"name" : "Headline", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"149" : { 
-				"number" : "149", 
+				"number" : 149, 
 				"name" : "URLLink", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"150" : { 
-				"number" : "150", 
+				"number" : 150, 
 				"name" : "ExecType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1302,70 +1302,70 @@
 				 ]
 			},
 			"151" : { 
-				"number" : "151", 
+				"number" : 151, 
 				"name" : "LeavesQty", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"152" : { 
-				"number" : "152", 
+				"number" : 152, 
 				"name" : "CashOrderQty", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"153" : { 
-				"number" : "153", 
+				"number" : 153, 
 				"name" : "AllocAvgPx", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"154" : { 
-				"number" : "154", 
+				"number" : 154, 
 				"name" : "AllocNetMoney", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"155" : { 
-				"number" : "155", 
+				"number" : 155, 
 				"name" : "SettlCurrFxRate", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"156" : { 
-				"number" : "156", 
+				"number" : 156, 
 				"name" : "SettlCurrFxRateCalc", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"157" : { 
-				"number" : "157", 
+				"number" : 157, 
 				"name" : "NumDaysInterest", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"158" : { 
-				"number" : "158", 
+				"number" : 158, 
 				"name" : "AccruedInterestRate", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"159" : { 
-				"number" : "159", 
+				"number" : 159, 
 				"name" : "AccruedInterestAmt", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"160" : { 
-				"number" : "160", 
+				"number" : 160, 
 				"name" : "SettlInstMode", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1376,21 +1376,21 @@
 				 ]
 			},
 			"161" : { 
-				"number" : "161", 
+				"number" : 161, 
 				"name" : "AllocText", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"162" : { 
-				"number" : "162", 
+				"number" : 162, 
 				"name" : "SettlInstID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"163" : { 
-				"number" : "163", 
+				"number" : 163, 
 				"name" : "SettlInstTransType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1400,14 +1400,14 @@
 				 ]
 			},
 			"164" : { 
-				"number" : "164", 
+				"number" : 164, 
 				"name" : "EmailThreadID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"165" : { 
-				"number" : "165", 
+				"number" : 165, 
 				"name" : "SettlInstSource", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1416,7 +1416,7 @@
 				 ]
 			},
 			"166" : { 
-				"number" : "166", 
+				"number" : 166, 
 				"name" : "SettlLocation", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1430,7 +1430,7 @@
 				 ]
 			},
 			"167" : { 
-				"number" : "167", 
+				"number" : 167, 
 				"name" : "SecurityType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1467,14 +1467,14 @@
 				 ]
 			},
 			"168" : { 
-				"number" : "168", 
+				"number" : 168, 
 				"name" : "EffectiveTime", 
 				"type" : "TIME", 
 				"values" :  [
 				 ]
 			},
 			"169" : { 
-				"number" : "169", 
+				"number" : 169, 
 				"name" : "StandInstDbType", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -1485,196 +1485,196 @@
 				 ]
 			},
 			"170" : { 
-				"number" : "170", 
+				"number" : 170, 
 				"name" : "StandInstDbName", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"171" : { 
-				"number" : "171", 
+				"number" : 171, 
 				"name" : "StandInstDbID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"172" : { 
-				"number" : "172", 
+				"number" : 172, 
 				"name" : "SettlDeliveryType", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"173" : { 
-				"number" : "173", 
+				"number" : 173, 
 				"name" : "SettlDepositoryCode", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"174" : { 
-				"number" : "174", 
+				"number" : 174, 
 				"name" : "SettlBrkrCode", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"175" : { 
-				"number" : "175", 
+				"number" : 175, 
 				"name" : "SettlInstCode", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"176" : { 
-				"number" : "176", 
+				"number" : 176, 
 				"name" : "SecuritySettlAgentName", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"177" : { 
-				"number" : "177", 
+				"number" : 177, 
 				"name" : "SecuritySettlAgentCode", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"178" : { 
-				"number" : "178", 
+				"number" : 178, 
 				"name" : "SecuritySettlAgentAcctNum", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"179" : { 
-				"number" : "179", 
+				"number" : 179, 
 				"name" : "SecuritySettlAgentAcctName", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"180" : { 
-				"number" : "180", 
+				"number" : 180, 
 				"name" : "SecuritySettlAgentContactName", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"181" : { 
-				"number" : "181", 
+				"number" : 181, 
 				"name" : "SecuritySettlAgentContactPhone", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"182" : { 
-				"number" : "182", 
+				"number" : 182, 
 				"name" : "CashSettlAgentName", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"183" : { 
-				"number" : "183", 
+				"number" : 183, 
 				"name" : "CashSettlAgentCode", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"184" : { 
-				"number" : "184", 
+				"number" : 184, 
 				"name" : "CashSettlAgentAcctNum", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"185" : { 
-				"number" : "185", 
+				"number" : 185, 
 				"name" : "CashSettlAgentAcctName", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"186" : { 
-				"number" : "186", 
+				"number" : 186, 
 				"name" : "CashSettlAgentContactName", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"187" : { 
-				"number" : "187", 
+				"number" : 187, 
 				"name" : "CashSettlAgentContactPhone", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"188" : { 
-				"number" : "188", 
+				"number" : 188, 
 				"name" : "BidSpotRate", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"189" : { 
-				"number" : "189", 
+				"number" : 189, 
 				"name" : "BidForwardPoints", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"190" : { 
-				"number" : "190", 
+				"number" : 190, 
 				"name" : "OfferSpotRate", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"191" : { 
-				"number" : "191", 
+				"number" : 191, 
 				"name" : "OfferForwardPoints", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"192" : { 
-				"number" : "192", 
+				"number" : 192, 
 				"name" : "OrderQty2", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"193" : { 
-				"number" : "193", 
+				"number" : 193, 
 				"name" : "FutSettDate2", 
 				"type" : "DATE", 
 				"values" :  [
 				 ]
 			},
 			"194" : { 
-				"number" : "194", 
+				"number" : 194, 
 				"name" : "LastSpotRate", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"195" : { 
-				"number" : "195", 
+				"number" : 195, 
 				"name" : "LastForwardPoints", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"196" : { 
-				"number" : "196", 
+				"number" : 196, 
 				"name" : "AllocLinkID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"197" : { 
-				"number" : "197", 
+				"number" : 197, 
 				"name" : "AllocLinkType", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -1683,28 +1683,28 @@
 				 ]
 			},
 			"198" : { 
-				"number" : "198", 
+				"number" : 198, 
 				"name" : "SecondaryOrderID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"199" : { 
-				"number" : "199", 
+				"number" : 199, 
 				"name" : "NoIOIQualifiers", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"200" : { 
-				"number" : "200", 
+				"number" : 200, 
 				"name" : "MaturityMonthYear", 
 				"type" : "MONTHYEAR", 
 				"values" :  [
 				 ]
 			},
 			"201" : { 
-				"number" : "201", 
+				"number" : 201, 
 				"name" : "PutOrCall", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -1713,14 +1713,14 @@
 				 ]
 			},
 			"202" : { 
-				"number" : "202", 
+				"number" : 202, 
 				"name" : "StrikePrice", 
 				"type" : "FLOAT", 
 				"values" :  [
 				 ]
 			},
 			"203" : { 
-				"number" : "203", 
+				"number" : 203, 
 				"name" : "CoveredOrUncovered", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -1729,7 +1729,7 @@
 				 ]
 			},
 			"204" : { 
-				"number" : "204", 
+				"number" : 204, 
 				"name" : "CustomerOrFirm", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -1738,28 +1738,28 @@
 				 ]
 			},
 			"205" : { 
-				"number" : "205", 
+				"number" : 205, 
 				"name" : "MaturityDay", 
 				"type" : "DAYOFMONTH", 
 				"values" :  [
 				 ]
 			},
 			"206" : { 
-				"number" : "206", 
+				"number" : 206, 
 				"name" : "OptAttribute", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"207" : { 
-				"number" : "207", 
+				"number" : 207, 
 				"name" : "SecurityExchange", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"208" : { 
-				"number" : "208", 
+				"number" : 208, 
 				"name" : "NotifyBrokerOfCredit", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -1768,7 +1768,7 @@
 				 ]
 			},
 			"209" : { 
-				"number" : "209", 
+				"number" : 209, 
 				"name" : "AllocHandlInst", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -1778,14 +1778,14 @@
 				 ]
 			},
 			"210" : { 
-				"number" : "210", 
+				"number" : 210, 
 				"name" : "MaxShow", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"211" : { 
-				"number" : "211", 
+				"number" : 211, 
 				"name" : "PegDifference", 
 				"type" : "FLOAT", 
 				"values" :  [

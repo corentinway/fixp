@@ -3,49 +3,49 @@
 		"minor" : "1", 
 		"fields" : { 
 			"7" : { 
-				"number" : "7", 
+				"number" : 7, 
 				"name" : "BeginSeqNo", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"8" : { 
-				"number" : "8", 
+				"number" : 8, 
 				"name" : "BeginString", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"9" : { 
-				"number" : "9", 
+				"number" : 9, 
 				"name" : "BodyLength", 
 				"type" : "LENGTH", 
 				"values" :  [
 				 ]
 			},
 			"10" : { 
-				"number" : "10", 
+				"number" : 10, 
 				"name" : "CheckSum", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"16" : { 
-				"number" : "16", 
+				"number" : 16, 
 				"name" : "EndSeqNo", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"34" : { 
-				"number" : "34", 
+				"number" : 34, 
 				"name" : "MsgSeqNum", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"35" : { 
-				"number" : "35", 
+				"number" : 35, 
 				"name" : "MsgType", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -153,119 +153,119 @@
 				 ]
 			},
 			"36" : { 
-				"number" : "36", 
+				"number" : 36, 
 				"name" : "NewSeqNo", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"43" : { 
-				"number" : "43", 
+				"number" : 43, 
 				"name" : "PossDupFlag", 
 				"type" : "BOOLEAN", 
 				"values" :  [
 				 ]
 			},
 			"45" : { 
-				"number" : "45", 
+				"number" : 45, 
 				"name" : "RefSeqNum", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"49" : { 
-				"number" : "49", 
+				"number" : 49, 
 				"name" : "SenderCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"50" : { 
-				"number" : "50", 
+				"number" : 50, 
 				"name" : "SenderSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"52" : { 
-				"number" : "52", 
+				"number" : 52, 
 				"name" : "SendingTime", 
 				"type" : "UTCTIMESTAMP", 
 				"values" :  [
 				 ]
 			},
 			"56" : { 
-				"number" : "56", 
+				"number" : 56, 
 				"name" : "TargetCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"57" : { 
-				"number" : "57", 
+				"number" : 57, 
 				"name" : "TargetSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"58" : { 
-				"number" : "58", 
+				"number" : 58, 
 				"name" : "Text", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"89" : { 
-				"number" : "89", 
+				"number" : 89, 
 				"name" : "Signature", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"90" : { 
-				"number" : "90", 
+				"number" : 90, 
 				"name" : "SecureDataLen", 
 				"type" : "LENGTH", 
 				"values" :  [
 				 ]
 			},
 			"91" : { 
-				"number" : "91", 
+				"number" : 91, 
 				"name" : "SecureData", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"93" : { 
-				"number" : "93", 
+				"number" : 93, 
 				"name" : "SignatureLength", 
 				"type" : "LENGTH", 
 				"values" :  [
 				 ]
 			},
 			"95" : { 
-				"number" : "95", 
+				"number" : 95, 
 				"name" : "RawDataLength", 
 				"type" : "LENGTH", 
 				"values" :  [
 				 ]
 			},
 			"96" : { 
-				"number" : "96", 
+				"number" : 96, 
 				"name" : "RawData", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"97" : { 
-				"number" : "97", 
+				"number" : 97, 
 				"name" : "PossResend", 
 				"type" : "BOOLEAN", 
 				"values" :  [
 				 ]
 			},
 			"98" : { 
-				"number" : "98", 
+				"number" : 98, 
 				"name" : "EncryptMethod", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -279,112 +279,112 @@
 				 ]
 			},
 			"108" : { 
-				"number" : "108", 
+				"number" : 108, 
 				"name" : "HeartBtInt", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"112" : { 
-				"number" : "112", 
+				"number" : 112, 
 				"name" : "TestReqID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"115" : { 
-				"number" : "115", 
+				"number" : 115, 
 				"name" : "OnBehalfOfCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"116" : { 
-				"number" : "116", 
+				"number" : 116, 
 				"name" : "OnBehalfOfSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"122" : { 
-				"number" : "122", 
+				"number" : 122, 
 				"name" : "OrigSendingTime", 
 				"type" : "UTCTIMESTAMP", 
 				"values" :  [
 				 ]
 			},
 			"123" : { 
-				"number" : "123", 
+				"number" : 123, 
 				"name" : "GapFillFlag", 
 				"type" : "BOOLEAN", 
 				"values" :  [
 				 ]
 			},
 			"128" : { 
-				"number" : "128", 
+				"number" : 128, 
 				"name" : "DeliverToCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"129" : { 
-				"number" : "129", 
+				"number" : 129, 
 				"name" : "DeliverToSubID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"141" : { 
-				"number" : "141", 
+				"number" : 141, 
 				"name" : "ResetSeqNumFlag", 
 				"type" : "BOOLEAN", 
 				"values" :  [
 				 ]
 			},
 			"142" : { 
-				"number" : "142", 
+				"number" : 142, 
 				"name" : "SenderLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"143" : { 
-				"number" : "143", 
+				"number" : 143, 
 				"name" : "TargetLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"144" : { 
-				"number" : "144", 
+				"number" : 144, 
 				"name" : "OnBehalfOfLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"145" : { 
-				"number" : "145", 
+				"number" : 145, 
 				"name" : "DeliverToLocationID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"212" : { 
-				"number" : "212", 
+				"number" : 212, 
 				"name" : "XmlDataLen", 
 				"type" : "LENGTH", 
 				"values" :  [
 				 ]
 			},
 			"213" : { 
-				"number" : "213", 
+				"number" : 213, 
 				"name" : "XmlData", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"347" : { 
-				"number" : "347", 
+				"number" : 347, 
 				"name" : "MessageEncoding", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -395,42 +395,42 @@
 				 ]
 			},
 			"354" : { 
-				"number" : "354", 
+				"number" : 354, 
 				"name" : "EncodedTextLen", 
 				"type" : "LENGTH", 
 				"values" :  [
 				 ]
 			},
 			"355" : { 
-				"number" : "355", 
+				"number" : 355, 
 				"name" : "EncodedText", 
 				"type" : "DATA", 
 				"values" :  [
 				 ]
 			},
 			"369" : { 
-				"number" : "369", 
+				"number" : 369, 
 				"name" : "LastMsgSeqNumProcessed", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"371" : { 
-				"number" : "371", 
+				"number" : 371, 
 				"name" : "RefTagID", 
 				"type" : "INT", 
 				"values" :  [
 				 ]
 			},
 			"372" : { 
-				"number" : "372", 
+				"number" : 372, 
 				"name" : "RefMsgType", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"373" : { 
-				"number" : "373", 
+				"number" : 373, 
 				"name" : "SessionRejectReason", 
 				"type" : "INT", 
 				"values" :  [ 
@@ -456,21 +456,21 @@
 				 ]
 			},
 			"383" : { 
-				"number" : "383", 
+				"number" : 383, 
 				"name" : "MaxMessageSize", 
 				"type" : "LENGTH", 
 				"values" :  [
 				 ]
 			},
 			"384" : { 
-				"number" : "384", 
+				"number" : 384, 
 				"name" : "NoMsgTypes", 
 				"type" : "NUMINGROUP", 
 				"values" :  [
 				 ]
 			},
 			"385" : { 
-				"number" : "385", 
+				"number" : 385, 
 				"name" : "MsgDirection", 
 				"type" : "CHAR", 
 				"values" :  [ 
@@ -479,63 +479,63 @@
 				 ]
 			},
 			"464" : { 
-				"number" : "464", 
+				"number" : 464, 
 				"name" : "TestMessageIndicator", 
 				"type" : "BOOLEAN", 
 				"values" :  [
 				 ]
 			},
 			"553" : { 
-				"number" : "553", 
+				"number" : 553, 
 				"name" : "Username", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"554" : { 
-				"number" : "554", 
+				"number" : 554, 
 				"name" : "Password", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"627" : { 
-				"number" : "627", 
+				"number" : 627, 
 				"name" : "NoHops", 
 				"type" : "NUMINGROUP", 
 				"values" :  [
 				 ]
 			},
 			"628" : { 
-				"number" : "628", 
+				"number" : 628, 
 				"name" : "HopCompID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"629" : { 
-				"number" : "629", 
+				"number" : 629, 
 				"name" : "HopSendingTime", 
 				"type" : "UTCTIMESTAMP", 
 				"values" :  [
 				 ]
 			},
 			"630" : { 
-				"number" : "630", 
+				"number" : 630, 
 				"name" : "HopRefID", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"789" : { 
-				"number" : "789", 
+				"number" : 789, 
 				"name" : "NextExpectedMsgSeqNum", 
 				"type" : "SEQNUM", 
 				"values" :  [
 				 ]
 			},
 			"1128" : { 
-				"number" : "1128", 
+				"number" : 1128, 
 				"name" : "ApplVerID", 
 				"type" : "STRING", 
 				"values" :  [ 
@@ -552,28 +552,28 @@
 				 ]
 			},
 			"1129" : { 
-				"number" : "1129", 
+				"number" : 1129, 
 				"name" : "CstmApplVerID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"1130" : { 
-				"number" : "1130", 
+				"number" : 1130, 
 				"name" : "RefApplVerID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"1131" : { 
-				"number" : "1131", 
+				"number" : 1131, 
 				"name" : "RefCstmApplVerID", 
 				"type" : "STRING", 
 				"values" :  [
 				 ]
 			},
 			"1137" : { 
-				"number" : "1137", 
+				"number" : 1137, 
 				"name" : "DefaultApplVerID", 
 				"type" : "STRING", 
 				"values" :  [
