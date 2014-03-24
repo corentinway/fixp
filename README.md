@@ -1,5 +1,7 @@
 # NOT FOR PRODUCTION...
 
+[![Build Status](https://travis-ci.org/corentinway/fixp.png?branch=master)](https://travis-ci.org/corentinway/fixp)
+
 # FIX Protocol
 
 A reader, writer, client and server around [FIX Protocol](http://www.fixtradingcommunity.org/).

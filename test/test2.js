@@ -39,6 +39,8 @@ describe( 'A complete example', function () {
             done( err );
         } )
         .on( 'message', function ( message ) { 
+            console.log( message );
+            console.log( message.body.NoPartyIDs );
             checkEnd();
         } )
         .on( 'field:10', function (name, number, value ) {
