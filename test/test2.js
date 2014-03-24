@@ -2,6 +2,7 @@
 var chai = require( 'chai' );
 var assert = chai.assert;
 var fs = require( 'fs');
+var _ = require( 'underscore' );
 
 var fixp = require( '..' );
 
@@ -39,12 +40,31 @@ describe( 'A complete example', function () {
             done( err );
         } )
         .on( 'message', function ( message ) { 
-            console.log( message );
-            console.log( message.body.NoPartyIDs );
+            
+            var headerKeys = Object.keys( message.header );
+            var bodyKeys = Object.keys( message.body );
+            var trailerKeys = Object.keys( message.trailer );
+            var isNum = function ( num ) {
+                return (/[0-9]+/).test( num );
+            };
+            var isAlpha = function ( num ) {
+                return (/[a-zA-Z]+/).test( num );    
+            } ;
+            
+            // header: 7 field with name, and 7 field with number
+            
+            assert.equal( _.filter( headerKeys, isNum ).length , 7, 'HEADER We expect only to have 7 entry that start with a number' );
+            assert.equal( _.filter( headerKeys, isAlpha ).length , 7, 'HEADER - We expect only to have 7 entry that start with a name' );
+            
+            assert.equal(  _.filter( bodyKeys, isAlpha ).length ,  _.filter( bodyKeys, isNum ).length , 'BODY - same alpha and same numeric keys count');
+            
+            assert.equal( _.filter( trailerKeys, isNum ).length , 1, 'TRAILER We expect only to have 7 entry that start with a number' );
+            assert.equal( _.filter( trailerKeys, isAlpha ).length , 1, 'TRAILER - We expect only to have 7 entry that start with a name' );
+            
             checkEnd();
         } )
         .on( 'field:10', function (name, number, value ) {
-            assert.equal( number, '10',  'Invalida field number');
+            assert.equal( number, '10',  'Invalid field number');
             checkEnd();
         } )
         ;
