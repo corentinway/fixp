@@ -8,7 +8,10 @@ console.log( 'dirname: ' + __dirname );
 var readable = fs.createReadStream( __dirname + '/../samples/message1.txt');
 var dictionary = __dirname + '/../dictionaries/fix44.json';
 var options = {
-    validation: true
+    validation: true,
+    listeners: {
+        fields: [ 10 ]
+    }
 };
 
 fixp.readFix( readable, dictionary, options )
@@ -22,5 +25,8 @@ fixp.readFix( readable, dictionary, options )
 .on( 'message', function ( message ) { 
     console.log( 'Message parsed:' );
     console.log( message );
+} )
+.on( 'field:10', function (name, number, value ) {
+    console.log( '    CHECKSUM: ', name, number, value ) ;
 } )
 ;

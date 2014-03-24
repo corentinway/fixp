@@ -63,12 +63,12 @@ exports.readFix = function ( readable, dictionary, options ) {
      */
      var listeners = options.listeners;
      if ( listeners && listeners.fields && _.isArray( listeners.fields ) && listeners.fields.length > 0 ) {
-         var FieldListener = require ( './lib/FieldListener' );
-         var fieldListener = new FieldListener( listeners.fields );
-         fieldListener.on( 'field-found', function ( key, name, number, value ) {
+         var FieldEmitter = require ( './lib/FieldEmitter' );
+         var fieldEmitter = new FieldEmitter( listeners.fields );
+         fieldEmitter.on( 'field-found', function ( key, name, number, value ) {
              emitter.emit( 'field:' + key, name, number, value );
          } );
-         reader.addListener( fieldListener );
+         reader.addListener( fieldEmitter );
      }
     
     reader.read( readable, function ( err ) {
