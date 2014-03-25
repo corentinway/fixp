@@ -67,8 +67,10 @@ fixp.readFix( readable, dictionary, options )
 
 Here a list of todos
 
+* Test
+* * add test to stream multiple FIX messages in the same readable stream
+* * add test (Node.js and test with QuickFixJ)
 * change the reader to inherit from the Node.js Stream interface
-* add test (Node.js and test with QuickFixJ)
 * create the writer
 * create a client and a server
 * add condition on fileds in the message: a field is required if another field has the value 'foo'.
