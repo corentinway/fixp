@@ -3,7 +3,8 @@ var chai = require( 'chai' );
 var assert = chai.assert;
 "use strict";
 
-var FieldEmitter = require( '../lib/FieldEmitter' );
+var lib = process.env.LIB_COV ? '../lib-cov/' : '../lib/';
+var FieldEmitter = require( lib + 'FieldEmitter' );
 
 describe( 'FieldEmitter', function () {
     
@@ -100,6 +101,7 @@ describe( 'FieldEmitter', function () {
             } );
             // call
             emitter.emit( 'read-field', field, val );
+            // after 1.3 seconds, we check no event was received : 'emiited' still equals to false
             setTimeout( function () {
                 assert.isFalse( emitted );
                 done();

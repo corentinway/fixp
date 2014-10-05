@@ -75,3 +75,6 @@ Here a list of todos
 * create a client and a server
 * add condition on fileds in the message: a field is required if another field has the value 'foo'.
 
+# References
+
+* http://www.fixtradingcommunity.org/pg/structure/tech-specs/encodings-for-fix

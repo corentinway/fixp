@@ -34,12 +34,22 @@ describe( 'A complete example', function () {
         fixp.readFix( readable, dictionary, options )
         .on( 'validation-end', function ( valid , errors ) { 
             assert.isFalse( valid, 'messages must have errors because the dictionary does not defined all its field' );
+            
+            // todo assert defined errors
+            /*errors.forEach( function ( err ) {
+                console.error( err );
+                console.error( '' );
+            } );
+            */
+            
             checkEnd();
         } ) 
         .on( 'errors', function ( err ) {
             done( err );
         } )
         .on( 'message', function ( message ) { 
+            
+            console.log( message );
             
             var headerKeys = Object.keys( message.header );
             var bodyKeys = Object.keys( message.body );
