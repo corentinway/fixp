@@ -1,21 +1,94 @@
 /*jslint node: true, white: true, vars:true */
+/*global describe, it, before */
 
+var chai = require( 'chai' );
+var assert = chai.assert;
 var reader2 = require( '../lib/Reader2' );
-var Dictionary = require( '../lib/Dictionary' );
 var fs = require( 'fs' );
 var through = require( 'through' );
 
 
-var dictionary = new Dictionary( require( __dirname + '/../dictionaries/fix44.json' ) );
-
+var dictionary = __dirname + '/../dictionaries/fix44.json';
 var options = {
 	fieldSeparator: '|'	
 };
 
 
+describe( 'A complete example with Reader2', function () {
+	var actualCounter;
+	
+	before(function () {
+		actualCounter = 0;
+	} );
+	
+	// source
+	var filename = __dirname + '/../samples/message1.txt';
+	// count of field in the message
+	var expectedFieldCount = fs.readFileSync( filename ).toString().split( '|' ).reduce( function ( counter, item ) {
+		if ( item !== null && item !== undefined && item.trim().length > 0 ) {
+			counter++;	
+		}
+		return counter;
+	}, 0 );
+	// input
+	var readable = fs.createReadStream( filename );
+	/**
+	 * count each field parsed
+	 */
+	var countField = function ( field ) {
+		actualCounter++;
+		console.log( actualCounter + '  ' + JSON.stringify( field ) );
+	};
+	var assertTotalFields = function ( done ) {
+		return function () {
+			assert.equal( actualCounter, expectedFieldCount, 'The expected field count is not equal to the actual field count' );
+			done( );
+		};
+	};
 
-var filename = __dirname + '/../samples/message1.txt';
-var readable = fs.createReadStream( filename );
+	it( 'should parse all the field of the FIX message', function ( done ) {
+		var actualCounter = 0;	
+		
+		reader2.createReadStream( readable, dictionary, options )
+		/* ************************************************ */
+		/*   put event listener before the 1st other pipe   */
+		/*   otherwise you lost all custom event emitted    */
+		/* ***********************************************  */
+		.on( 'field-not-found', function ( tag ) {
+			//console.error( 'Field not found: ' + tag );
+		} )
+		.on( 'message-type', function ( value, name, def ) {
+			//console.log( 'Message Type: ' + value + ' ' + name );
+			//console.log( 'Message definition: ' + JSON.stringify( def ) );
+		} )
+		.on( 'error', done )
+		//.pipe( through( countField, assertTotalFields( done ) ) )
+		.on( 'message', function ( message ) {
+			console.log( 'message:' );
+			console.log( message );
+		} )
+		.on( 'error', done )
+		;
+	} );
+
+} );
 
 
-reader2.createReadStream( readable, dictionary, options ).pipe( through( console.log ) );
+/****** mock to debug this file *********/
+
+/**/
+function before( cb ) {
+	cb();
+}
+function it( text, cb ) {
+	console.log( text );
+	cb( function ( err ) {
+		console.log( err ? 'error' : 'succes' );
+	} );
+}
+function describe ( text, callback ) {
+	console.log( text );
+	callback();	
+}
+//*/
+

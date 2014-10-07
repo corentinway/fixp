@@ -1,5 +1,5 @@
 
-MOCHA_OPTS= --check-leaks
+MOCHA_OPTS= --check-leaks --timeout 10000
 REPORTER = spec
 
 check: test
