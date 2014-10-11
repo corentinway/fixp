@@ -4,7 +4,7 @@ var _ = require( 'underscore' );
 var Reader = require( './lib/Reader' );
 var Dictionary = require( './lib/Dictionary' );
 var Validator = require( './lib/Validator' );
-var MessageBuilder = require( './lib/MessageBuilder' );
+var MessageBuilder = require( './lib/MessageBuilderOLD' );
 
 
 /**
@@ -63,7 +63,7 @@ exports.readFix = function ( readable, dictionary, options ) {
      */
      var listeners = options.listeners;
      if ( listeners && listeners.fields && _.isArray( listeners.fields ) && listeners.fields.length > 0 ) {
-         var FieldEmitter = require ( './lib/FieldEmitter' );
+         var FieldEmitter = require ( './lib/FieldEmitterOLD' );
          var fieldEmitter = new FieldEmitter( listeners.fields );
          fieldEmitter.on( 'field-found', function ( key, name, number, value ) {
              emitter.emit( 'field:' + key, name, number, value );
