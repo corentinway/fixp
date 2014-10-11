@@ -10,7 +10,8 @@ var through = require( 'through' );
 
 var dictionary = __dirname + '/../dictionaries/fix44.json';
 var options = {
-	fieldSeparator: '|'	
+	fieldSeparator: '|'	,
+	//fieldList: [ '35' ]
 };
 
 
@@ -54,6 +55,9 @@ describe( 'A complete example with Reader2', function () {
 		/*   put event listener before the 1st other pipe   */
 		/*   otherwise you lost all custom event emitted    */
 		/* ***********************************************  */
+		.on( 'field', function ( f ) {
+			console.log( "Field: " + JSON.stringify( f ) );
+		} )
 		.on( 'field-not-found', function ( tag ) {
 			//console.error( 'Field not found: ' + tag );
 		} )
@@ -64,14 +68,54 @@ describe( 'A complete example with Reader2', function () {
 		.on( 'error', done )
 		//.pipe( through( countField, assertTotalFields( done ) ) )
 		.on( 'message', function ( message ) {
-			console.log( 'message:' );
-			console.log( message );
+			showMessage( message );
 		} )
 		.on( 'error', done )
 		;
 	} );
 
 } );
+
+
+function showMessage( message ) {
+	console.log( 'message:' );
+	console.log( message );
+	/*console.log( '--------------' );
+	console.log( 'body groups' );
+	for( var name in message.body ) {
+		if ( message.body[ name].group ) {
+			var g = message.body[ name ];
+			// delete group definition
+			delete g.group;
+			console.log( name );
+			console.log( g );
+			console.log( '--------------' );
+		}
+	}
+	console.log( '--------------' );
+	console.log( 'NoPartyIDs - 453 ');
+	console.log( message.body.NoPartyIDs );
+	console.log( '--------------' );
+	console.log( 'NoPartyIDs - 453');
+	console.log( message.body['453'] );
+	console.log( '--------------' );
+	console.log( 'details:');
+	message.body.NoPartyIDs.elements.forEach( function ( element, index, array ) {
+		console.log( 'index: ' + index );
+		console.log( element );
+		if ( element.NoPartySubIDs ) {
+			console.log( 'Party sub ids ');
+			element.NoPartySubIDs.elements.forEach( function ( element, index, array ) {
+				console.log();
+				console.log( 'index: ' + index );
+				console.log( element );
+				console.log();
+			} );
+		}
+		console.log( '--------------' );
+	} );
+	//*/
+}
 
 
 /****** mock to debug this file *********/
