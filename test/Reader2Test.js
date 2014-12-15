@@ -11,7 +11,7 @@ var through = require( 'through' );
 var dictionary = __dirname + '/../dictionaries/fix44.json';
 var options = {
 	fieldSeparator: '|'	,
-	//fieldList: [ '35' ]
+	fieldList: [ '35' ]
 };
 
 
@@ -55,22 +55,26 @@ describe( 'A complete example with Reader2', function () {
 		/*   put event listener before the 1st other pipe   */
 		/*   otherwise you lost all custom event emitted    */
 		/* ***********************************************  */
+		.on( 'richField', function ( data ) {
+			//console.log( 'Rich field found: ' + JSON.stringify( data ) );
+		} )
 		.on( 'field', function ( f ) {
 			console.log( "Field: " + JSON.stringify( f ) );
 		} )
 		.on( 'field-not-found', function ( tag ) {
 			//console.error( 'Field not found: ' + tag );
 		} )
-		.on( 'message-type', function ( value, name, def ) {
-			//console.log( 'Message Type: ' + value + ' ' + name );
+		.on( 'messageType', function ( value, name, def ) {
+			console.log( 'Message Type: ' + value + ' ' + name );
 			//console.log( 'Message definition: ' + JSON.stringify( def ) );
 		} )
 		.on( 'error', done )
 		//.pipe( through( countField, assertTotalFields( done ) ) )
 		.on( 'message', function ( message ) {
-			showMessage( message );
+			//showMessage( message );
 		} )
 		.on( 'error', done )
+		.pipe( through( console.log ) )
 		;
 	} );
 
